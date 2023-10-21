@@ -21,4 +21,10 @@ description="a mod inspired by hypixel skyblock and a continuation/collaboration
 
 
 
+[[dependencies.hyblock]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
