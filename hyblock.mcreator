@@ -1,14 +1,112 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ManaOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/client/screens/ManaOverlayOverlay.java"
+        ]
+      },
+      "path": "~/mana system"
+    },
+    {
+      "name": "ManaOverlayVariable",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_overlay_variable",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/ManaOverlayVariableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mana system"
+    },
+    {
+      "name": "ManaRegenClock",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_regen_clock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/ManaRegenClockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mana system"
+    },
+    {
+      "name": "Setmana",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setmana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/command/SetmanaCommand.java"
+        ]
+      },
+      "path": "~/mana system"
+    },
+    {
+      "name": "Setmanacommand",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setmanacommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SetmanacommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/mana system"
+    }
+  ],
   "variable_elements": [
     {
       "name": "max_mana",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "100.0"
     },
     {
       "name": "mana",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "mana_tick",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -16,11 +114,18 @@
   ],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "gui.hyblock.mana_overlay.label_testtest": "test/test"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "mana system",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hyblock",

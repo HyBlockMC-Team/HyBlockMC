@@ -68,6 +68,7 @@ public class HyblockModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.max_mana = original.max_mana;
 			clone.mana = original.mana;
+			clone.mana_tick = original.mana_tick;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -104,8 +105,9 @@ public class HyblockModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double max_mana = 0;
-		public double mana = 0;
+		public double max_mana = 100.0;
+		public double mana = 100.0;
+		public double mana_tick = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +118,7 @@ public class HyblockModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("max_mana", max_mana);
 			nbt.putDouble("mana", mana);
+			nbt.putDouble("mana_tick", mana_tick);
 			return nbt;
 		}
 
@@ -123,6 +126,7 @@ public class HyblockModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			max_mana = nbt.getDouble("max_mana");
 			mana = nbt.getDouble("mana");
+			mana_tick = nbt.getDouble("mana_tick");
 		}
 	}
 
@@ -149,6 +153,7 @@ public class HyblockModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.max_mana = message.data.max_mana;
 					variables.mana = message.data.mana;
+					variables.mana_tick = message.data.mana_tick;
 				}
 			});
 			context.setPacketHandled(true);
