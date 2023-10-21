@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="hyblock"
+version="1.0.0"
+displayName="HyBlockMC"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="callemkay"
+description="a mod inspired by hypixel skyblock and a continuation/collaboration of Sumptuous Hyperion"
+
+[[dependencies.hyblock]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

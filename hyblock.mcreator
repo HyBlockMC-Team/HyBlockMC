@@ -1,0 +1,31 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hyblock",
+    "modName": "HyBlockMC",
+    "version": "1.0.0",
+    "description": "a mod inspired by hypixel skyblock and a continuation/collaboration of Sumptuous Hyperion",
+    "author": "callemkay",
+    "websiteURL": "HyBlockMC.github.io",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.hyblockmc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
