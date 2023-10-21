@@ -1,13 +1,6 @@
 {
   "mod_elements": [],
-  "variable_elements": [
-    {
-      "name": "boom",
-      "type": "blockstate",
-      "scope": "map",
-      "value": "Blocks.AIR.defaultBlockState()"
-    }
-  ],
+  "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {}
