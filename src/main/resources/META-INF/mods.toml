@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="HyBlockMC"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="callemkay"
 description="a mod inspired by hypixel skyblock and a continuation/collaboration of Sumptuous Hyperion"
 
