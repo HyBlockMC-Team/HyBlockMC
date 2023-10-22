@@ -3,6 +3,7 @@
     {
       "name": "ManaOverlay",
       "type": "overlay",
+      "sortid": 4,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mana_overlay",
@@ -57,6 +58,7 @@
     {
       "name": "Setmana",
       "type": "command",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "setmana",
@@ -90,6 +92,21 @@
         ]
       },
       "path": "~/mana system"
+    },
+    {
+      "name": "Testsword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/testsword.json",
+          "src/main/java/net/mcreator/hyblockmc/item/TestswordItem.java"
+        ]
+      },
+      "path": "~/test content"
     }
   ],
   "variable_elements": [
@@ -115,7 +132,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "gui.hyblock.mana_overlay.label_testtest": "test/test"
+      "gui.hyblock.mana_overlay.label_testtest": "test/test",
+      "item.hyblock.testsword": "Test_word"
     }
   },
   "foldersRoot": {
@@ -123,6 +141,10 @@
     "children": [
       {
         "name": "mana system",
+        "children": []
+      },
+      {
+        "name": "test content",
         "children": []
       }
     ]

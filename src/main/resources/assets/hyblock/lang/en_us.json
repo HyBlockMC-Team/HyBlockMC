@@ -1,3 +1,4 @@
 {
-  "gui.hyblock.mana_overlay.label_testtest": "test/test"
+  "gui.hyblock.mana_overlay.label_testtest": "test/test",
+  "item.hyblock.testsword": "Test_word"
 }
