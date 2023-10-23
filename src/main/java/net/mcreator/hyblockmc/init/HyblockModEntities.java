@@ -23,7 +23,7 @@ import net.mcreator.hyblockmc.HyblockMod;
 public class HyblockModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, HyblockMod.MODID);
 	public static final RegistryObject<EntityType<TestdummyEntity>> TESTDUMMY = register("testdummy",
-			EntityType.Builder.<TestdummyEntity>of(TestdummyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(TestdummyEntity::new)
+			EntityType.Builder.<TestdummyEntity>of(TestdummyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(TestdummyEntity::new)
 
 					.sized(0.6f, 1.8f));
 
