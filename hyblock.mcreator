@@ -107,6 +107,23 @@
         ]
       },
       "path": "~/test content"
+    },
+    {
+      "name": "Testdummy",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testdummy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hyblock/forge/biome_modifier/testdummy_biome_modifier.json",
+          "src/main/java/net/mcreator/hyblockmc/entity/TestdummyEntity.java",
+          "src/main/java/net/mcreator/hyblockmc/client/renderer/TestdummyRenderer.java",
+          "src/main/resources/assets/hyblock/models/item/testdummy_spawn_egg.json"
+        ]
+      },
+      "path": "~/test content"
     }
   ],
   "variable_elements": [
@@ -133,7 +150,9 @@
   "language_map": {
     "en_us": {
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
-      "item.hyblock.testsword": "Test_word"
+      "item.hyblock.testsword": "Test_word",
+      "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
+      "entity.hyblock.testdummy": "Test dummy"
     }
   },
   "foldersRoot": {

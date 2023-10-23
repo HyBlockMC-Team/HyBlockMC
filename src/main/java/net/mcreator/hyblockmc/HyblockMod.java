@@ -29,7 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.hyblockmc.init.HyblockModTabs;
 import net.mcreator.hyblockmc.init.HyblockModItems;
+import net.mcreator.hyblockmc.init.HyblockModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +52,9 @@ public class HyblockMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		HyblockModItems.REGISTRY.register(bus);
+		HyblockModEntities.REGISTRY.register(bus);
+
+		HyblockModTabs.REGISTRY.register(bus);
 
 	}
 
