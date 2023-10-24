@@ -5,6 +5,8 @@
     "hyblock:tarantulaspawnerblock",
     "hyblock:svenspawnerblock",
     "hyblock:voidgloomspawnerblock",
-    "hyblock:infernodemonspawnerblock"
+    "hyblock:infernodemonspawnerblock",
+    "hyblock:riftstalkerspawnerblock",
+    "hyblock:slayerspawnerkeystoneblock"
   ]
 }

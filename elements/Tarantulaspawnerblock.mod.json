@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "boss_spawner_bottom",
-    "textureTop": "boss_spawner_top",
+    "texture": "tara_boss_spawner_bottom",
+    "textureTop": "tara_boss_spawner_top",
     "textureLeft": "tara_boss_spawner_side",
     "textureFront": "tara_boss_spawner_side",
     "textureRight": "tara_boss_spawner_side",
@@ -33,9 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "§4§lTarantula Broodmother spawner keystone",
+    "name": "§4§lTarantula Broodmother keystone",
     "specialInfo": [
-      "used for spawing the Tarantula Broodmother slayer boss",
+      "§8Used for spawing the §l§4Tarantula Broodmother",
+      "§r§8slayer boss using a summoning tablet",
       "§0.",
       "§4§l§k0§4§lKeystone§4§l§k0"
     ],

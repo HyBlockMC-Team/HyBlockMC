@@ -33,9 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "§4§lRevenant Horror spawner keystone",
+    "name": "§4§lRevenant Horror keystone",
     "specialInfo": [
-      "used for spawing the revenant horror slayer boss",
+      "§8Used for spawing the §l§4Revenant Horror",
+      "§r§8slayer boss using a summoning tablet",
       "§0.",
       "§4§l§k0§4§lKeystone§4§l§k0"
     ],

@@ -26,5 +26,12 @@ public class HyblockModTabs {
 				tabData.accept(HyblockModBlocks.SVENSPAWNERBLOCK.get().asItem());
 				tabData.accept(HyblockModBlocks.VOIDGLOOMSPAWNERBLOCK.get().asItem());
 				tabData.accept(HyblockModBlocks.INFERNODEMONSPAWNERBLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.RIFTSTALKERSPAWNERBLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.SLAYERSPAWNERKEYSTONEBLOCK.get().asItem());
+				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_1.get());
+				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_2.get());
+				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_3.get());
+				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_4.get());
+				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_5.get());
 			}).withSearchBar().build());
 }

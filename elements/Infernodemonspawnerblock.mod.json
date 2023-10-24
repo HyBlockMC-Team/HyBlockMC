@@ -33,9 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "§4§lInferno Demonlord spawner keystone",
+    "name": "§4§lInferno Demonlord keystone",
     "specialInfo": [
-      "used for spawing the Inferno Demonlord slayer boss",
+      "§8Used for spawing the §l§4Inferno Demonlord",
+      "§r§8slayer boss using a summoning tablet",
       "§0.",
       "§4§l§k0§4§lKeystone§4§l§k0"
     ],

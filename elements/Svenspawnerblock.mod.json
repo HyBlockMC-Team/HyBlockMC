@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "boss_spawner_bottom",
-    "textureTop": "boss_spawner_top",
+    "texture": "sven_boss_spawner_bottom",
+    "textureTop": "sven_boss_spawner_top",
     "textureLeft": "sven_boss_spawner_side",
     "textureFront": "sven_boss_spawner_side",
     "textureRight": "sven_boss_spawner_side",
@@ -33,9 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "§4§lSven Packmaster spawner keystone",
+    "name": "§4§lSven Packmaster keystone",
     "specialInfo": [
-      "used for spawing the Sven Packmaster slayer boss",
+      "§8Used for spawing the §l§4Sven Packmaster",
+      "§r§8slayer boss using a summoning tablet",
       "§0.",
       "§4§l§k0§4§lKeystone§4§l§k0"
     ],

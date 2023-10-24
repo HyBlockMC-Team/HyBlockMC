@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RevenantkeystonetabletT1"
+      },
+      {
+        "value": "CUSTOM:RevenantkeystonetabletT2"
+      },
+      {
+        "value": "CUSTOM:RevenantkeystonetabletT3"
+      },
+      {
+        "value": "CUSTOM:RevenantkeystonetabletT4"
+      },
+      {
+        "value": "CUSTOM:RevenantkeystonetabletT5"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "summoningtablets",
+    "namespace": "mod"
+  }
+}

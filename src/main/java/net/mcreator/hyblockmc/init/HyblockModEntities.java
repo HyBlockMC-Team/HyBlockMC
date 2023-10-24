@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.hyblockmc.entity.TestdummyEntity;
+import net.mcreator.hyblockmc.entity.RevenanthorrorT1Entity;
 import net.mcreator.hyblockmc.HyblockMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class HyblockModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, HyblockMod.MODID);
 	public static final RegistryObject<EntityType<TestdummyEntity>> TESTDUMMY = register("testdummy",
 			EntityType.Builder.<TestdummyEntity>of(TestdummyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(TestdummyEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<RevenanthorrorT1Entity>> REVENANTHORROR_T_1 = register("revenanthorror_t_1",
+			EntityType.Builder.<RevenanthorrorT1Entity>of(RevenanthorrorT1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RevenanthorrorT1Entity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -35,11 +40,13 @@ public class HyblockModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TestdummyEntity.init();
+			RevenanthorrorT1Entity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TESTDUMMY.get(), TestdummyEntity.createAttributes().build());
+		event.put(REVENANTHORROR_T_1.get(), RevenanthorrorT1Entity.createAttributes().build());
 	}
 }

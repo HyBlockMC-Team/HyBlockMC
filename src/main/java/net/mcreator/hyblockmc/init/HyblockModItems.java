@@ -15,6 +15,12 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.hyblockmc.item.TestswordItem;
 import net.mcreator.hyblockmc.item.SpiderbootsItem;
+import net.mcreator.hyblockmc.item.RevenantkeystonetabletT5Item;
+import net.mcreator.hyblockmc.item.RevenantkeystonetabletT4Item;
+import net.mcreator.hyblockmc.item.RevenantkeystonetabletT3Item;
+import net.mcreator.hyblockmc.item.RevenantkeystonetabletT2Item;
+import net.mcreator.hyblockmc.item.RevenantkeystonetabletT1Item;
+import net.mcreator.hyblockmc.item.RevenantItem;
 import net.mcreator.hyblockmc.item.HyBlockMCiconItem;
 import net.mcreator.hyblockmc.HyblockMod;
 
@@ -23,12 +29,20 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> TESTSWORD = REGISTRY.register("testsword", () -> new TestswordItem());
 	public static final RegistryObject<Item> TESTDUMMY_SPAWN_EGG = REGISTRY.register("testdummy_spawn_egg", () -> new ForgeSpawnEggItem(HyblockModEntities.TESTDUMMY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SPIDERBOOTS_BOOTS = REGISTRY.register("spiderboots_boots", () -> new SpiderbootsItem.Boots());
-	public static final RegistryObject<Item> HY_BLOCK_M_CICON = REGISTRY.register("hy_block_m_cicon", () -> new HyBlockMCiconItem());
 	public static final RegistryObject<Item> REVENANTSPAWNERBLOCK = block(HyblockModBlocks.REVENANTSPAWNERBLOCK);
 	public static final RegistryObject<Item> TARANTULASPAWNERBLOCK = block(HyblockModBlocks.TARANTULASPAWNERBLOCK);
 	public static final RegistryObject<Item> SVENSPAWNERBLOCK = block(HyblockModBlocks.SVENSPAWNERBLOCK);
 	public static final RegistryObject<Item> VOIDGLOOMSPAWNERBLOCK = block(HyblockModBlocks.VOIDGLOOMSPAWNERBLOCK);
 	public static final RegistryObject<Item> INFERNODEMONSPAWNERBLOCK = block(HyblockModBlocks.INFERNODEMONSPAWNERBLOCK);
+	public static final RegistryObject<Item> RIFTSTALKERSPAWNERBLOCK = block(HyblockModBlocks.RIFTSTALKERSPAWNERBLOCK);
+	public static final RegistryObject<Item> SLAYERSPAWNERKEYSTONEBLOCK = block(HyblockModBlocks.SLAYERSPAWNERKEYSTONEBLOCK);
+	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_1 = REGISTRY.register("revenantkeystonetablet_t_1", () -> new RevenantkeystonetabletT1Item());
+	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_2 = REGISTRY.register("revenantkeystonetablet_t_2", () -> new RevenantkeystonetabletT2Item());
+	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_3 = REGISTRY.register("revenantkeystonetablet_t_3", () -> new RevenantkeystonetabletT3Item());
+	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_4 = REGISTRY.register("revenantkeystonetablet_t_4", () -> new RevenantkeystonetabletT4Item());
+	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_5 = REGISTRY.register("revenantkeystonetablet_t_5", () -> new RevenantkeystonetabletT5Item());
+	public static final RegistryObject<Item> HY_BLOCK_M_CICON = REGISTRY.register("hy_block_m_cicon", () -> new HyBlockMCiconItem());
+	public static final RegistryObject<Item> REVENANT_HELMET = REGISTRY.register("revenant_helmet", () -> new RevenantItem.Helmet());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

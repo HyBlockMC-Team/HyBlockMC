@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "boss_spawner_bottom",
-    "textureTop": "boss_spawner_top",
-    "textureLeft": "voidgl_boss_spawner_side",
-    "textureFront": "voidgl_boss_spawner_side",
-    "textureRight": "voidgl_boss_spawner_side",
-    "textureBack": "voidgl_boss_spawner_side",
+    "texture": "voidgloom_boss_spawner_bottom",
+    "textureTop": "voidgloom_boss_spawner_top",
+    "textureLeft": "voidgloom_boss_spawner_block_side",
+    "textureFront": "voidgloom_boss_spawner_block_side",
+    "textureRight": "voidgloom_boss_spawner_block_side",
+    "textureBack": "voidgloom_boss_spawner_block_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,9 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "§4§lVoidgloom Seraph spawner keystone",
+    "name": "§4§lVoidgloom Seraph keystone",
     "specialInfo": [
-      "used for spawing the Voidgloom Seraph slayer boss",
+      "§8Used for spawing the §l§4Voidgloom Seraph",
+      "§r§8slayer boss using a summoning tablet",
       "§0.",
       "§4§l§k0§4§lKeystone§4§l§k0"
     ],

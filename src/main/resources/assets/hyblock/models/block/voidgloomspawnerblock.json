@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "hyblock:block/boss_spawner_bottom",
-    "up": "hyblock:block/boss_spawner_top",
-    "north": "hyblock:block/voidgl_boss_spawner_side",
-    "east": "hyblock:block/voidgl_boss_spawner_side",
-    "south": "hyblock:block/voidgl_boss_spawner_side",
-    "west": "hyblock:block/voidgl_boss_spawner_side",
-    "particle": "hyblock:block/boss_spawner_bottom"
+    "down": "hyblock:block/voidgloom_boss_spawner_bottom",
+    "up": "hyblock:block/voidgloom_boss_spawner_top",
+    "north": "hyblock:block/voidgloom_boss_spawner_block_side",
+    "east": "hyblock:block/voidgloom_boss_spawner_block_side",
+    "south": "hyblock:block/voidgloom_boss_spawner_block_side",
+    "west": "hyblock:block/voidgloom_boss_spawner_block_side",
+    "particle": "hyblock:block/voidgloom_boss_spawner_bottom"
   },
   "render_type": "solid"
 }

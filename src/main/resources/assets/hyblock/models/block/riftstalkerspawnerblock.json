@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyblock:block/riftst_boss_spawner_bottom",
+    "up": "hyblock:block/riftst_boss_spawner_top",
+    "north": "hyblock:block/riftst_boss_spawner_side",
+    "east": "hyblock:block/riftst_boss_spawner_side",
+    "south": "hyblock:block/riftst_boss_spawner_side",
+    "west": "hyblock:block/riftst_boss_spawner_side",
+    "particle": "hyblock:block/riftst_boss_spawner_bottom"
+  },
+  "render_type": "solid"
+}

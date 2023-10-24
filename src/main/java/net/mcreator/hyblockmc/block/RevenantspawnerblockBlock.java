@@ -35,7 +35,8 @@ public class RevenantspawnerblockBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("used for spawing the revenant horror slayer boss"));
+		list.add(Component.literal("\u00A78Used for spawing the \u00A7l\u00A74Revenant Horror"));
+		list.add(Component.literal("\u00A7r\u00A78slayer boss using a summoning tablet"));
 		list.add(Component.literal("\u00A70."));
 		list.add(Component.literal("\u00A74\u00A7l\u00A7k0\u00A74\u00A7lKeystone\u00A74\u00A7l\u00A7k0"));
 	}

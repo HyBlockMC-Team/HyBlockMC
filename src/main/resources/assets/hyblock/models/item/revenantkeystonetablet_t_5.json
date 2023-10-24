@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hyblock:item/rev_summoning_tablet_t5"
+  }
+}
