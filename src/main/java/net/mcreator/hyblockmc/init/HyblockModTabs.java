@@ -4,26 +4,22 @@
  */
 package net.mcreator.hyblockmc.init;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.hyblockmc.HyblockMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class HyblockModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HyblockMod.MODID);
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(HyblockModItems.TESTDUMMY_SPAWN_EGG.get());
-		}
-	}
+	public static final RegistryObject<CreativeModeTab> HY_BLOCK_MC = REGISTRY.register("hy_block_mc",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hyblock.hy_block_mc")).icon(() -> new ItemStack(HyblockModItems.HY_BLOCK_M_CICON.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HyblockModItems.TESTSWORD.get());
+				tabData.accept(HyblockModItems.TESTDUMMY_SPAWN_EGG.get());
+				tabData.accept(HyblockModItems.SPIDERBOOTS_BOOTS.get());
+			}).withSearchBar().build());
 }

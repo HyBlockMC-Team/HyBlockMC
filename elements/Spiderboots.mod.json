@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "spider_boots",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:HyBlockMC"
     },
     "armorTextureFile": "monster_hunter_",
     "helmetName": "Spiderboots Helmet",

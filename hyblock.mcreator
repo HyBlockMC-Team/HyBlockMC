@@ -134,8 +134,8 @@
       "registry_name": "spiderboots",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/spiderboots_boots.json",
-          "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java",
+          "src/main/resources/assets/hyblock/models/item/spiderboots_boots.json"
         ]
       },
       "path": "~/items/armor/spider boots"
@@ -163,6 +163,33 @@
         ]
       },
       "path": "~/items/armor/spider boots"
+    },
+    {
+      "name": "HyBlockMCicon",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hy_block_m_cicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/hy_block_m_cicon.json",
+          "src/main/java/net/mcreator/hyblockmc/item/HyBlockMCiconItem.java"
+        ]
+      },
+      "path": "~/systems/icon related"
+    },
+    {
+      "name": "HyBlockMC",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hy_block_mc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/systems/creative tab"
     }
   ],
   "variable_elements": [
@@ -192,7 +219,9 @@
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
       "item.hyblock.testsword": "Test_word",
       "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
-      "entity.hyblock.testdummy": "Test dummy"
+      "item_group.hyblock.hy_block_mc": "HyBlockMC",
+      "entity.hyblock.testdummy": "Test dummy",
+      "item.hyblock.hy_block_m_cicon": "ico"
     }
   },
   "foldersRoot": {
@@ -251,12 +280,41 @@
           {
             "name": "mana system",
             "children": []
+          },
+          {
+            "name": "creative tab",
+            "children": []
+          },
+          {
+            "name": "icon related",
+            "children": []
           }
         ]
       },
       {
         "name": "blocks",
         "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      },
+      {
+        "name": "world content",
+        "children": [
+          {
+            "name": "structures",
+            "children": []
+          },
+          {
+            "name": "dimensions",
+            "children": []
+          },
+          {
+            "name": "biomes",
+            "children": []
+          }
+        ]
       }
     ]
   },
