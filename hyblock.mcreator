@@ -138,7 +138,7 @@
           "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java"
         ]
       },
-      "path": "~/items/spider boots"
+      "path": "~/items/armor/spider boots"
     },
     {
       "name": "SpiderBootsAbility",
@@ -162,7 +162,7 @@
           }
         ]
       },
-      "path": "~/items/spider boots"
+      "path": "~/items/armor/spider boots"
     }
   ],
   "variable_elements": [
@@ -206,7 +206,24 @@
         "name": "items",
         "children": [
           {
-            "name": "spider boots",
+            "name": "armor",
+            "children": [
+              {
+                "name": "spider boots",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "tools",
+            "children": []
+          },
+          {
+            "name": "weapons",
+            "children": []
+          },
+          {
+            "name": "misc tools",
             "children": []
           }
         ]
