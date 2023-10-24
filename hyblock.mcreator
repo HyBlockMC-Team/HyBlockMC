@@ -124,6 +124,45 @@
         ]
       },
       "path": "~/test content"
+    },
+    {
+      "name": "Spiderboots",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiderboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/spiderboots_boots.json",
+          "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java"
+        ]
+      },
+      "path": "~/spider boots"
+    },
+    {
+      "name": "SpiderBootsAbility",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_boots_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SpiderBootsAbilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spider boots"
     }
   ],
   "variable_elements": [
@@ -149,6 +188,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.hyblock.spiderboots_boots": "§9Spider\u0027s Boots",
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
       "item.hyblock.testsword": "Test_word",
       "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
@@ -164,6 +204,10 @@
       },
       {
         "name": "test content",
+        "children": []
+      },
+      {
+        "name": "spider boots",
         "children": []
       }
     ]
