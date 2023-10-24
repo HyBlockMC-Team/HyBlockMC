@@ -190,6 +190,500 @@
         "files": []
       },
       "path": "~/systems/creative tab"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "BeeGrowableBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_growable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/bee_growables.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_spawn_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/valid_spawn.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impermeable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/impermeable.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/climbable.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fire.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "AnimalsSpawnableOnBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animals_spawnable_on_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/animals_spawnable_on.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "PreventMobSpawningInsideBlocks",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_mob_spawning_inside_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/prevent_mob_spawning_inside.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/arrows.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/flowers.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/impact_projectiles.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beehive_inhabitor_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/beehive_inhabitors.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/raiders.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/skeletons.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsNetherBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_nether_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_nether.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsEndBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_end_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsOceanBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_ocean_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_ocean.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsMountainBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_mountain_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_mountain.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsRiverBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_river_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_river.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsHillBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_hill_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_hill.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsForestBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_forest_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "IsSavannaBiomes",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_savanna_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_savanna.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/load.json"
+        ]
+      },
+      "path": "~/tags"
     }
   ],
   "variable_elements": [
@@ -315,6 +809,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "tags",
+        "children": []
       }
     ]
   },
