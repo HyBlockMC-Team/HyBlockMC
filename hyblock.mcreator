@@ -12,7 +12,7 @@
           "src/main/java/net/mcreator/hyblockmc/client/screens/ManaOverlayOverlay.java"
         ]
       },
-      "path": "~/mana system"
+      "path": "~/systems/mana system"
     },
     {
       "name": "ManaOverlayVariable",
@@ -33,7 +33,7 @@
           }
         ]
       },
-      "path": "~/mana system"
+      "path": "~/systems/mana system"
     },
     {
       "name": "ManaRegenClock",
@@ -53,7 +53,7 @@
           }
         ]
       },
-      "path": "~/mana system"
+      "path": "~/systems/mana system"
     },
     {
       "name": "Setmana",
@@ -67,7 +67,7 @@
           "src/main/java/net/mcreator/hyblockmc/command/SetmanaCommand.java"
         ]
       },
-      "path": "~/mana system"
+      "path": "~/systems/mana system"
     },
     {
       "name": "Setmanacommand",
@@ -91,7 +91,7 @@
           }
         ]
       },
-      "path": "~/mana system"
+      "path": "~/systems/mana system"
     },
     {
       "name": "Testsword",
@@ -138,7 +138,7 @@
           "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java"
         ]
       },
-      "path": "~/spider boots"
+      "path": "~/items/spider boots"
     },
     {
       "name": "SpiderBootsAbility",
@@ -162,7 +162,7 @@
           }
         ]
       },
-      "path": "~/spider boots"
+      "path": "~/items/spider boots"
     }
   ],
   "variable_elements": [
@@ -199,15 +199,46 @@
     "name": "~",
     "children": [
       {
-        "name": "mana system",
-        "children": []
-      },
-      {
         "name": "test content",
         "children": []
       },
       {
-        "name": "spider boots",
+        "name": "items",
+        "children": [
+          {
+            "name": "spider boots",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "entities",
+        "children": [
+          {
+            "name": "hostile mobs",
+            "children": []
+          },
+          {
+            "name": "peaceful creatures",
+            "children": []
+          },
+          {
+            "name": "bosses",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "systems",
+        "children": [
+          {
+            "name": "mana system",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "blocks",
         "children": []
       }
     ]
