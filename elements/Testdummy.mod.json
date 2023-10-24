@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Test dummy",
     "mobLabel": "Test Dummy",
-    "mobModelName": "Modelcustom_model",
+    "mobModelName": "Biped",
     "mobModelTexture": "fd811766bbba4498.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
