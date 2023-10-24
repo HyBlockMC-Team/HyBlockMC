@@ -194,6 +194,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
@@ -207,6 +208,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -220,6 +222,7 @@
     {
       "name": "FenceBlocks",
       "type": "tag",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fence_blocks",
@@ -233,6 +236,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -246,6 +250,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -259,6 +264,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -272,6 +278,7 @@
     {
       "name": "TallFlowerBlocks",
       "type": "tag",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_flower_blocks",
@@ -285,6 +292,7 @@
     {
       "name": "BeeGrowableBlocks",
       "type": "tag",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bee_growable_blocks",
@@ -298,6 +306,7 @@
     {
       "name": "ValidSpawnBlocks",
       "type": "tag",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "valid_spawn_blocks",
@@ -311,6 +320,7 @@
     {
       "name": "ImpermeableBlocks",
       "type": "tag",
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impermeable_blocks",
@@ -324,6 +334,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -337,6 +348,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -350,6 +362,7 @@
     {
       "name": "ClimbableBlocks",
       "type": "tag",
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "climbable_blocks",
@@ -363,6 +376,7 @@
     {
       "name": "FireBlocks",
       "type": "tag",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_blocks",
@@ -376,6 +390,7 @@
     {
       "name": "DragonImmuneBlocks",
       "type": "tag",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_immune_blocks",
@@ -389,6 +404,7 @@
     {
       "name": "WitherImmuneBlocks",
       "type": "tag",
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wither_immune_blocks",
@@ -402,6 +418,7 @@
     {
       "name": "AnimalsSpawnableOnBlocks",
       "type": "tag",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animals_spawnable_on_blocks",
@@ -415,6 +432,7 @@
     {
       "name": "PreventMobSpawningInsideBlocks",
       "type": "tag",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prevent_mob_spawning_inside_blocks",
@@ -428,6 +446,7 @@
     {
       "name": "ArrowItems",
       "type": "tag",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arrow_items",
@@ -441,6 +460,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plank_items",
@@ -454,6 +474,7 @@
     {
       "name": "FlowerItems",
       "type": "tag",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_items",
@@ -467,6 +488,7 @@
     {
       "name": "SmallFlowerItems",
       "type": "tag",
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_items",
@@ -480,6 +502,7 @@
     {
       "name": "ArrowEntities",
       "type": "tag",
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arrow_entities",
@@ -493,6 +516,7 @@
     {
       "name": "ImpactProjectileEntities",
       "type": "tag",
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impact_projectile_entities",
@@ -506,6 +530,7 @@
     {
       "name": "BeehiveInhabitorEntities",
       "type": "tag",
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beehive_inhabitor_entities",
@@ -519,6 +544,7 @@
     {
       "name": "RaiderEntities",
       "type": "tag",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raider_entities",
@@ -532,6 +558,7 @@
     {
       "name": "SkeletonEntities",
       "type": "tag",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skeleton_entities",
@@ -545,6 +572,7 @@
     {
       "name": "IsOverworldBiomes",
       "type": "tag",
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_overworld_biomes",
@@ -558,6 +586,7 @@
     {
       "name": "IsNetherBiomes",
       "type": "tag",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_nether_biomes",
@@ -571,6 +600,7 @@
     {
       "name": "IsEndBiomes",
       "type": "tag",
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_end_biomes",
@@ -584,6 +614,7 @@
     {
       "name": "IsOceanBiomes",
       "type": "tag",
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_ocean_biomes",
@@ -597,6 +628,7 @@
     {
       "name": "IsMountainBiomes",
       "type": "tag",
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_mountain_biomes",
@@ -610,6 +642,7 @@
     {
       "name": "IsRiverBiomes",
       "type": "tag",
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_river_biomes",
@@ -623,6 +656,7 @@
     {
       "name": "IsHillBiomes",
       "type": "tag",
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_hill_biomes",
@@ -636,6 +670,7 @@
     {
       "name": "IsForestBiomes",
       "type": "tag",
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_forest_biomes",
@@ -649,6 +684,7 @@
     {
       "name": "IsSavannaBiomes",
       "type": "tag",
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_savanna_biomes",
@@ -662,6 +698,7 @@
     {
       "name": "TickFunctions",
       "type": "tag",
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tick_functions",
@@ -675,6 +712,7 @@
     {
       "name": "LoadFunctions",
       "type": "tag",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "load_functions",
@@ -684,6 +722,138 @@
         ]
       },
       "path": "~/tags"
+    },
+    {
+      "name": "Revenantspawnerblock",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revenantspawnerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/blockstates/revenantspawnerblock.json",
+          "src/main/java/net/mcreator/hyblockmc/block/RevenantspawnerblockBlock.java",
+          "src/main/resources/assets/hyblock/models/item/revenantspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/revenantspawnerblock.json"
+        ]
+      },
+      "path": "~/blocks/spawner blocks/slayer boss spawners/revenant spawner block"
+    },
+    {
+      "name": "Ambientspawnerpartincles",
+      "type": "particle",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambientspawnerpartincles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/particles/ambientspawnerpartincles.json",
+          "src/main/java/net/mcreator/hyblockmc/client/particle/AmbientspawnerpartinclesParticle.java"
+        ]
+      },
+      "path": "~/blocks/spawner blocks"
+    },
+    {
+      "name": "Spawnerambientparticles",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnerambientparticles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SpawnerambientparticlesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks/spawner blocks"
+    },
+    {
+      "name": "Tarantulaspawnerblock",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarantulaspawnerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/blockstates/tarantulaspawnerblock.json",
+          "src/main/java/net/mcreator/hyblockmc/block/TarantulaspawnerblockBlock.java",
+          "src/main/resources/assets/hyblock/models/item/tarantulaspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/tarantulaspawnerblock.json"
+        ]
+      },
+      "path": "~/blocks/spawner blocks/slayer boss spawners/tarantula spawner"
+    },
+    {
+      "name": "Svenspawnerblock",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svenspawnerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/svenspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/svenspawnerblock.json",
+          "src/main/resources/assets/hyblock/blockstates/svenspawnerblock.json",
+          "src/main/java/net/mcreator/hyblockmc/block/SvenspawnerblockBlock.java"
+        ]
+      },
+      "path": "~/blocks/spawner blocks/slayer boss spawners/sven spawner"
+    },
+    {
+      "name": "Voidgloomspawnerblock",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidgloomspawnerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/blockstates/voidgloomspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/item/voidgloomspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/voidgloomspawnerblock.json",
+          "src/main/java/net/mcreator/hyblockmc/block/VoidgloomspawnerblockBlock.java"
+        ]
+      },
+      "path": "~/blocks/spawner blocks/slayer boss spawners/voidgloom spawner"
+    },
+    {
+      "name": "Infernodemonspawnerblock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernodemonspawnerblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/block/InfernodemonspawnerblockBlock.java",
+          "src/main/resources/assets/hyblock/models/item/infernodemonspawnerblock.json",
+          "src/main/resources/assets/hyblock/blockstates/infernodemonspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/infernodemonspawnerblock.json"
+        ]
+      },
+      "path": "~/blocks/spawner blocks/slayer boss spawners/inferno demon spawner"
     }
   ],
   "variable_elements": [
@@ -710,12 +880,17 @@
   "language_map": {
     "en_us": {
       "item.hyblock.spiderboots_boots": "§9Spider\u0027s Boots",
+      "block.hyblock.voidgloomspawnerblock": "§4§lVoidgloom Seraph spawner keystone",
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
+      "block.hyblock.tarantulaspawnerblock": "§4§lTarantula Broodmother spawner keystone",
       "item.hyblock.testsword": "Test_word",
       "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
       "item_group.hyblock.hy_block_mc": "HyBlockMC",
+      "block.hyblock.infernodemonspawnerblock": "§4§lInferno Demonlord spawner keystone",
       "entity.hyblock.testdummy": "Test dummy",
-      "item.hyblock.hy_block_m_cicon": "ico"
+      "block.hyblock.svenspawnerblock": "§4§lSven Packmaster spawner keystone",
+      "item.hyblock.hy_block_m_cicon": "ico",
+      "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror spawner keystone"
     }
   },
   "foldersRoot": {
@@ -787,7 +962,42 @@
       },
       {
         "name": "blocks",
-        "children": []
+        "children": [
+          {
+            "name": "spawner blocks",
+            "children": [
+              {
+                "name": "slayer boss spawners",
+                "children": [
+                  {
+                    "name": "revenant spawner block",
+                    "children": []
+                  },
+                  {
+                    "name": "tarantula spawner",
+                    "children": []
+                  },
+                  {
+                    "name": "sven spawner",
+                    "children": []
+                  },
+                  {
+                    "name": "voidgloom spawner",
+                    "children": []
+                  },
+                  {
+                    "name": "inferno demon spawner",
+                    "children": []
+                  },
+                  {
+                    "name": "riftstalker spawner",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "recipes",

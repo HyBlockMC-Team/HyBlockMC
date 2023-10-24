@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyblock:block/boss_spawner_bottom",
+    "up": "hyblock:block/boss_spawner_top",
+    "north": "hyblock:block/sven_boss_spawner_side",
+    "east": "hyblock:block/sven_boss_spawner_side",
+    "south": "hyblock:block/sven_boss_spawner_side",
+    "west": "hyblock:block/sven_boss_spawner_side",
+    "particle": "hyblock:block/boss_spawner_bottom"
+  },
+  "render_type": "solid"
+}

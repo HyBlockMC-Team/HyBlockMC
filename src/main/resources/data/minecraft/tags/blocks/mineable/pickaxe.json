@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "hyblock:revenantspawnerblock",
+    "hyblock:tarantulaspawnerblock",
+    "hyblock:svenspawnerblock",
+    "hyblock:voidgloomspawnerblock",
+    "hyblock:infernodemonspawnerblock"
+  ]
+}

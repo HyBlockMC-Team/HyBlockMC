@@ -1,9 +1,14 @@
 {
   "item.hyblock.spiderboots_boots": "§9Spider\u0027s Boots",
+  "block.hyblock.voidgloomspawnerblock": "§4§lVoidgloom Seraph spawner keystone",
   "gui.hyblock.mana_overlay.label_testtest": "test/test",
+  "block.hyblock.tarantulaspawnerblock": "§4§lTarantula Broodmother spawner keystone",
   "item.hyblock.testsword": "Test_word",
   "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
   "item_group.hyblock.hy_block_mc": "HyBlockMC",
+  "block.hyblock.infernodemonspawnerblock": "§4§lInferno Demonlord spawner keystone",
   "entity.hyblock.testdummy": "Test dummy",
-  "item.hyblock.hy_block_m_cicon": "ico"
+  "block.hyblock.svenspawnerblock": "§4§lSven Packmaster spawner keystone",
+  "item.hyblock.hy_block_m_cicon": "ico",
+  "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror spawner keystone"
 }

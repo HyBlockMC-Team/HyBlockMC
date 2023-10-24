@@ -21,5 +21,10 @@ public class HyblockModTabs {
 				tabData.accept(HyblockModItems.TESTSWORD.get());
 				tabData.accept(HyblockModItems.TESTDUMMY_SPAWN_EGG.get());
 				tabData.accept(HyblockModItems.SPIDERBOOTS_BOOTS.get());
+				tabData.accept(HyblockModBlocks.REVENANTSPAWNERBLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.TARANTULASPAWNERBLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.SVENSPAWNERBLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.VOIDGLOOMSPAWNERBLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.INFERNODEMONSPAWNERBLOCK.get().asItem());
 			}).withSearchBar().build());
 }
