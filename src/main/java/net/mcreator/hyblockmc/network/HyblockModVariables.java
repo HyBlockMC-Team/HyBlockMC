@@ -71,6 +71,8 @@ public class HyblockModVariables {
 			clone.mana_tick = original.mana_tick;
 			clone.creeper_pants_clock = original.creeper_pants_clock;
 			clone.creeper_pants_used = original.creeper_pants_used;
+			clone.guardian_chestplate_clock = original.guardian_chestplate_clock;
+			clone.guardian_chestplate_used = original.guardian_chestplate_used;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -112,6 +114,8 @@ public class HyblockModVariables {
 		public double mana_tick = 0;
 		public double creeper_pants_clock = 0;
 		public boolean creeper_pants_used = false;
+		public double guardian_chestplate_clock = 0;
+		public boolean guardian_chestplate_used = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -125,6 +129,8 @@ public class HyblockModVariables {
 			nbt.putDouble("mana_tick", mana_tick);
 			nbt.putDouble("creeper_pants_clock", creeper_pants_clock);
 			nbt.putBoolean("creeper_pants_used", creeper_pants_used);
+			nbt.putDouble("guardian_chestplate_clock", guardian_chestplate_clock);
+			nbt.putBoolean("guardian_chestplate_used", guardian_chestplate_used);
 			return nbt;
 		}
 
@@ -135,6 +141,8 @@ public class HyblockModVariables {
 			mana_tick = nbt.getDouble("mana_tick");
 			creeper_pants_clock = nbt.getDouble("creeper_pants_clock");
 			creeper_pants_used = nbt.getBoolean("creeper_pants_used");
+			guardian_chestplate_clock = nbt.getDouble("guardian_chestplate_clock");
+			guardian_chestplate_used = nbt.getBoolean("guardian_chestplate_used");
 		}
 	}
 
@@ -164,6 +172,8 @@ public class HyblockModVariables {
 					variables.mana_tick = message.data.mana_tick;
 					variables.creeper_pants_clock = message.data.creeper_pants_clock;
 					variables.creeper_pants_used = message.data.creeper_pants_used;
+					variables.guardian_chestplate_clock = message.data.guardian_chestplate_clock;
+					variables.guardian_chestplate_used = message.data.guardian_chestplate_used;
 				}
 			});
 			context.setPacketHandled(true);

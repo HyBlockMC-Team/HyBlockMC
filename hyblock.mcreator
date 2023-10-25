@@ -3,7 +3,7 @@
     {
       "name": "ManaOverlay",
       "type": "overlay",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mana_overlay",
@@ -17,7 +17,7 @@
     {
       "name": "ManaOverlayVariable",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_overlay_variable",
@@ -38,7 +38,7 @@
     {
       "name": "ManaRegenClock",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_regen_clock",
@@ -58,7 +58,7 @@
     {
       "name": "Setmana",
       "type": "command",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "setmana",
@@ -72,7 +72,7 @@
     {
       "name": "Setmanacommand",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "setmanacommand",
@@ -143,7 +143,7 @@
     {
       "name": "SpiderBootsAbility",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spider_boots_ability",
@@ -167,7 +167,7 @@
     {
       "name": "HyBlockMCicon",
       "type": "item",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hy_block_m_cicon",
@@ -182,7 +182,7 @@
     {
       "name": "HyBlockMC",
       "type": "tab",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hy_block_mc",
@@ -194,7 +194,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
@@ -208,7 +208,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -222,7 +222,7 @@
     {
       "name": "FenceBlocks",
       "type": "tag",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fence_blocks",
@@ -236,7 +236,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -250,7 +250,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -264,7 +264,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -278,7 +278,7 @@
     {
       "name": "TallFlowerBlocks",
       "type": "tag",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_flower_blocks",
@@ -292,7 +292,7 @@
     {
       "name": "BeeGrowableBlocks",
       "type": "tag",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bee_growable_blocks",
@@ -306,7 +306,7 @@
     {
       "name": "ValidSpawnBlocks",
       "type": "tag",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "valid_spawn_blocks",
@@ -320,7 +320,7 @@
     {
       "name": "ImpermeableBlocks",
       "type": "tag",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impermeable_blocks",
@@ -334,7 +334,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -348,7 +348,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -362,7 +362,7 @@
     {
       "name": "ClimbableBlocks",
       "type": "tag",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "climbable_blocks",
@@ -376,7 +376,7 @@
     {
       "name": "FireBlocks",
       "type": "tag",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_blocks",
@@ -390,7 +390,7 @@
     {
       "name": "DragonImmuneBlocks",
       "type": "tag",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_immune_blocks",
@@ -404,7 +404,7 @@
     {
       "name": "WitherImmuneBlocks",
       "type": "tag",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wither_immune_blocks",
@@ -418,7 +418,7 @@
     {
       "name": "AnimalsSpawnableOnBlocks",
       "type": "tag",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animals_spawnable_on_blocks",
@@ -432,7 +432,7 @@
     {
       "name": "PreventMobSpawningInsideBlocks",
       "type": "tag",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prevent_mob_spawning_inside_blocks",
@@ -446,7 +446,7 @@
     {
       "name": "ArrowItems",
       "type": "tag",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arrow_items",
@@ -460,7 +460,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plank_items",
@@ -474,7 +474,7 @@
     {
       "name": "FlowerItems",
       "type": "tag",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_items",
@@ -488,7 +488,7 @@
     {
       "name": "SmallFlowerItems",
       "type": "tag",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_items",
@@ -502,7 +502,7 @@
     {
       "name": "ArrowEntities",
       "type": "tag",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arrow_entities",
@@ -516,7 +516,7 @@
     {
       "name": "ImpactProjectileEntities",
       "type": "tag",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impact_projectile_entities",
@@ -530,7 +530,7 @@
     {
       "name": "BeehiveInhabitorEntities",
       "type": "tag",
-      "sortid": 50,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beehive_inhabitor_entities",
@@ -544,7 +544,7 @@
     {
       "name": "RaiderEntities",
       "type": "tag",
-      "sortid": 51,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raider_entities",
@@ -558,7 +558,7 @@
     {
       "name": "SkeletonEntities",
       "type": "tag",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skeleton_entities",
@@ -572,7 +572,7 @@
     {
       "name": "IsOverworldBiomes",
       "type": "tag",
-      "sortid": 53,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_overworld_biomes",
@@ -586,7 +586,7 @@
     {
       "name": "IsNetherBiomes",
       "type": "tag",
-      "sortid": 54,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_nether_biomes",
@@ -600,7 +600,7 @@
     {
       "name": "IsEndBiomes",
       "type": "tag",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_end_biomes",
@@ -614,7 +614,7 @@
     {
       "name": "IsOceanBiomes",
       "type": "tag",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_ocean_biomes",
@@ -628,7 +628,7 @@
     {
       "name": "IsMountainBiomes",
       "type": "tag",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_mountain_biomes",
@@ -642,7 +642,7 @@
     {
       "name": "IsRiverBiomes",
       "type": "tag",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_river_biomes",
@@ -656,7 +656,7 @@
     {
       "name": "IsHillBiomes",
       "type": "tag",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_hill_biomes",
@@ -670,7 +670,7 @@
     {
       "name": "IsForestBiomes",
       "type": "tag",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_forest_biomes",
@@ -684,7 +684,7 @@
     {
       "name": "IsSavannaBiomes",
       "type": "tag",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_savanna_biomes",
@@ -698,7 +698,7 @@
     {
       "name": "TickFunctions",
       "type": "tag",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tick_functions",
@@ -712,7 +712,7 @@
     {
       "name": "LoadFunctions",
       "type": "tag",
-      "sortid": 63,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "load_functions",
@@ -726,7 +726,7 @@
     {
       "name": "Revenantspawnerblock",
       "type": "block",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenantspawnerblock",
@@ -743,7 +743,7 @@
     {
       "name": "Ambientspawnerpartincles",
       "type": "particle",
-      "sortid": 64,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ambientspawnerpartincles",
@@ -758,7 +758,7 @@
     {
       "name": "Spawnerambientparticles",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spawnerambientparticles",
@@ -790,7 +790,7 @@
     {
       "name": "Tarantulaspawnerblock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tarantulaspawnerblock",
@@ -807,7 +807,7 @@
     {
       "name": "Svenspawnerblock",
       "type": "block",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "svenspawnerblock",
@@ -824,7 +824,7 @@
     {
       "name": "Voidgloomspawnerblock",
       "type": "block",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidgloomspawnerblock",
@@ -841,7 +841,7 @@
     {
       "name": "Infernodemonspawnerblock",
       "type": "block",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infernodemonspawnerblock",
@@ -858,7 +858,7 @@
     {
       "name": "Riftstalkerspawnerblock",
       "type": "block",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftstalkerspawnerblock",
@@ -875,7 +875,7 @@
     {
       "name": "Slayerspawnerkeystoneblock",
       "type": "block",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slayerspawnerkeystoneblock",
@@ -892,7 +892,7 @@
     {
       "name": "RevenantkeystonetabletT2",
       "type": "item",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenantkeystonetablet_t_2",
@@ -907,7 +907,7 @@
     {
       "name": "RevenantkeystonetabletT1",
       "type": "item",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenantkeystonetablet_t_1",
@@ -922,7 +922,7 @@
     {
       "name": "RevenantkeystonetabletT3",
       "type": "item",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenantkeystonetablet_t_3",
@@ -937,7 +937,7 @@
     {
       "name": "RevenantkeystonetabletT4",
       "type": "item",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenantkeystonetablet_t_4",
@@ -952,7 +952,7 @@
     {
       "name": "RevenantkeystonetabletT5",
       "type": "item",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenantkeystonetablet_t_5",
@@ -967,7 +967,7 @@
     {
       "name": "Summoningtablets",
       "type": "tag",
-      "sortid": 66,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "summoningtablets",
@@ -981,7 +981,7 @@
     {
       "name": "Summonrevenantbosst5",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "summonrevenantbosst_5",
@@ -1017,7 +1017,7 @@
     {
       "name": "Summonrevenantbosst4",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "summonrevenantbosst_4",
@@ -1053,7 +1053,7 @@
     {
       "name": "Summonrevenantbosst3",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "summonrevenantbosst_3",
@@ -1089,7 +1089,7 @@
     {
       "name": "Summonrevenantbosst2",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "summonrevenantbosst_2",
@@ -1125,7 +1125,7 @@
     {
       "name": "Summonrevenantbosst1",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "summonrevenantbosst_1",
@@ -1161,7 +1161,7 @@
     {
       "name": "RevenanthorrorT1",
       "type": "livingentity",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenanthorror_t_1",
@@ -1176,7 +1176,7 @@
     {
       "name": "Revenant",
       "type": "armor",
-      "sortid": 72,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenant",
@@ -1206,7 +1206,7 @@
     {
       "name": "CreeperPantsAbility",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeper_pants_ability",
@@ -1242,7 +1242,7 @@
     {
       "name": "CreeperPantsClock",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creeper_pants_clock",
@@ -1274,6 +1274,93 @@
         ]
       },
       "path": "~/items/armor/creeper pants"
+    },
+    {
+      "name": "GuardianChestplate",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/GuardianChestplateItem.java",
+          "src/main/resources/assets/hyblock/models/item/guardian_chestplate_chestplate.json"
+        ]
+      },
+      "path": "~/items/armor/guardian chestplate"
+    },
+    {
+      "name": "GuardianChestplateClock",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_chestplate_clock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/GuardianChestplateClockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items/armor/guardian chestplate"
+    },
+    {
+      "name": "GuardianChestplateAbility",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_chestplate_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/GuardianChestplateAbilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items/armor/guardian chestplate"
     }
   ],
   "variable_elements": [
@@ -1306,6 +1393,18 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "guardian_chestplate_clock",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "guardian_chestplate_used",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -1321,6 +1420,7 @@
       "item_group.hyblock.hy_block_mc": "HyBlockMC",
       "block.hyblock.infernodemonspawnerblock": "§4§lInferno Demonlord keystone",
       "entity.hyblock.testdummy": "Test dummy",
+      "item.hyblock.guardian_chestplate_chestplate": "§9Guardian Chestplate",
       "item.hyblock.creeper_pants_leggings": "§9Creeper Pants",
       "block.hyblock.svenspawnerblock": "§4§lSven Packmaster keystone",
       "block.hyblock.riftstalkerspawnerblock": "§4§lRiftstalker Bloodfiend keystone",
@@ -1354,6 +1454,10 @@
               },
               {
                 "name": "creeper pants",
+                "children": []
+              },
+              {
+                "name": "guardian chestplate",
                 "children": []
               }
             ]

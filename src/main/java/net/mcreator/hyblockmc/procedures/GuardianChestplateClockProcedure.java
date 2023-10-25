@@ -19,7 +19,7 @@ import net.mcreator.hyblockmc.network.HyblockModVariables;
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class CreeperPantsClockProcedure {
+public class GuardianChestplateClockProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
@@ -34,32 +34,32 @@ public class CreeperPantsClockProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).creeper_pants_used == true) {
+		if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).guardian_chestplate_used == true) {
 			{
-				double _setval = (entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).creeper_pants_clock + 1;
+				double _setval = (entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).guardian_chestplate_clock + 1;
 				entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.creeper_pants_clock = _setval;
+					capability.guardian_chestplate_clock = _setval;
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).creeper_pants_clock >= 1200) {
+			if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).guardian_chestplate_clock >= 1200) {
 				{
 					double _setval = 0;
 					entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.creeper_pants_clock = _setval;
+						capability.guardian_chestplate_clock = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				{
 					boolean _setval = false;
 					entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.creeper_pants_used = _setval;
+						capability.guardian_chestplate_used = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							"/title @p actionbar {\"text\":\"Creeper Pants cooldown expired!\",\"color\":\"green\"}");
+							"/title @p actionbar {\"text\":\"Guardian Chestplate cooldown expired!\",\"color\":\"green\"}");
 			}
 		}
 	}
