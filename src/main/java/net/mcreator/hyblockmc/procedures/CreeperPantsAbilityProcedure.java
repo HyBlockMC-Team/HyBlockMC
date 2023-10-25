@@ -13,6 +13,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.hyblockmc.network.HyblockModVariables;
 import net.mcreator.hyblockmc.init.HyblockModItems;
@@ -40,9 +41,8 @@ public class CreeperPantsAbilityProcedure {
 			HyblockMod.queueServerWork(1, () -> {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) <= (entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 0.2) {
 					if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).creeper_pants_used == false) {
-						if (event != null && event.isCancelable()) {
-							event.setCanceled(true);
-						}
+						if (entity instanceof LivingEntity _entity)
+							_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 0.2));
 						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 25, false, false));
 						HyblockMod.queueServerWork(2, () -> {
@@ -54,7 +54,15 @@ public class CreeperPantsAbilityProcedure {
 								});
 							}
 							if (world instanceof Level _level && !_level.isClientSide())
-								_level.explode(null, x, y, z, 4, Level.ExplosionInteraction.NONE);
+								_level.explode(null, x, (y + 1), z, 3, Level.ExplosionInteraction.NONE);
+							HyblockMod.queueServerWork(1, () -> {
+								{
+									Entity _ent = entity;
+									_ent.teleportTo(x, y, z);
+									if (_ent instanceof ServerPlayer _serverPlayer)
+										_serverPlayer.connection.teleport(x, y, z, _ent.getYRot(), _ent.getXRot());
+								}
+							});
 						});
 					}
 				}
