@@ -73,6 +73,9 @@ public class HyblockModVariables {
 			clone.creeper_pants_used = original.creeper_pants_used;
 			clone.guardian_chestplate_clock = original.guardian_chestplate_clock;
 			clone.guardian_chestplate_used = original.guardian_chestplate_used;
+			clone.skeleton_helmet_bones = original.skeleton_helmet_bones;
+			clone.skeleton_helmet_max_bones = original.skeleton_helmet_max_bones;
+			clone.skeleton_helmet_clock = original.skeleton_helmet_clock;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -116,6 +119,9 @@ public class HyblockModVariables {
 		public boolean creeper_pants_used = false;
 		public double guardian_chestplate_clock = 0;
 		public boolean guardian_chestplate_used = false;
+		public double skeleton_helmet_bones = 0;
+		public double skeleton_helmet_max_bones = 3.0;
+		public double skeleton_helmet_clock = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -131,6 +137,9 @@ public class HyblockModVariables {
 			nbt.putBoolean("creeper_pants_used", creeper_pants_used);
 			nbt.putDouble("guardian_chestplate_clock", guardian_chestplate_clock);
 			nbt.putBoolean("guardian_chestplate_used", guardian_chestplate_used);
+			nbt.putDouble("skeleton_helmet_bones", skeleton_helmet_bones);
+			nbt.putDouble("skeleton_helmet_max_bones", skeleton_helmet_max_bones);
+			nbt.putDouble("skeleton_helmet_clock", skeleton_helmet_clock);
 			return nbt;
 		}
 
@@ -143,6 +152,9 @@ public class HyblockModVariables {
 			creeper_pants_used = nbt.getBoolean("creeper_pants_used");
 			guardian_chestplate_clock = nbt.getDouble("guardian_chestplate_clock");
 			guardian_chestplate_used = nbt.getBoolean("guardian_chestplate_used");
+			skeleton_helmet_bones = nbt.getDouble("skeleton_helmet_bones");
+			skeleton_helmet_max_bones = nbt.getDouble("skeleton_helmet_max_bones");
+			skeleton_helmet_clock = nbt.getDouble("skeleton_helmet_clock");
 		}
 	}
 
@@ -174,6 +186,9 @@ public class HyblockModVariables {
 					variables.creeper_pants_used = message.data.creeper_pants_used;
 					variables.guardian_chestplate_clock = message.data.guardian_chestplate_clock;
 					variables.guardian_chestplate_used = message.data.guardian_chestplate_used;
+					variables.skeleton_helmet_bones = message.data.skeleton_helmet_bones;
+					variables.skeleton_helmet_max_bones = message.data.skeleton_helmet_max_bones;
+					variables.skeleton_helmet_clock = message.data.skeleton_helmet_clock;
 				}
 			});
 			context.setPacketHandled(true);

@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.hyblockmc.item.TestswordItem;
 import net.mcreator.hyblockmc.item.SpiderbootsItem;
+import net.mcreator.hyblockmc.item.SkeletonsHelmetItem;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT5Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT4Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT3Item;
@@ -33,6 +34,7 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> SPIDERBOOTS_BOOTS = REGISTRY.register("spiderboots_boots", () -> new SpiderbootsItem.Boots());
 	public static final RegistryObject<Item> CREEPER_PANTS_LEGGINGS = REGISTRY.register("creeper_pants_leggings", () -> new CreeperPantsItem.Leggings());
 	public static final RegistryObject<Item> GUARDIAN_CHESTPLATE_CHESTPLATE = REGISTRY.register("guardian_chestplate_chestplate", () -> new GuardianChestplateItem.Chestplate());
+	public static final RegistryObject<Item> SKELETONS_HELMET_HELMET = REGISTRY.register("skeletons_helmet_helmet", () -> new SkeletonsHelmetItem.Helmet());
 	public static final RegistryObject<Item> REVENANTSPAWNERBLOCK = block(HyblockModBlocks.REVENANTSPAWNERBLOCK);
 	public static final RegistryObject<Item> TARANTULASPAWNERBLOCK = block(HyblockModBlocks.TARANTULASPAWNERBLOCK);
 	public static final RegistryObject<Item> SVENSPAWNERBLOCK = block(HyblockModBlocks.SVENSPAWNERBLOCK);

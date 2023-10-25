@@ -23,6 +23,7 @@ public class HyblockModTabs {
 				tabData.accept(HyblockModItems.SPIDERBOOTS_BOOTS.get());
 				tabData.accept(HyblockModItems.CREEPER_PANTS_LEGGINGS.get());
 				tabData.accept(HyblockModItems.GUARDIAN_CHESTPLATE_CHESTPLATE.get());
+				tabData.accept(HyblockModItems.SKELETONS_HELMET_HELMET.get());
 				tabData.accept(HyblockModBlocks.REVENANTSPAWNERBLOCK.get().asItem());
 				tabData.accept(HyblockModBlocks.TARANTULASPAWNERBLOCK.get().asItem());
 				tabData.accept(HyblockModBlocks.SVENSPAWNERBLOCK.get().asItem());
