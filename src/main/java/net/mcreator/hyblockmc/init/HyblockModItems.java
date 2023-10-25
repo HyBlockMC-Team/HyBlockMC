@@ -49,6 +49,7 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_5 = REGISTRY.register("revenantkeystonetablet_t_5", () -> new RevenantkeystonetabletT5Item());
 	public static final RegistryObject<Item> HY_BLOCK_M_CICON = REGISTRY.register("hy_block_m_cicon", () -> new HyBlockMCiconItem());
 	public static final RegistryObject<Item> REVENANT_HELMET = REGISTRY.register("revenant_helmet", () -> new RevenantItem.Helmet());
+	public static final RegistryObject<Item> REV_HOLLOW_GEN = block(HyblockModBlocks.REV_HOLLOW_GEN);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

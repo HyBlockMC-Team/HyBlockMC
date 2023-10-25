@@ -2,14 +2,14 @@
   "_fv": 47,
   "_type": "structure",
   "definition": {
-    "structure": "revenanthollow",
+    "structure": "rev_hollow_gen_block",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 7500,
+    "spawnProbability": 4500,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": -18,
+    "spawnHeightOffset": 0,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -21,6 +21,9 @@
         "value": "swamp"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "onStructureGenerated": {
+      "name": "RevHollowGenTick"
+    }
   }
 }

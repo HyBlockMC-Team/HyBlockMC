@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyblock:block/pack",
+    "up": "hyblock:block/pack",
+    "north": "hyblock:block/pack",
+    "east": "hyblock:block/pack",
+    "south": "hyblock:block/pack",
+    "west": "hyblock:block/pack",
+    "particle": "hyblock:block/pack"
+  },
+  "render_type": "solid"
+}
