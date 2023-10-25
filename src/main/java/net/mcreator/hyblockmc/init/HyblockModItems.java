@@ -22,6 +22,7 @@ import net.mcreator.hyblockmc.item.RevenantkeystonetabletT2Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT1Item;
 import net.mcreator.hyblockmc.item.RevenantItem;
 import net.mcreator.hyblockmc.item.HyBlockMCiconItem;
+import net.mcreator.hyblockmc.item.CreeperPantsItem;
 import net.mcreator.hyblockmc.HyblockMod;
 
 public class HyblockModItems {
@@ -29,6 +30,7 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> TESTSWORD = REGISTRY.register("testsword", () -> new TestswordItem());
 	public static final RegistryObject<Item> TESTDUMMY_SPAWN_EGG = REGISTRY.register("testdummy_spawn_egg", () -> new ForgeSpawnEggItem(HyblockModEntities.TESTDUMMY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SPIDERBOOTS_BOOTS = REGISTRY.register("spiderboots_boots", () -> new SpiderbootsItem.Boots());
+	public static final RegistryObject<Item> CREEPER_PANTS_LEGGINGS = REGISTRY.register("creeper_pants_leggings", () -> new CreeperPantsItem.Leggings());
 	public static final RegistryObject<Item> REVENANTSPAWNERBLOCK = block(HyblockModBlocks.REVENANTSPAWNERBLOCK);
 	public static final RegistryObject<Item> TARANTULASPAWNERBLOCK = block(HyblockModBlocks.TARANTULASPAWNERBLOCK);
 	public static final RegistryObject<Item> SVENSPAWNERBLOCK = block(HyblockModBlocks.SVENSPAWNERBLOCK);

@@ -69,6 +69,8 @@ public class HyblockModVariables {
 			clone.max_mana = original.max_mana;
 			clone.mana = original.mana;
 			clone.mana_tick = original.mana_tick;
+			clone.creeper_pants_clock = original.creeper_pants_clock;
+			clone.creeper_pants_used = original.creeper_pants_used;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -108,6 +110,8 @@ public class HyblockModVariables {
 		public double max_mana = 100.0;
 		public double mana = 100.0;
 		public double mana_tick = 0;
+		public double creeper_pants_clock = 0;
+		public boolean creeper_pants_used = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -119,6 +123,8 @@ public class HyblockModVariables {
 			nbt.putDouble("max_mana", max_mana);
 			nbt.putDouble("mana", mana);
 			nbt.putDouble("mana_tick", mana_tick);
+			nbt.putDouble("creeper_pants_clock", creeper_pants_clock);
+			nbt.putBoolean("creeper_pants_used", creeper_pants_used);
 			return nbt;
 		}
 
@@ -127,6 +133,8 @@ public class HyblockModVariables {
 			max_mana = nbt.getDouble("max_mana");
 			mana = nbt.getDouble("mana");
 			mana_tick = nbt.getDouble("mana_tick");
+			creeper_pants_clock = nbt.getDouble("creeper_pants_clock");
+			creeper_pants_used = nbt.getBoolean("creeper_pants_used");
 		}
 	}
 
@@ -154,6 +162,8 @@ public class HyblockModVariables {
 					variables.max_mana = message.data.max_mana;
 					variables.mana = message.data.mana;
 					variables.mana_tick = message.data.mana_tick;
+					variables.creeper_pants_clock = message.data.creeper_pants_clock;
+					variables.creeper_pants_used = message.data.creeper_pants_used;
 				}
 			});
 			context.setPacketHandled(true);

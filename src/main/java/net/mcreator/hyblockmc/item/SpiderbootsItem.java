@@ -72,7 +72,6 @@ public abstract class SpiderbootsItem extends ArmorItem {
 			list.add(Component.literal("\u00A76Ability: Double Jump"));
 			list.add(Component.literal("\u00A77Allows you to double jump by"));
 			list.add(Component.literal("\u00A77sneaking mid air!"));
-			list.add(Component.literal("\u00A78Also negates all fall damage"));
 			list.add(Component.literal("\u00A78Mana Cost: \u00A7b20"));
 			list.add(Component.literal("\u00A70."));
 			list.add(Component.literal("\u00A79\u00A7lRARE BOOTS"));

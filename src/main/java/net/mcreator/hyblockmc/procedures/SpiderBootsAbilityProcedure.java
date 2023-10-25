@@ -35,12 +35,9 @@ public class SpiderBootsAbilityProcedure {
 			return;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == HyblockModItems.SPIDERBOOTS_BOOTS.get()) {
 			HyblockMod.queueServerWork(1, () -> {
-				entity.fallDistance = 0;
 				if (entity.isShiftKeyDown()) {
-					entity.fallDistance = 0;
 					entity.setShiftKeyDown(false);
 					if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).mana >= 20) {
-						entity.fallDistance = 0;
 						{
 							double _setval = (entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).mana - 20;
 							entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
