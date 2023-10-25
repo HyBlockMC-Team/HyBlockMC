@@ -138,7 +138,7 @@
           "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java"
         ]
       },
-      "path": "~/items/armor/spider boots"
+      "path": "~/items/armor/monster hunter armor/spider boots"
     },
     {
       "name": "SpiderBootsAbility",
@@ -162,7 +162,7 @@
           }
         ]
       },
-      "path": "~/items/armor/spider boots"
+      "path": "~/items/armor/monster hunter armor/spider boots"
     },
     {
       "name": "HyBlockMCicon",
@@ -796,10 +796,10 @@
       "registry_name": "tarantulaspawnerblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/tarantulaspawnerblock.json",
           "src/main/resources/assets/hyblock/blockstates/tarantulaspawnerblock.json",
-          "src/main/resources/assets/hyblock/models/block/tarantulaspawnerblock.json",
-          "src/main/java/net/mcreator/hyblockmc/block/TarantulaspawnerblockBlock.java"
+          "src/main/java/net/mcreator/hyblockmc/block/TarantulaspawnerblockBlock.java",
+          "src/main/resources/assets/hyblock/models/item/tarantulaspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/tarantulaspawnerblock.json"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners/tarantula spawner"
@@ -1201,7 +1201,7 @@
           "src/main/java/net/mcreator/hyblockmc/item/CreeperPantsItem.java"
         ]
       },
-      "path": "~/items/armor/creeper pants"
+      "path": "~/items/armor/monster hunter armor/creeper pants"
     },
     {
       "name": "CreeperPantsAbility",
@@ -1237,7 +1237,7 @@
           }
         ]
       },
-      "path": "~/items/armor/creeper pants"
+      "path": "~/items/armor/monster hunter armor/creeper pants"
     },
     {
       "name": "CreeperPantsClock",
@@ -1273,7 +1273,7 @@
           }
         ]
       },
-      "path": "~/items/armor/creeper pants"
+      "path": "~/items/armor/monster hunter armor/creeper pants"
     },
     {
       "name": "GuardianChestplate",
@@ -1288,7 +1288,7 @@
           "src/main/resources/assets/hyblock/models/item/guardian_chestplate_chestplate.json"
         ]
       },
-      "path": "~/items/armor/guardian chestplate"
+      "path": "~/items/armor/monster hunter armor/guardian chestplate"
     },
     {
       "name": "GuardianChestplateClock",
@@ -1324,7 +1324,7 @@
           }
         ]
       },
-      "path": "~/items/armor/guardian chestplate"
+      "path": "~/items/armor/monster hunter armor/guardian chestplate"
     },
     {
       "name": "GuardianChestplateAbility",
@@ -1360,7 +1360,7 @@
           }
         ]
       },
-      "path": "~/items/armor/guardian chestplate"
+      "path": "~/items/armor/monster hunter armor/guardian chestplate"
     },
     {
       "name": "SkeletonsHelmet",
@@ -1375,7 +1375,7 @@
           "src/main/java/net/mcreator/hyblockmc/item/SkeletonsHelmetItem.java"
         ]
       },
-      "path": "~/items/armor/skeletons helmet"
+      "path": "~/items/armor/monster hunter armor/skeletons helmet"
     },
     {
       "name": "SkeletonHelmetBoneCount",
@@ -1389,7 +1389,7 @@
           "src/main/java/net/mcreator/hyblockmc/client/screens/SkeletonHelmetBoneCountOverlay.java"
         ]
       },
-      "path": "~/items/armor/skeletons helmet"
+      "path": "~/items/armor/monster hunter armor/skeletons helmet"
     },
     {
       "name": "BonesVariable",
@@ -1410,7 +1410,7 @@
           }
         ]
       },
-      "path": "~/items/armor/skeletons helmet"
+      "path": "~/items/armor/monster hunter armor/skeletons helmet"
     },
     {
       "name": "BonesEquipped",
@@ -1431,7 +1431,7 @@
           }
         ]
       },
-      "path": "~/items/armor/skeletons helmet"
+      "path": "~/items/armor/monster hunter armor/skeletons helmet"
     },
     {
       "name": "SkeletonsHelmetClock",
@@ -1451,7 +1451,7 @@
           }
         ]
       },
-      "path": "~/items/armor/skeletons helmet"
+      "path": "~/items/armor/monster hunter armor/skeletons helmet"
     },
     {
       "name": "SkeletonsHelmetAbility",
@@ -1471,7 +1471,24 @@
           }
         ]
       },
-      "path": "~/items/armor/skeletons helmet"
+      "path": "~/items/armor/monster hunter armor/skeletons helmet"
+    },
+    {
+      "name": "Revenanthollow",
+      "type": "structure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revenanthollow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hyblock/worldgen/configured_feature/revenanthollow.json",
+          "src/main/java/net/mcreator/hyblockmc/world/features/RevenanthollowFeature.java",
+          "src/main/resources/data/hyblock/worldgen/placed_feature/revenanthollow.json",
+          "src/main/resources/data/hyblock/forge/biome_modifier/revenanthollow_biome_modifier.json"
+        ]
+      },
+      "path": "~/world content/structures"
     }
   ],
   "variable_elements": [
@@ -1541,7 +1558,7 @@
     "en_us": {
       "block.hyblock.voidgloomspawnerblock": "§4§lVoidgloom Seraph keystone",
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
-      "block.hyblock.tarantulaspawnerblock": "§4§lTarantula Broodmother keystone",
+      "block.hyblock.tarantulaspawnerblock": "§4§lTarantula Broodfather keystone",
       "item.hyblock.revenant_helmet": "Revenant Helmet",
       "block.hyblock.infernodemonspawnerblock": "§4§lInferno Demonlord keystone",
       "item.hyblock.creeper_pants_leggings": "§9Creeper Pants",
@@ -1579,20 +1596,25 @@
             "name": "armor",
             "children": [
               {
-                "name": "spider boots",
-                "children": []
-              },
-              {
-                "name": "creeper pants",
-                "children": []
-              },
-              {
-                "name": "guardian chestplate",
-                "children": []
-              },
-              {
-                "name": "skeletons helmet",
-                "children": []
+                "name": "monster hunter armor",
+                "children": [
+                  {
+                    "name": "skeletons helmet",
+                    "children": []
+                  },
+                  {
+                    "name": "guardian chestplate",
+                    "children": []
+                  },
+                  {
+                    "name": "creeper pants",
+                    "children": []
+                  },
+                  {
+                    "name": "spider boots",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -1728,6 +1750,10 @@
       },
       {
         "name": "tags",
+        "children": []
+      },
+      {
+        "name": "achievements",
         "children": []
       }
     ]

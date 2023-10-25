@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.hyblockmc.init.HyblockModTabs;
 import net.mcreator.hyblockmc.init.HyblockModParticleTypes;
 import net.mcreator.hyblockmc.init.HyblockModItems;
+import net.mcreator.hyblockmc.init.HyblockModFeatures;
 import net.mcreator.hyblockmc.init.HyblockModEntities;
 import net.mcreator.hyblockmc.init.HyblockModBlocks;
 
@@ -59,6 +60,7 @@ public class HyblockMod {
 		HyblockModEntities.REGISTRY.register(bus);
 
 		HyblockModTabs.REGISTRY.register(bus);
+		HyblockModFeatures.REGISTRY.register(bus);
 
 		HyblockModParticleTypes.REGISTRY.register(bus);
 
