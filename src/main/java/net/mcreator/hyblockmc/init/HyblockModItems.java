@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.hyblockmc.item.TestswordItem;
 import net.mcreator.hyblockmc.item.SpiderbootsItem;
 import net.mcreator.hyblockmc.item.SkeletonsHelmetItem;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT5Item;
@@ -25,11 +24,16 @@ import net.mcreator.hyblockmc.item.RevenantItem;
 import net.mcreator.hyblockmc.item.HyBlockMCiconItem;
 import net.mcreator.hyblockmc.item.GuardianChestplateItem;
 import net.mcreator.hyblockmc.item.CreeperPantsItem;
+import net.mcreator.hyblockmc.item.Adminsword2Item;
+import net.mcreator.hyblockmc.item.AdminSword3Item;
+import net.mcreator.hyblockmc.item.AdminSword1Item;
 import net.mcreator.hyblockmc.HyblockMod;
 
 public class HyblockModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, HyblockMod.MODID);
-	public static final RegistryObject<Item> TESTSWORD = REGISTRY.register("testsword", () -> new TestswordItem());
+	public static final RegistryObject<Item> ADMIN_SWORD_1 = REGISTRY.register("admin_sword_1", () -> new AdminSword1Item());
+	public static final RegistryObject<Item> ADMINSWORD_2 = REGISTRY.register("adminsword_2", () -> new Adminsword2Item());
+	public static final RegistryObject<Item> ADMIN_SWORD_3 = REGISTRY.register("admin_sword_3", () -> new AdminSword3Item());
 	public static final RegistryObject<Item> TESTDUMMY_SPAWN_EGG = REGISTRY.register("testdummy_spawn_egg", () -> new ForgeSpawnEggItem(HyblockModEntities.TESTDUMMY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SPIDERBOOTS_BOOTS = REGISTRY.register("spiderboots_boots", () -> new SpiderbootsItem.Boots());
 	public static final RegistryObject<Item> CREEPER_PANTS_LEGGINGS = REGISTRY.register("creeper_pants_leggings", () -> new CreeperPantsItem.Leggings());

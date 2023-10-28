@@ -1,0 +1,40 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "gold_sword",
+    "customModelName": "Normal",
+    "name": "§4Sword of the Stars 9000",
+    "specialInfo": [
+      "§7Damage: §c+9,999",
+      "§0.",
+      "§d\"Only those with the power to",
+      "§dcreate this sword can wield this",
+      "§dblade.\"",
+      "§0.",
+      "§0.",
+      "§4§lADMIN SWORD",
+      "§0."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:HyBlockMC"
+    },
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 5.0,
+    "enchantability": 30,
+    "damageVsEntity": 9999.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "AdminSwordSharpness3"
+    }
+  }
+}

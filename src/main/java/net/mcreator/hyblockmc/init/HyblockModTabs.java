@@ -18,7 +18,9 @@ public class HyblockModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HyblockMod.MODID);
 	public static final RegistryObject<CreativeModeTab> HY_BLOCK_MC = REGISTRY.register("hy_block_mc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hyblock.hy_block_mc")).icon(() -> new ItemStack(HyblockModItems.HY_BLOCK_M_CICON.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(HyblockModItems.TESTSWORD.get());
+				tabData.accept(HyblockModItems.ADMIN_SWORD_1.get());
+				tabData.accept(HyblockModItems.ADMINSWORD_2.get());
+				tabData.accept(HyblockModItems.ADMIN_SWORD_3.get());
 				tabData.accept(HyblockModItems.TESTDUMMY_SPAWN_EGG.get());
 				tabData.accept(HyblockModItems.SPIDERBOOTS_BOOTS.get());
 				tabData.accept(HyblockModItems.CREEPER_PANTS_LEGGINGS.get());
