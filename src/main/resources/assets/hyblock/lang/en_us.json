@@ -18,12 +18,15 @@
   "block.hyblock.slayerspawnerkeystoneblock": "§4§lSlayer keystone",
   "item.hyblock.spiderboots_boots": "§9Spider\u0027s Boots",
   "item.hyblock.adminsword_2": "§4Sword of the Stars 3000",
+  "block.hyblock.midas_staff_molden_gold": "Midas_Staff_Molden_Gold",
   "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
+  "item.hyblock.midas_staff": "§6Midas Staff",
   "item_group.hyblock.hy_block_mc": "HyBlockMC",
   "entity.hyblock.testdummy": "Test dummy",
   "item.hyblock.guardian_chestplate_chestplate": "§9Guardian Chestplate",
   "block.hyblock.riftstalkerspawnerblock": "§4§lRiftstalker Bloodfiend keystone",
   "entity.hyblock.revenanthorror_t_1": "Revenant horror",
+  "death.attack.moltengold": "%1$s was melted with gold.",
   "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror keystone",
   "item.hyblock.skeletons_helmet_helmet": "§9Skeleton\u0027s Helmet"
 }

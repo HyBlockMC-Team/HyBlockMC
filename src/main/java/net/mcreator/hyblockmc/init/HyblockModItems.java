@@ -21,6 +21,7 @@ import net.mcreator.hyblockmc.item.RevenantkeystonetabletT3Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT2Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT1Item;
 import net.mcreator.hyblockmc.item.RevenantItem;
+import net.mcreator.hyblockmc.item.MidasStaffItem;
 import net.mcreator.hyblockmc.item.HyBlockMCiconItem;
 import net.mcreator.hyblockmc.item.GuardianChestplateItem;
 import net.mcreator.hyblockmc.item.CreeperPantsItem;
@@ -54,6 +55,8 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> HY_BLOCK_M_CICON = REGISTRY.register("hy_block_m_cicon", () -> new HyBlockMCiconItem());
 	public static final RegistryObject<Item> REVENANT_HELMET = REGISTRY.register("revenant_helmet", () -> new RevenantItem.Helmet());
 	public static final RegistryObject<Item> REV_HOLLOW_GEN = block(HyblockModBlocks.REV_HOLLOW_GEN);
+	public static final RegistryObject<Item> MIDAS_STAFF = REGISTRY.register("midas_staff", () -> new MidasStaffItem());
+	public static final RegistryObject<Item> MIDAS_STAFF_MOLDEN_GOLD = block(HyblockModBlocks.MIDAS_STAFF_MOLDEN_GOLD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

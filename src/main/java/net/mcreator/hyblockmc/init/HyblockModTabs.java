@@ -38,5 +38,7 @@ public class HyblockModTabs {
 				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_3.get());
 				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_4.get());
 				tabData.accept(HyblockModItems.REVENANTKEYSTONETABLET_T_5.get());
+				tabData.accept(HyblockModItems.MIDAS_STAFF.get());
+				tabData.accept(HyblockModBlocks.MIDAS_STAFF_MOLDEN_GOLD.get().asItem());
 			}).withSearchBar().build());
 }

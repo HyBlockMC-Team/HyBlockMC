@@ -17,6 +17,7 @@ import net.mcreator.hyblockmc.block.SlayerspawnerkeystoneblockBlock;
 import net.mcreator.hyblockmc.block.RiftstalkerspawnerblockBlock;
 import net.mcreator.hyblockmc.block.RevenantspawnerblockBlock;
 import net.mcreator.hyblockmc.block.RevHollowGenBlock;
+import net.mcreator.hyblockmc.block.MidasStaffMoldenGoldBlock;
 import net.mcreator.hyblockmc.block.InfernodemonspawnerblockBlock;
 import net.mcreator.hyblockmc.HyblockMod;
 
@@ -30,4 +31,5 @@ public class HyblockModBlocks {
 	public static final RegistryObject<Block> RIFTSTALKERSPAWNERBLOCK = REGISTRY.register("riftstalkerspawnerblock", () -> new RiftstalkerspawnerblockBlock());
 	public static final RegistryObject<Block> SLAYERSPAWNERKEYSTONEBLOCK = REGISTRY.register("slayerspawnerkeystoneblock", () -> new SlayerspawnerkeystoneblockBlock());
 	public static final RegistryObject<Block> REV_HOLLOW_GEN = REGISTRY.register("rev_hollow_gen", () -> new RevHollowGenBlock());
+	public static final RegistryObject<Block> MIDAS_STAFF_MOLDEN_GOLD = REGISTRY.register("midas_staff_molden_gold", () -> new MidasStaffMoldenGoldBlock());
 }
