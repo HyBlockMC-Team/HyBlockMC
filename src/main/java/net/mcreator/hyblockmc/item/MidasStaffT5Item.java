@@ -79,6 +79,6 @@ public class MidasStaffT5Item extends Item {
 		list.add(Component.literal("\u00A77Deals heavy damage."));
 		list.add(Component.literal("\u00A78Cooldown: \u00A7a15s"));
 		list.add(Component.literal("\u00A70."));
-		list.add(Component.literal("\u00A76\u00A7lLEGENDARY STAFF"));
+		list.add(Component.literal("\u00A7d\u00A7kH \u00A7d\u00A7lMYTHIC STAFF \u00A7d\u00A7kH"));
 	}
 }
