@@ -34,149 +34,119 @@ public class MidasStaffAbilityProcedure {
 			return;
 		HyblockModVariables.MapVariables.get(world).midas_rows = 0;
 		HyblockModVariables.MapVariables.get(world).syncData(world);
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF.get()) {
-			{
-				final Vec3 _center = new Vec3(
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX()), y,
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()));
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof LivingEntity _entity)
-						_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
-							@Override
-							public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
-								String _translatekey = "death.attack." + "moltengold";
-								if (this.getEntity() == null && this.getDirectEntity() == null) {
-									return _msgEntity.getKillCredit() != null
-											? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName());
-								} else {
-									Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
-									ItemStack _itemstack = ItemStack.EMPTY;
-									if (this.getEntity() instanceof LivingEntity _livingentity)
-										_itemstack = _livingentity.getMainHandItem();
-									return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
-											? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+		{
+			final Vec3 _center = new Vec3(
+					(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX()), y,
+					(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()));
+			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
+			for (Entity entityiterator : _entfound) {
+				if ((entityiterator == entity) == false) {
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF.get()) {
+						if (entityiterator instanceof LivingEntity _entity)
+							_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+								@Override
+								public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+									String _translatekey = "death.attack." + "moltengold";
+									if (this.getEntity() == null && this.getDirectEntity() == null) {
+										return _msgEntity.getKillCredit() != null
+												? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+									} else {
+										Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+										ItemStack _itemstack = ItemStack.EMPTY;
+										if (this.getEntity() instanceof LivingEntity _livingentity)
+											_itemstack = _livingentity.getMainHandItem();
+										return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+												? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+									}
 								}
-							}
-						}, 20);
-				}
-			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_2.get()) {
-			{
-				final Vec3 _center = new Vec3(
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX()), y,
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()));
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof LivingEntity _entity)
-						_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
-							@Override
-							public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
-								String _translatekey = "death.attack." + "moltengold";
-								if (this.getEntity() == null && this.getDirectEntity() == null) {
-									return _msgEntity.getKillCredit() != null
-											? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName());
-								} else {
-									Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
-									ItemStack _itemstack = ItemStack.EMPTY;
-									if (this.getEntity() instanceof LivingEntity _livingentity)
-										_itemstack = _livingentity.getMainHandItem();
-									return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
-											? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+							}, 35);
+					} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_2.get()) {
+						if (entityiterator instanceof LivingEntity _entity)
+							_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+								@Override
+								public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+									String _translatekey = "death.attack." + "moltengold";
+									if (this.getEntity() == null && this.getDirectEntity() == null) {
+										return _msgEntity.getKillCredit() != null
+												? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+									} else {
+										Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+										ItemStack _itemstack = ItemStack.EMPTY;
+										if (this.getEntity() instanceof LivingEntity _livingentity)
+											_itemstack = _livingentity.getMainHandItem();
+										return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+												? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+									}
 								}
-							}
-						}, 30);
-				}
-			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_3.get()) {
-			{
-				final Vec3 _center = new Vec3(
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX()), y,
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()));
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof LivingEntity _entity)
-						_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
-							@Override
-							public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
-								String _translatekey = "death.attack." + "moltengold";
-								if (this.getEntity() == null && this.getDirectEntity() == null) {
-									return _msgEntity.getKillCredit() != null
-											? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName());
-								} else {
-									Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
-									ItemStack _itemstack = ItemStack.EMPTY;
-									if (this.getEntity() instanceof LivingEntity _livingentity)
-										_itemstack = _livingentity.getMainHandItem();
-									return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
-											? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+							}, 60);
+					} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_3.get()) {
+						if (entityiterator instanceof LivingEntity _entity)
+							_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+								@Override
+								public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+									String _translatekey = "death.attack." + "moltengold";
+									if (this.getEntity() == null && this.getDirectEntity() == null) {
+										return _msgEntity.getKillCredit() != null
+												? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+									} else {
+										Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+										ItemStack _itemstack = ItemStack.EMPTY;
+										if (this.getEntity() instanceof LivingEntity _livingentity)
+											_itemstack = _livingentity.getMainHandItem();
+										return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+												? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+									}
 								}
-							}
-						}, 40);
-				}
-			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_4.get()) {
-			{
-				final Vec3 _center = new Vec3(
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX()), y,
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()));
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof LivingEntity _entity)
-						_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
-							@Override
-							public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
-								String _translatekey = "death.attack." + "moltengold";
-								if (this.getEntity() == null && this.getDirectEntity() == null) {
-									return _msgEntity.getKillCredit() != null
-											? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName());
-								} else {
-									Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
-									ItemStack _itemstack = ItemStack.EMPTY;
-									if (this.getEntity() instanceof LivingEntity _livingentity)
-										_itemstack = _livingentity.getMainHandItem();
-									return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
-											? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+							}, 85);
+					} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_4.get()) {
+						if (entityiterator instanceof LivingEntity _entity)
+							_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+								@Override
+								public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+									String _translatekey = "death.attack." + "moltengold";
+									if (this.getEntity() == null && this.getDirectEntity() == null) {
+										return _msgEntity.getKillCredit() != null
+												? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+									} else {
+										Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+										ItemStack _itemstack = ItemStack.EMPTY;
+										if (this.getEntity() instanceof LivingEntity _livingentity)
+											_itemstack = _livingentity.getMainHandItem();
+										return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+												? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+									}
 								}
-							}
-						}, 50);
-				}
-			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_5.get()) {
-			{
-				final Vec3 _center = new Vec3(
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX()), y,
-						(entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(4)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()));
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof LivingEntity _entity)
-						_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
-							@Override
-							public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
-								String _translatekey = "death.attack." + "moltengold";
-								if (this.getEntity() == null && this.getDirectEntity() == null) {
-									return _msgEntity.getKillCredit() != null
-											? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName());
-								} else {
-									Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
-									ItemStack _itemstack = ItemStack.EMPTY;
-									if (this.getEntity() instanceof LivingEntity _livingentity)
-										_itemstack = _livingentity.getMainHandItem();
-									return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
-											? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
-											: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+							}, 100);
+					} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == HyblockModItems.MIDAS_STAFF_T_5.get()) {
+						if (entityiterator instanceof LivingEntity _entity)
+							_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+								@Override
+								public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
+									String _translatekey = "death.attack." + "moltengold";
+									if (this.getEntity() == null && this.getDirectEntity() == null) {
+										return _msgEntity.getKillCredit() != null
+												? Component.translatable(_translatekey + ".player", _msgEntity.getDisplayName(), _msgEntity.getKillCredit().getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName());
+									} else {
+										Component _component = this.getEntity() == null ? this.getDirectEntity().getDisplayName() : this.getEntity().getDisplayName();
+										ItemStack _itemstack = ItemStack.EMPTY;
+										if (this.getEntity() instanceof LivingEntity _livingentity)
+											_itemstack = _livingentity.getMainHandItem();
+										return !_itemstack.isEmpty() && _itemstack.hasCustomHoverName()
+												? Component.translatable(_translatekey + ".item", _msgEntity.getDisplayName(), _component, _itemstack.getDisplayName())
+												: Component.translatable(_translatekey, _msgEntity.getDisplayName(), _component);
+									}
 								}
-							}
-						}, 60);
+							}, 150);
+					}
 				}
 			}
 		}
