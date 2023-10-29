@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:MidasStaffT2"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      },
+      {
+        "value": "CUSTOM:EnchantedGold"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MidasStaffT3"
+    },
+    "name": "midas_t_3",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "hyblock:enchanted_gold"
+    },
+    "3": {
+      "item": "hyblock:enchanted_gold"
+    },
+    "4": {
+      "item": "hyblock:enchanted_gold"
+    },
+    "5": {
+      "item": "hyblock:enchanted_gold"
+    },
+    "7": {
+      "item": "hyblock:enchanted_gold"
+    }
+  },
+  "result": {
+    "item": "hyblock:enchanted_gold_block",
+    "count": 1
+  }
+}

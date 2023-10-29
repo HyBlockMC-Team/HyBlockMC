@@ -21,9 +21,14 @@ import net.mcreator.hyblockmc.item.RevenantkeystonetabletT3Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT2Item;
 import net.mcreator.hyblockmc.item.RevenantkeystonetabletT1Item;
 import net.mcreator.hyblockmc.item.RevenantItem;
+import net.mcreator.hyblockmc.item.MidasStaffT5Item;
+import net.mcreator.hyblockmc.item.MidasStaffT4Item;
+import net.mcreator.hyblockmc.item.MidasStaffT3Item;
+import net.mcreator.hyblockmc.item.MidasStaffT2Item;
 import net.mcreator.hyblockmc.item.MidasStaffItem;
 import net.mcreator.hyblockmc.item.HyBlockMCiconItem;
 import net.mcreator.hyblockmc.item.GuardianChestplateItem;
+import net.mcreator.hyblockmc.item.EnchantedGoldItem;
 import net.mcreator.hyblockmc.item.CreeperPantsItem;
 import net.mcreator.hyblockmc.item.Adminsword2Item;
 import net.mcreator.hyblockmc.item.AdminSword3Item;
@@ -52,11 +57,17 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_3 = REGISTRY.register("revenantkeystonetablet_t_3", () -> new RevenantkeystonetabletT3Item());
 	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_4 = REGISTRY.register("revenantkeystonetablet_t_4", () -> new RevenantkeystonetabletT4Item());
 	public static final RegistryObject<Item> REVENANTKEYSTONETABLET_T_5 = REGISTRY.register("revenantkeystonetablet_t_5", () -> new RevenantkeystonetabletT5Item());
+	public static final RegistryObject<Item> MIDAS_STAFF_MOLDEN_GOLD = block(HyblockModBlocks.MIDAS_STAFF_MOLDEN_GOLD);
+	public static final RegistryObject<Item> MIDAS_STAFF = REGISTRY.register("midas_staff", () -> new MidasStaffItem());
+	public static final RegistryObject<Item> MIDAS_STAFF_T_2 = REGISTRY.register("midas_staff_t_2", () -> new MidasStaffT2Item());
+	public static final RegistryObject<Item> MIDAS_STAFF_T_3 = REGISTRY.register("midas_staff_t_3", () -> new MidasStaffT3Item());
+	public static final RegistryObject<Item> MIDAS_STAFF_T_4 = REGISTRY.register("midas_staff_t_4", () -> new MidasStaffT4Item());
 	public static final RegistryObject<Item> HY_BLOCK_M_CICON = REGISTRY.register("hy_block_m_cicon", () -> new HyBlockMCiconItem());
 	public static final RegistryObject<Item> REVENANT_HELMET = REGISTRY.register("revenant_helmet", () -> new RevenantItem.Helmet());
 	public static final RegistryObject<Item> REV_HOLLOW_GEN = block(HyblockModBlocks.REV_HOLLOW_GEN);
-	public static final RegistryObject<Item> MIDAS_STAFF = REGISTRY.register("midas_staff", () -> new MidasStaffItem());
-	public static final RegistryObject<Item> MIDAS_STAFF_MOLDEN_GOLD = block(HyblockModBlocks.MIDAS_STAFF_MOLDEN_GOLD);
+	public static final RegistryObject<Item> MIDAS_STAFF_T_5 = REGISTRY.register("midas_staff_t_5", () -> new MidasStaffT5Item());
+	public static final RegistryObject<Item> ENCHANTED_GOLD = REGISTRY.register("enchanted_gold", () -> new EnchantedGoldItem());
+	public static final RegistryObject<Item> ENCHANTED_GOLD_BLOCK = block(HyblockModBlocks.ENCHANTED_GOLD_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

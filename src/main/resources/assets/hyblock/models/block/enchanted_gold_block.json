@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyblock:block/gold_block",
+    "up": "hyblock:block/gold_block",
+    "north": "hyblock:block/gold_block",
+    "east": "hyblock:block/gold_block",
+    "south": "hyblock:block/gold_block",
+    "west": "hyblock:block/gold_block",
+    "particle": "hyblock:block/gold_block"
+  },
+  "render_type": "solid"
+}

@@ -4,9 +4,9 @@
   "definition": {
     "toolType": "Special",
     "renderType": 0,
-    "texture": "midas_staff_0",
+    "texture": "midas_staff_2",
     "customModelName": "Normal",
-    "name": "§6Midas Staff (Tier I)",
+    "name": "§6Midas Staff (Tier III)",
     "specialInfo": [
       "§6Ability: Molten Wave §e§lRIGHT CLICK",
       "§7Cast a wave of molten gold in",

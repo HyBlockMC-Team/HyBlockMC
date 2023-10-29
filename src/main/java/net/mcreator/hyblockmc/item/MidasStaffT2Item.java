@@ -24,8 +24,8 @@ import java.util.List;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class MidasStaffItem extends Item {
-	public MidasStaffItem() {
+public class MidasStaffT2Item extends Item {
+	public MidasStaffT2Item() {
 		super(new Item.Properties().durability(0));
 	}
 
