@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyblock:block/hardened_clay_stained_pink",
+    "up": "hyblock:block/hardened_clay_stained_pink",
+    "north": "hyblock:block/hardened_clay_stained_pink",
+    "east": "hyblock:block/hardened_clay_stained_pink",
+    "south": "hyblock:block/hardened_clay_stained_pink",
+    "west": "hyblock:block/hardened_clay_stained_pink",
+    "particle": "hyblock:block/hardened_clay_stained_pink"
+  },
+  "render_type": "solid"
+}

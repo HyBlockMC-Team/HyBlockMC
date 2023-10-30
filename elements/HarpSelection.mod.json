@@ -1,0 +1,219 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_melodys_harp",
+          "text": {
+            "fixedValue": "Melody's Harp"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 26
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 150,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 168,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 204,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 222,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 258,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 11,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 204,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 12,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 13,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 69,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_close",
+          "text": "Close",
+          "onClick": {
+            "name": "MelodySelectionCloseButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

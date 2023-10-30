@@ -1,0 +1,9 @@
+{
+  "parent": "hyblock:custom/melody_harp",
+  "textures": {
+    "all": "hyblock:block/test_harp",
+    "particle": "hyblock:block/test_harp",
+    "1": "hyblock:block/test_harp"
+  },
+  "render_type": "translucent"
+}

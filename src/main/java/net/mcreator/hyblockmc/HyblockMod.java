@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hyblockmc.init.HyblockModTabs;
 import net.mcreator.hyblockmc.init.HyblockModParticleTypes;
+import net.mcreator.hyblockmc.init.HyblockModMenus;
 import net.mcreator.hyblockmc.init.HyblockModItems;
 import net.mcreator.hyblockmc.init.HyblockModFeatures;
 import net.mcreator.hyblockmc.init.HyblockModEntities;
@@ -64,6 +65,7 @@ public class HyblockMod {
 
 		HyblockModParticleTypes.REGISTRY.register(bus);
 
+		HyblockModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

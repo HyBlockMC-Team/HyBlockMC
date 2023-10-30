@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hyblock:block/wool_colored_pink",
+    "up": "hyblock:block/wool_colored_pink",
+    "north": "hyblock:block/wool_colored_pink",
+    "east": "hyblock:block/wool_colored_pink",
+    "south": "hyblock:block/wool_colored_pink",
+    "west": "hyblock:block/wool_colored_pink",
+    "particle": "hyblock:block/wool_colored_pink"
+  },
+  "render_type": "solid"
+}

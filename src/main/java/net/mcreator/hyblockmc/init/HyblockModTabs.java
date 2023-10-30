@@ -46,5 +46,6 @@ public class HyblockModTabs {
 				tabData.accept(HyblockModItems.MIDAS_STAFF_T_5.get());
 				tabData.accept(HyblockModItems.ENCHANTED_GOLD.get());
 				tabData.accept(HyblockModBlocks.ENCHANTED_GOLD_BLOCK.get().asItem());
+				tabData.accept(HyblockModBlocks.MELODY_HARP.get().asItem());
 			}).withSearchBar().build());
 }

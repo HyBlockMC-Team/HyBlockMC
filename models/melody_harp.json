@@ -1,0 +1,183 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "melody_harp",
+	"texture_size": [1024, 1024],
+	"textures": {
+		"1": "test harp"
+	},
+	"elements": [
+		{
+			"name": "hatp_top",
+			"from": [-0.24446, 23.33832, 6],
+			"to": [9.75554, 24.33832, 10],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [3.75554, 11.83832, 8]},
+			"faces": {
+				"north": {"uv": [9.5, 0, 12, 0.5], "texture": "#1"},
+				"east": {"uv": [9.5, 1, 11.5, 1.5], "texture": "#1"},
+				"south": {"uv": [9.5, 0.5, 12, 1], "texture": "#1"},
+				"west": {"uv": [9.5, 1.5, 11.5, 2], "texture": "#1"},
+				"up": {"uv": [2.5, 7.5, 0, 5.5], "texture": "#1"},
+				"down": {"uv": [8.5, 0, 6, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_side_short",
+			"from": [2.77164, 1.14805, 6],
+			"to": [3.77164, 16.14805, 10],
+			"rotation": {"angle": 45, "axis": "z", "origin": [4.27164, 5.14805, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 9, 8, 12.5], "texture": "#1"},
+				"east": {"uv": [4, 0, 6, 3.5], "texture": "#1"},
+				"south": {"uv": [8, 9, 8.5, 12.5], "texture": "#1"},
+				"west": {"uv": [4, 3.5, 6, 7], "texture": "#1"},
+				"up": {"uv": [1.5, 11.5, 1, 9.5], "texture": "#1"},
+				"down": {"uv": [2, 9.5, 1.5, 11.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_side_short",
+			"from": [-5, 12, 6],
+			"to": [-4, 22, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [1.5, 9, 8]},
+			"faces": {
+				"north": {"uv": [0, 9.5, 0.5, 12], "texture": "#1"},
+				"east": {"uv": [6, 2, 8, 4.5], "texture": "#1"},
+				"south": {"uv": [0.5, 9.5, 1, 12], "texture": "#1"},
+				"west": {"uv": [6, 4.5, 8, 7], "texture": "#1"},
+				"up": {"uv": [10, 4, 9.5, 2], "texture": "#1"},
+				"down": {"uv": [10, 7, 9.5, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_top",
+			"from": [4, 25, 6],
+			"to": [9, 26, 10],
+			"faces": {
+				"north": {"uv": [9.5, 4, 11.5, 4.5], "texture": "#1"},
+				"east": {"uv": [9.5, 4.5, 11.5, 5], "texture": "#1"},
+				"south": {"uv": [9.5, 9, 11.5, 9.5], "texture": "#1"},
+				"west": {"uv": [9.5, 9.5, 11.5, 10], "texture": "#1"},
+				"up": {"uv": [4.5, 9, 2.5, 7], "texture": "#1"},
+				"down": {"uv": [6.5, 7, 4.5, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_long_side",
+			"from": [9, 2, 6],
+			"to": [10, 26, 10],
+			"faces": {
+				"north": {"uv": [2, 7.5, 2.5, 13], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 5.5], "texture": "#1"},
+				"south": {"uv": [8.5, 0, 9, 5.5], "texture": "#1"},
+				"west": {"uv": [2, 0, 4, 5.5], "texture": "#1"},
+				"up": {"uv": [10.5, 4, 10, 2], "texture": "#1"},
+				"down": {"uv": [3.5, 10, 3, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_base",
+			"from": [6, 0, 6],
+			"to": [10, 2, 10],
+			"faces": {
+				"north": {"uv": [3, 9, 5, 10], "texture": "#1"},
+				"east": {"uv": [5, 9, 7, 10], "texture": "#1"},
+				"south": {"uv": [9, 5, 11, 6], "texture": "#1"},
+				"west": {"uv": [9, 6, 11, 7], "texture": "#1"},
+				"up": {"uv": [8.5, 9, 6.5, 7], "texture": "#1"},
+				"down": {"uv": [2, 7.5, 0, 9.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_stick",
+			"from": [3, 4, 8],
+			"to": [4, 25, 8],
+			"faces": {
+				"north": {"uv": [7.14063, 9, 7.35938, 13], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"south": {"uv": [9, 7, 9.5, 11], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0.5, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_stick",
+			"from": [1, 6, 8],
+			"to": [2, 24, 8],
+			"faces": {
+				"north": {"uv": [7.14063, 9, 7.35938, 13], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"south": {"uv": [9, 7, 9.5, 11], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0.5, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_stick",
+			"from": [-1, 8, 8],
+			"to": [0, 23, 8],
+			"faces": {
+				"north": {"uv": [7.14063, 9, 7.35938, 13], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"south": {"uv": [9, 7, 9.5, 11], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0.5, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_stick",
+			"from": [-3, 10, 8],
+			"to": [-2, 22, 8],
+			"faces": {
+				"north": {"uv": [7.14063, 9, 7.35938, 13], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"south": {"uv": [9, 7, 9.5, 11], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#1"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0.5, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_stick",
+			"from": [5, 2, 8],
+			"to": [6, 25, 8],
+			"faces": {
+				"north": {"uv": [9.1875, 0, 9.5, 5], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 5], "texture": "#1"},
+				"south": {"uv": [2.59375, 9, 2.85938, 14], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 5], "texture": "#1"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0.5, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "harp_stick",
+			"from": [7, 2, 8],
+			"to": [8, 25, 8],
+			"faces": {
+				"north": {"uv": [8, 2, 8.5, 7], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 5], "texture": "#1"},
+				"south": {"uv": [8.6875, 5.5, 9, 10.5], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 5], "texture": "#1"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0.5, 0, 0, 0], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "wood part",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		},
+		{
+			"name": "stick part",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [6, 7, 8, 9, 10, 11]
+		}
+	]
+}

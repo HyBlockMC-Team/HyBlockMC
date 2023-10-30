@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hyblock:block/melody_harp"
+    },
+    "facing=east": {
+      "model": "hyblock:block/melody_harp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hyblock:block/melody_harp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hyblock:block/melody_harp",
+      "y": 270
+    }
+  }
+}
