@@ -2037,7 +2037,8 @@
         "files": [
           "src/main/java/net/mcreator/hyblockmc/world/inventory/HarpSelectionMenu.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/HarpSelectionScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/network/HarpSelectionButtonMessage.java"
+          "src/main/java/net/mcreator/hyblockmc/network/HarpSelectionButtonMessage.java",
+          "src/main/java/net/mcreator/hyblockmc/network/HarpSelectionSlotMessage.java"
         ]
       },
       "path": "~/the harp lol"
@@ -2514,6 +2515,1278 @@
         ]
       },
       "path": "~/the harp lol/gui items/colours"
+    },
+    {
+      "name": "Song1Incomplete",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_1_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_1_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song1IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song2Incomplete",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_2_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song2IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_2_incomplete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song3Incomplete",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_3_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_3_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song3IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song4Incomplete",
+      "type": "item",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_4_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song4IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_4_incomplete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song5Incomplete",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_5_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song5IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_5_incomplete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song6Incomplete",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_6_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_6_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song6IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song7Incomplete",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_7_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_7_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song7IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song8Incomplete",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_8_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_8_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song8IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song9Incomplete",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_9_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_9_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song9IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song10Incomplete",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_10_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_10_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song10IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song11Incomplete",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_11_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_11_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song11IncompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song12Incomplete",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_12_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song12IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_12_incomplete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song13Incomplete",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_13_incomplete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song13IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_13_incomplete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song1Complete",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_1_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song1CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_1_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song2Complete",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_2_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song2CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_2_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song3Complete",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_3_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song3CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_3_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song4Complete",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_4_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song4CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_4_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song5Complete",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_5_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song5CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_5_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song6Complete",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_6_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_6_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song6CompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song7Complete",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_7_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_7_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song7CompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song8Complete",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_8_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_8_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song8CompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song9Complete",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_9_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song9CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_9_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song10Complete",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_10_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_10_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song10CompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song11Complete",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_11_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_11_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song11CompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song12Complete",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_12_complete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_12_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song12CompleteItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song13Complete",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_13_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song13CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_13_complete.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song1Locked",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_1_locked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_1_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song1LockedItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song2Locked",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_2_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song2LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_2_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song3Locked",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_3_locked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_3_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song3LockedItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song4Locked",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_4_locked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_4_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song4LockedItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song5Locked",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_5_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song5LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_5_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song6Locked",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_6_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song6LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_6_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song7Locked",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_7_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song7LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_7_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song8Locked",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_8_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song8LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_8_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song9Locked",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_9_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song9LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_9_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song10Locked",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_10_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song10LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_10_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song11Locked",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_11_locked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_11_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song11LockedItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song12Locked",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_12_locked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/item/Song12LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_12_locked.json"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song13Locked",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_13_locked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hyblock/models/item/song_13_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song13LockedItem.java"
+        ]
+      },
+      "path": "~/the harp lol/gui items/songs/books"
+    },
+    {
+      "name": "Song1GUI",
+      "type": "gui",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_1_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song1GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song1GUIMenu.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "SongGuiFillColours",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_gui_fill_colours",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SongGuiFillColoursProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song2GUI",
+      "type": "gui",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_2_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song2GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song2GUIMenu.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song3GUI",
+      "type": "gui",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_3_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song3GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song3GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song4GUI",
+      "type": "gui",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_4_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song4GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song4GUIMenu.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song5GUI",
+      "type": "gui",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_5_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song5GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song5GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song6GUI",
+      "type": "gui",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_6_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song6GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song6GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song7GUI",
+      "type": "gui",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_7_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song7GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song7GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song8GUI",
+      "type": "gui",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_8_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song8GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song8GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song9GUI",
+      "type": "gui",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_9_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song9GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song9GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song10GUI",
+      "type": "gui",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_10_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song10GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song10GUIMenu.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song11GUI",
+      "type": "gui",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_11_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song11GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song11GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song12GUI",
+      "type": "gui",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_12_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song12GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song12GUIMenu.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song13GUI",
+      "type": "gui",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_13_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song13GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song13GUIScreen.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song1Open",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_1_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song1OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song2Open",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_2_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song2OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song3Open",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_3_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song3OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song4Open",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_4_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song4OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song5Open",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_5_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song5OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song6Open",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_6_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song6OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song7Open",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_7_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song7OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song8Open",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_8_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song8OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song9Open",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_9_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song9OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song10Open",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_10_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song10OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song11Open",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_11_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song11OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song12Open",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_12_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song12OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "Song13Open",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_13_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/Song13OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
     }
   ],
   "variable_elements": [
@@ -2822,74 +4095,135 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "melody_colour_fill_thing",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "gui.hyblock.harp_selection.label_select_song_to_play": "Select song to play:",
+      "item.hyblock.revenant_helmet": "Revenant Helmet",
+      "item.hyblock.song_11_incomplete": "§aLa Vie En Rose",
+      "gui.hyblock.song_9_gui.label_harp_hymn_to_the_joy": "Harp - Joy To The World",
+      "block.hyblock.infernodemonspawnerblock": "§4§lInferno Demonlord keystone",
+      "block.hyblock.svenspawnerblock": "§4§lSven Packmaster keystone",
+      "item.hyblock.song_4_complete": "§aBrahm\u0027s Lullaby",
+      "item.hyblock.song_12_complete": "§aThrough The Campire",
+      "gui.hyblock.song_13_gui.label_harp_hymn_to_the_joy": "Harp - Pachelbel",
+      "item.hyblock.song_8_incomplete": "§aMinuet",
+      "item.hyblock.song_9_complete": "§aJoy To The World",
+      "item.hyblock.greenmelody": "§o",
+      "item.hyblock.purplemelody": "§o",
+      "block.hyblock.lightblue_falling_melody": "§b",
+      "item_group.hyblock.hy_block_mc": "HyBlockMC",
+      "item.hyblock.song_1_incomplete": "§aHymn To The Joy",
+      "block.hyblock.enchanted_gold_block": "§9Enchanted Gold Block",
+      "item.hyblock.song_13_complete": "§aPachelbel",
+      "gui.hyblock.song_3_gui.label_harp_hymn_to_the_joy": "Harp - Amazing Grace",
+      "block.hyblock.riftstalkerspawnerblock": "§4§lRiftstalker Bloodfiend keystone",
+      "gui.hyblock.harp_selection.button_close": "Close",
+      "item.hyblock.song_5_complete": "§aHappy Birthday To You",
+      "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror keystone",
+      "item.hyblock.song_2_incomplete": "§aFrère Jacques",
+      "gui.hyblock.song_2_gui.label_harp_hymn_to_the_joy": "Harp - Frère Jacques",
+      "item.hyblock.song_7_locked": "§cGeothermy?",
+      "block.hyblock.voidgloomspawnerblock": "§4§lVoidgloom Seraph keystone",
+      "item.hyblock.song_2_complete": "§aFrère Jacques",
+      "item.hyblock.song_10_locked": "§cGodly Imagination",
+      "item.hyblock.song_13_locked": "§cPachelbel",
+      "item.hyblock.song_7_incomplete": "§aGeothermy?",
+      "gui.hyblock.song_5_gui.label_harp_hymn_to_the_joy": "Harp - Happy Birthday To You",
+      "item.hyblock.creeper_pants_leggings": "§9Creeper Pants",
+      "item.hyblock.book_song_locked": "§cMystery Song",
+      "block.hyblock.melody_harp": "§5Melody\u0027s Harp",
+      "item.hyblock.pinkmelody": "§o",
+      "item.hyblock.song_3_locked": "§cAmazing Grace",
+      "block.hyblock.blue_click_melody": "§9: §7Click!",
+      "gui.hyblock.song_8_gui.label_harp_hymn_to_the_joy": "Harp - Minuet",
+      "item.hyblock.hy_block_m_cicon": "ico",
+      "item.hyblock.song_2_locked": "§cFrère Jacques",
+      "item.hyblock.song_6_locked": "§cGreensleeves",
+      "block.hyblock.slayerspawnerkeystoneblock": "§4§lSlayer keystone",
+      "item.hyblock.song_4_incomplete": "§aBrahm\u0027s Lullaby",
+      "item.hyblock.midas_staff_t_4": "§6Midas Staff (Tier IV)",
+      "item.hyblock.midas_staff_t_5": "§dMidas Staff (Tier V)",
+      "block.hyblock.purple_click_melody": "§5: §7Click!",
+      "block.hyblock.yellow_click_melody": "§e: §7Click!",
+      "gui.hyblock.song_7_gui.label_harp_hymn_to_the_joy": "Harp - Geothermy?",
+      "item.hyblock.enchanted_gold": "§aEnchanted Gold",
+      "item.hyblock.midas_staff_t_2": "§6Midas Staff (Tier II)",
+      "item.hyblock.midas_staff_t_3": "§6Midas Staff (Tier III)",
+      "item.hyblock.song_5_incomplete": "§aHappy Birthday To You",
+      "item.hyblock.song_7_complete": "§aGeothermy?",
+      "block.hyblock.pink_click_melody": "§d: §7Click!",
+      "item.hyblock.song_6_incomplete": "§aGreensleeves",
+      "item.hyblock.song_11_complete": "§aLa Vie En Rose",
+      "gui.hyblock.song_6_gui.label_harp_hymn_to_the_joy": "Harp - Greensleeves",
+      "item.hyblock.song_3_incomplete": "§aAmazing Grace",
+      "gui.hyblock.song_1_gui.label_harp_hymn_to_the_joy": "Harp - Hymn To The Joy",
       "item.hyblock.book_song_incomplete": "Book_Song_Incomplete",
       "block.hyblock.yellow_falling_melody": "§e",
-      "item.hyblock.revenant_helmet": "Revenant Helmet",
-      "block.hyblock.infernodemonspawnerblock": "§4§lInferno Demonlord keystone",
       "item.hyblock.admin_sword_3": "§4Sword of the Stars 9000",
       "block.hyblock.green_click_melody": "§2: §7Click!",
       "item.hyblock.admin_sword_1": "§4Sword of the Stars",
-      "block.hyblock.svenspawnerblock": "§4§lSven Packmaster keystone",
+      "item.hyblock.song_1_complete": "§aHymn To The Joy",
+      "item.hyblock.song_6_complete": "§aGreensleeves",
+      "gui.hyblock.song_4_gui.label_harp_hymn_to_the_joy": "Harp - Brahm\u0027s Lullaby",
       "block.hyblock.lightblue_click_melody": "§b: §7Click!",
       "item.hyblock.spiderboots_boots": "§9Spider\u0027s Boots",
-      "item.hyblock.greenmelody": "§o",
       "block.hyblock.midas_staff_molden_gold": "Midas_Staff_Molden_Gold",
-      "item.hyblock.purplemelody": "§o",
       "item.hyblock.limemelody": "§o",
       "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
-      "block.hyblock.lightblue_falling_melody": "§b",
       "item.hyblock.midas_staff": "§6Midas Staff (Tier I)",
-      "item_group.hyblock.hy_block_mc": "HyBlockMC",
       "block.hyblock.lime_click_melody": "§a: §7Click!",
       "entity.hyblock.testdummy": "Test dummy",
       "item.hyblock.guardian_chestplate_chestplate": "§9Guardian Chestplate",
       "block.hyblock.green_falling_melody": "§2",
-      "block.hyblock.enchanted_gold_block": "§9Enchanted Gold Block",
-      "block.hyblock.riftstalkerspawnerblock": "§4§lRiftstalker Bloodfiend keystone",
-      "gui.hyblock.harp_selection.button_close": "Close",
+      "gui.hyblock.harp_selection.Song_Number": "0",
+      "item.hyblock.song_9_incomplete": "§aJoy To The World",
       "entity.hyblock.revenanthorror_t_1": "Revenant horror",
       "item.hyblock.melody_tips_torch": "§eUseful Tip!",
       "gui.hyblock.harp_selection.label_melodys_harp": "Melody\u0027s Harp",
       "death.attack.moltengold": "%1$s was melted with gold.",
       "block.hyblock.blue_falling_melody": "§9",
-      "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror keystone",
       "block.hyblock.purple_falling_melody": "§5",
-      "block.hyblock.voidgloomspawnerblock": "§4§lVoidgloom Seraph keystone",
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
       "block.hyblock.tarantulaspawnerblock": "§4§lTarantula Broodfather keystone",
-      "item.hyblock.creeper_pants_leggings": "§9Creeper Pants",
-      "item.hyblock.book_song_locked": "Book_Song_Locked",
-      "block.hyblock.melody_harp": "§5Melody\u0027s Harp",
+      "item.hyblock.song_8_complete": "§aMinuet",
+      "item.hyblock.song_11_locked": "§cLa Vie En Rose",
+      "item.hyblock.song_12_locked": "§cThrough The Campire",
+      "item.hyblock.song_13_incomplete": "§aPachelbel",
       "block.hyblock.rev_hollow_gen": "Rev Hollow Gen",
-      "item.hyblock.pinkmelody": "§o",
       "item.hyblock.revenantkeystonetablet_t_1": "§4§lRevenant Horror Tablet",
-      "block.hyblock.blue_click_melody": "§9: §7Click!",
-      "item.hyblock.hy_block_m_cicon": "ico",
       "item.hyblock.revenantkeystonetablet_t_3": "§4§lRevenant Horror Tablet",
+      "item.hyblock.song_5_locked": "§cHappy Birthday To You",
+      "item.hyblock.song_1_locked": "§cHymn To The Joy",
       "item.hyblock.revenantkeystonetablet_t_2": "§4§lRevenant Horror Tablet",
+      "item.hyblock.song_4_locked": "§cBrahm\u0027s Lullaby",
       "item.hyblock.revenantkeystonetablet_t_5": "§4§lRevenant Horror Tablet",
+      "item.hyblock.song_8_locked": "§cMinuet",
       "item.hyblock.revenantkeystonetablet_t_4": "§4§lRevenant Horror Tablet",
-      "block.hyblock.slayerspawnerkeystoneblock": "§4§lSlayer keystone",
-      "item.hyblock.midas_staff_t_4": "§6Midas Staff (Tier IV)",
+      "item.hyblock.song_9_locked": "§cJoy To The World",
       "item.hyblock.adminsword_2": "§4Sword of the Stars 3000",
-      "item.hyblock.midas_staff_t_5": "§dMidas Staff (Tier V)",
-      "block.hyblock.purple_click_melody": "§5: §7Click!",
-      "block.hyblock.yellow_click_melody": "§e: §7Click!",
+      "item.hyblock.song_12_incomplete": "§aThrough The Campire",
+      "item.hyblock.song_10_complete": "§aGodly Imagination",
       "item.hyblock.bluemelody": "§o",
+      "gui.hyblock.song_12_gui.label_harp_hymn_to_the_joy": "Harp - Through The Campfire",
+      "gui.hyblock.harp_selection.button_play": "play",
       "item.hyblock.yellowmelody": "§o",
-      "item.hyblock.enchanted_gold": "§aEnchanted Gold",
+      "item.hyblock.song_3_complete": "§aAmazing Grace",
       "item.hyblock.book_song_complete": "Book_Song_Complete",
-      "item.hyblock.midas_staff_t_2": "§6Midas Staff (Tier II)",
-      "item.hyblock.midas_staff_t_3": "§6Midas Staff (Tier III)",
       "item.hyblock.lightbluemelody": "§o",
-      "block.hyblock.pink_click_melody": "§d: §7Click!",
       "block.hyblock.pink_falling_melody": "§d",
       "block.hyblock.lime_falling_melody": "§a",
+      "item.hyblock.song_10_incomplete": "§aGodly Imagination",
+      "gui.hyblock.song_10_gui.label_harp_hymn_to_the_joy": "Harp - Godly Imagination",
+      "gui.hyblock.song_11_gui.label_harp_hymn_to_the_joy": "Harp - Le Vie En Rose",
       "item.hyblock.skeletons_helmet_helmet": "§9Skeleton\u0027s Helmet"
     }
   },
@@ -3110,11 +4444,28 @@
               {
                 "name": "colours",
                 "children": []
+              },
+              {
+                "name": "songs",
+                "children": [
+                  {
+                    "name": "books",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
           {
             "name": "gui handling",
+            "children": []
+          },
+          {
+            "name": "song guis",
+            "children": []
+          },
+          {
+            "name": "song playing",
             "children": []
           }
         ]

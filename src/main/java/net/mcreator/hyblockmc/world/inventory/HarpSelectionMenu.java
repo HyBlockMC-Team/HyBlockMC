@@ -19,7 +19,9 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.hyblockmc.network.HarpSelectionSlotMessage;
 import net.mcreator.hyblockmc.init.HyblockModMenus;
+import net.mcreator.hyblockmc.HyblockMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -81,8 +83,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 1;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(1, 1, 0);
 			}
 
 			@Override
@@ -94,8 +97,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 2;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(2, 1, 0);
 			}
 
 			@Override
@@ -107,8 +111,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 3;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(3, 1, 0);
 			}
 
 			@Override
@@ -120,8 +125,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 4;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(4, 1, 0);
 			}
 
 			@Override
@@ -133,8 +139,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 5;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(5, 1, 0);
 			}
 
 			@Override
@@ -146,8 +153,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 6;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(6, 1, 0);
 			}
 
 			@Override
@@ -159,8 +167,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 7;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(7, 1, 0);
 			}
 
 			@Override
@@ -172,8 +181,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 8;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(8, 1, 0);
 			}
 
 			@Override
@@ -185,8 +195,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 9;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(9, 1, 0);
 			}
 
 			@Override
@@ -198,8 +209,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 10;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(10, 1, 0);
 			}
 
 			@Override
@@ -211,8 +223,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 11;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(11, 1, 0);
 			}
 
 			@Override
@@ -224,8 +237,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 12;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(12, 1, 0);
 			}
 
 			@Override
@@ -237,8 +251,9 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 			private final int slot = 13;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(13, 1, 0);
 			}
 
 			@Override
@@ -456,6 +471,13 @@ public class HarpSelectionMenu extends AbstractContainerMenu implements Supplier
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			HyblockMod.PACKET_HANDLER.sendToServer(new HarpSelectionSlotMessage(slotid, x, y, z, ctype, meta));
+			HarpSelectionSlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

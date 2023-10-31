@@ -30,9 +30,12 @@
         "data": {
           "id": 1,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song1Open"
+          },
           "x": 150,
           "y": 44
         }
@@ -42,9 +45,12 @@
         "data": {
           "id": 2,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song2Open"
+          },
           "x": 168,
           "y": 44
         }
@@ -54,9 +60,12 @@
         "data": {
           "id": 3,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song3Open"
+          },
           "x": 186,
           "y": 44
         }
@@ -66,9 +75,12 @@
         "data": {
           "id": 4,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song4Open"
+          },
           "x": 204,
           "y": 44
         }
@@ -78,9 +90,12 @@
         "data": {
           "id": 5,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song5Open"
+          },
           "x": 222,
           "y": 44
         }
@@ -90,9 +105,12 @@
         "data": {
           "id": 6,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song6Open"
+          },
           "x": 240,
           "y": 44
         }
@@ -102,9 +120,12 @@
         "data": {
           "id": 7,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song7Open"
+          },
           "x": 258,
           "y": 44
         }
@@ -114,9 +135,12 @@
         "data": {
           "id": 8,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song8Open"
+          },
           "x": 150,
           "y": 62
         }
@@ -126,9 +150,12 @@
         "data": {
           "id": 9,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song9Open"
+          },
           "x": 168,
           "y": 62
         }
@@ -138,9 +165,12 @@
         "data": {
           "id": 10,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song10Open"
+          },
           "x": 186,
           "y": 62
         }
@@ -150,9 +180,12 @@
         "data": {
           "id": 11,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song11Open"
+          },
           "x": 204,
           "y": 62
         }
@@ -162,9 +195,12 @@
         "data": {
           "id": 12,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song12Open"
+          },
           "x": 222,
           "y": 62
         }
@@ -174,9 +210,12 @@
         "data": {
           "id": 13,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Song13Open"
+          },
           "x": 240,
           "y": 62
         }
