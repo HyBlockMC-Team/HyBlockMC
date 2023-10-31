@@ -2139,19 +2139,6 @@
       "path": "~/the harp lol/gui items"
     },
     {
-      "name": "D",
-      "type": "code",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "d",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/hyblockmc/D.java"
-        ]
-      }
-    },
-    {
       "name": "VariablesToKnow",
       "type": "function",
       "sortid": 120,
