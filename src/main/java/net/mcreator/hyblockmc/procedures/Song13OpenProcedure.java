@@ -15,6 +15,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.hyblockmc.world.inventory.Song13GUIMenu;
 import net.mcreator.hyblockmc.network.HyblockModVariables;
+import net.mcreator.hyblockmc.HyblockMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -22,24 +23,28 @@ public class Song13OpenProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).song_12_high_score >= 90) {
-			{
-				if (entity instanceof ServerPlayer _ent) {
-					BlockPos _bpos = BlockPos.containing(x, y, z);
-					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
-						@Override
-						public Component getDisplayName() {
-							return Component.literal("Song13GUI");
-						}
+		if (entity instanceof Player _player)
+			_player.closeContainer();
+		HyblockMod.queueServerWork(2, () -> {
+			if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).song_12_high_score >= 90) {
+				{
+					if (entity instanceof ServerPlayer _ent) {
+						BlockPos _bpos = BlockPos.containing(x, y, z);
+						NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
+							@Override
+							public Component getDisplayName() {
+								return Component.literal("Song13GUI");
+							}
 
-						@Override
-						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-							return new Song13GUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-						}
-					}, _bpos);
+							@Override
+							public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+								return new Song13GUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+							}
+						}, _bpos);
+					}
 				}
+				SongGuiFillColoursProcedure.execute(world, entity);
 			}
-			SongGuiFillColoursProcedure.execute(world, entity);
-		}
+		});
 	}
 }

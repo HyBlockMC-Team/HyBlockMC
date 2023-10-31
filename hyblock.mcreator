@@ -3787,6 +3787,38 @@
         ]
       },
       "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "MelodyColorClear",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melody_color_clear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/MelodyColorClearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/gui items/colours"
     }
   ],
   "variable_elements": [
