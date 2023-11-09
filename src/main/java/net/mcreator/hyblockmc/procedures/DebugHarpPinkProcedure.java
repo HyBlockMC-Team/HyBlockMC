@@ -14,7 +14,7 @@ import net.mcreator.hyblockmc.HyblockMod;
 import java.util.function.Supplier;
 import java.util.Map;
 
-public class DebugHarpPinkFallProcedure {
+public class DebugHarpPinkProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;

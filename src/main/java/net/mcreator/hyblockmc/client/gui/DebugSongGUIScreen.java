@@ -32,6 +32,7 @@ public class DebugSongGUIScreen extends AbstractContainerScreen<DebugSongGUIMenu
 	Button button_send_blue;
 	Button button_send_light_blue;
 	Button button_change_speed;
+	Button button_send_all;
 
 	public DebugSongGUIScreen(DebugSongGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -128,26 +129,50 @@ public class DebugSongGUIScreen extends AbstractContainerScreen<DebugSongGUIMenu
 		guistate.put("button:button_send_pink", button_send_pink);
 		this.addRenderableWidget(button_send_pink);
 		button_send_yellow = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_yellow"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(1, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}).bounds(this.leftPos + -119, this.topPos + 26, 82, 20).build();
 		guistate.put("button:button_send_yellow", button_send_yellow);
 		this.addRenderableWidget(button_send_yellow);
 		button_send_lime = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_lime"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(2, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
 		}).bounds(this.leftPos + -119, this.topPos + 53, 72, 20).build();
 		guistate.put("button:button_send_lime", button_send_lime);
 		this.addRenderableWidget(button_send_lime);
 		button_send_green = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_green"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(3, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
 		}).bounds(this.leftPos + -119, this.topPos + 80, 77, 20).build();
 		guistate.put("button:button_send_green", button_send_green);
 		this.addRenderableWidget(button_send_green);
 		button_send_purple = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_purple"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(4, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
 		}).bounds(this.leftPos + -119, this.topPos + 107, 82, 20).build();
 		guistate.put("button:button_send_purple", button_send_purple);
 		this.addRenderableWidget(button_send_purple);
 		button_send_blue = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_blue"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(5, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		}).bounds(this.leftPos + -119, this.topPos + 134, 72, 20).build();
 		guistate.put("button:button_send_blue", button_send_blue);
 		this.addRenderableWidget(button_send_blue);
 		button_send_light_blue = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_light_blue"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(6, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
 		}).bounds(this.leftPos + -119, this.topPos + 161, 103, 20).build();
 		guistate.put("button:button_send_light_blue", button_send_light_blue);
 		this.addRenderableWidget(button_send_light_blue);
@@ -159,5 +184,13 @@ public class DebugSongGUIScreen extends AbstractContainerScreen<DebugSongGUIMenu
 		}).bounds(this.leftPos + 177, this.topPos + 26, 87, 20).build();
 		guistate.put("button:button_change_speed", button_change_speed);
 		this.addRenderableWidget(button_change_speed);
+		button_send_all = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_all"), e -> {
+			if (true) {
+				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(8, x, y, z));
+				DebugSongGUIButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}).bounds(this.leftPos + -119, this.topPos + 188, 66, 20).build();
+		guistate.put("button:button_send_all", button_send_all);
+		this.addRenderableWidget(button_send_all);
 	}
 }

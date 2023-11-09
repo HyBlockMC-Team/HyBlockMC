@@ -3977,15 +3977,15 @@
       "path": "~/the harp lol/song guis/debug"
     },
     {
-      "name": "DebugHarpPinkFall",
+      "name": "DebugHarpYellow",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "debug_harp_pink_fall",
+      "registry_name": "debug_harp_yellow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpPinkFallProcedure.java"
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpYellowProcedure.java"
         ],
         "dependencies": [
           {
@@ -3999,6 +3999,194 @@
         ]
       },
       "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpLime",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_lime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpLimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpGreen",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpGreenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpPurple",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpPurpleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpBlue",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpBlueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpLightBlue",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_light_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpLightBlueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpPink",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpPinkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpAll",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_all",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpAllProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "SongGuiOpenCheckl",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_gui_open_checkl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SongGuiOpenChecklProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
     }
   ],
   "variable_elements": [
@@ -4319,6 +4507,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0.0"
+    },
+    {
+      "name": "any_song_gui_open",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -4335,6 +4529,7 @@
       "item.hyblock.song_12_complete": "§aThrough The Campire",
       "gui.hyblock.song_13_gui.label_harp_hymn_to_the_joy": "Harp - Pachelbel",
       "item.hyblock.song_8_incomplete": "§aMinuet",
+      "gui.hyblock.debug_song_gui.button_send_all": "send all",
       "item.hyblock.song_9_complete": "§aJoy To The World",
       "item.hyblock.greenmelody": "§o",
       "item.hyblock.purplemelody": "§o",

@@ -14,7 +14,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.hyblockmc.world.inventory.Song1GUIMenu;
-import net.mcreator.hyblockmc.HyblockMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -38,8 +37,6 @@ public class Song1OpenProcedure {
 				}, _bpos);
 			}
 		}
-		HyblockMod.queueServerWork(2, () -> {
-			SongGuiFillColoursProcedure.execute(world, entity);
-		});
+		SongGuiFillColoursProcedure.execute(world, entity);
 	}
 }

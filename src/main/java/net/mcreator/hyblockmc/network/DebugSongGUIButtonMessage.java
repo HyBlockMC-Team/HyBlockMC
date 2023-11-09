@@ -12,8 +12,15 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.hyblockmc.world.inventory.DebugSongGUIMenu;
-import net.mcreator.hyblockmc.procedures.DebugHarpPinkFallProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpYellowProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpPurpleProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpPinkProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpLimeProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpLightBlueProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpGreenProcedure;
 import net.mcreator.hyblockmc.procedures.DebugHarpChangeTickProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpBlueProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpAllProcedure;
 import net.mcreator.hyblockmc.HyblockMod;
 
 import java.util.function.Supplier;
@@ -65,11 +72,39 @@ public class DebugSongGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			DebugHarpPinkFallProcedure.execute(world, entity);
+			DebugHarpPinkProcedure.execute(world, entity);
+		}
+		if (buttonID == 1) {
+
+			DebugHarpYellowProcedure.execute(world, entity);
+		}
+		if (buttonID == 2) {
+
+			DebugHarpLimeProcedure.execute(world, entity);
+		}
+		if (buttonID == 3) {
+
+			DebugHarpGreenProcedure.execute(world, entity);
+		}
+		if (buttonID == 4) {
+
+			DebugHarpPurpleProcedure.execute(world, entity);
+		}
+		if (buttonID == 5) {
+
+			DebugHarpBlueProcedure.execute(world, entity);
+		}
+		if (buttonID == 6) {
+
+			DebugHarpLightBlueProcedure.execute(world, entity);
 		}
 		if (buttonID == 7) {
 
 			DebugHarpChangeTickProcedure.execute(entity, guistate);
+		}
+		if (buttonID == 8) {
+
+			DebugHarpAllProcedure.execute(world, entity);
 		}
 	}
 

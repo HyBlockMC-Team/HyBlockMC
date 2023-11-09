@@ -535,7 +535,7 @@
           "name": "button_send_pink",
           "text": "send pink",
           "onClick": {
-            "name": "DebugHarpPinkFall"
+            "name": "DebugHarpPink"
           },
           "width": 72,
           "height": 20,
@@ -548,6 +548,9 @@
         "data": {
           "name": "button_send_yellow",
           "text": "send yellow",
+          "onClick": {
+            "name": "DebugHarpYellow"
+          },
           "width": 82,
           "height": 20,
           "x": 6,
@@ -559,6 +562,9 @@
         "data": {
           "name": "button_send_lime",
           "text": "send lime",
+          "onClick": {
+            "name": "DebugHarpLime"
+          },
           "width": 72,
           "height": 20,
           "x": 6,
@@ -570,6 +576,9 @@
         "data": {
           "name": "button_send_green",
           "text": "send green",
+          "onClick": {
+            "name": "DebugHarpGreen"
+          },
           "width": 77,
           "height": 20,
           "x": 6,
@@ -581,6 +590,9 @@
         "data": {
           "name": "button_send_purple",
           "text": "send purple",
+          "onClick": {
+            "name": "DebugHarpPurple"
+          },
           "width": 82,
           "height": 20,
           "x": 6,
@@ -592,6 +604,9 @@
         "data": {
           "name": "button_send_blue",
           "text": "send blue",
+          "onClick": {
+            "name": "DebugHarpBlue"
+          },
           "width": 72,
           "height": 20,
           "x": 6,
@@ -603,6 +618,9 @@
         "data": {
           "name": "button_send_light_blue",
           "text": "send light blue",
+          "onClick": {
+            "name": "DebugHarpLightBlue"
+          },
           "width": 103,
           "height": 20,
           "x": 6,
@@ -632,6 +650,20 @@
           "height": 20,
           "x": 303,
           "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_send_all",
+          "text": "send all",
+          "onClick": {
+            "name": "DebugHarpAll"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 6,
+          "y": 197
         }
       }
     ],
