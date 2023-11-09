@@ -123,6 +123,7 @@ public class HyblockModVariables {
 			clone.song_13_high_score = original.song_13_high_score;
 			clone.song_13_last_score = original.song_13_last_score;
 			clone.melody_colour_fill_thing = original.melody_colour_fill_thing;
+			clone.harp_falling_speed = original.harp_falling_speed;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -339,6 +340,7 @@ public class HyblockModVariables {
 		public double song_13_high_score = 0;
 		public double song_13_last_score = 0;
 		public double melody_colour_fill_thing = 0;
+		public double harp_falling_speed = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -398,6 +400,7 @@ public class HyblockModVariables {
 			nbt.putDouble("song_13_high_score", song_13_high_score);
 			nbt.putDouble("song_13_last_score", song_13_last_score);
 			nbt.putDouble("melody_colour_fill_thing", melody_colour_fill_thing);
+			nbt.putDouble("harp_falling_speed", harp_falling_speed);
 			return nbt;
 		}
 
@@ -454,6 +457,7 @@ public class HyblockModVariables {
 			song_13_high_score = nbt.getDouble("song_13_high_score");
 			song_13_last_score = nbt.getDouble("song_13_last_score");
 			melody_colour_fill_thing = nbt.getDouble("melody_colour_fill_thing");
+			harp_falling_speed = nbt.getDouble("harp_falling_speed");
 		}
 	}
 
@@ -529,6 +533,7 @@ public class HyblockModVariables {
 					variables.song_13_high_score = message.data.song_13_high_score;
 					variables.song_13_last_score = message.data.song_13_last_score;
 					variables.melody_colour_fill_thing = message.data.melody_colour_fill_thing;
+					variables.harp_falling_speed = message.data.harp_falling_speed;
 				}
 			});
 			context.setPacketHandled(true);

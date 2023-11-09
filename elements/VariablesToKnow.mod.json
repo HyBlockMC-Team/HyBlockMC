@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "function",
   "definition": {
-    "code": "## song_x_complete - if the song x has been 100% complete\n## song_x_high_score - highest score of the song x\n## song_x_last_score - lastest score of the song x\n## songs_complete - to help check for every song completion\n## There are 13 songs",
+    "code": "## song_x_complete - if the song x has been 100% complete\n## song_x_high_score - highest score of the song x\n## song_x_last_score - lastest score of the song x\n## songs_complete - to help check for every song completion\n## harp_falling_speed - ticks for the falling wool in harp songs\n## There are 13 songs",
     "name": "variables_to_know",
     "namespace": "mod"
   }

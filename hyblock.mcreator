@@ -2168,6 +2168,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3789,15 +3805,15 @@
       "path": "~/the harp lol/song guis"
     },
     {
-      "name": "MelodyColorClear",
+      "name": "Clearguiitems",
       "type": "procedure",
-      "sortid": 221,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "melody_color_clear",
+      "registry_name": "clearguiitems",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/procedures/MelodyColorClearProcedure.java"
+          "src/main/java/net/mcreator/hyblockmc/procedures/ClearguiitemsProcedure.java"
         ],
         "dependencies": [
           {
@@ -3818,7 +3834,171 @@
           }
         ]
       },
-      "path": "~/the harp lol/gui items/colours"
+      "path": "~/the harp lol"
+    },
+    {
+      "name": "Harpguiitems",
+      "type": "tag",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "harpguiitems",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hyblock/tags/items/harpguiitems.json"
+        ]
+      },
+      "path": "~/the harp lol"
+    },
+    {
+      "name": "DebugSongGUI",
+      "type": "gui",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_song_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/network/DebugSongGUIButtonMessage.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/DebugSongGUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/DebugSongGUIMenu.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpMenuOpen",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_menu_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpMenuOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpChangeTick",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_change_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpChangeTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpOpenGUI",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_open_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpOpenGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "HarpDebug",
+      "type": "command",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harp_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/command/HarpDebugCommand.java"
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
+    },
+    {
+      "name": "DebugHarpPinkFall",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_harp_pink_fall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/DebugHarpPinkFallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/debug"
     }
   ],
   "variable_elements": [
@@ -4133,12 +4313,19 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "harp_falling_speed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "gui.hyblock.harp_selection.label_select_song_to_play": "Select song to play:",
+      "gui.hyblock.debug_song_gui.button_send_purple": "send purple",
       "item.hyblock.revenant_helmet": "Revenant Helmet",
       "item.hyblock.song_11_incomplete": "§aLa Vie En Rose",
       "gui.hyblock.song_9_gui.label_harp_hymn_to_the_joy": "Harp - Joy To The World",
@@ -4159,15 +4346,19 @@
       "gui.hyblock.song_3_gui.label_harp_hymn_to_the_joy": "Harp - Amazing Grace",
       "block.hyblock.riftstalkerspawnerblock": "§4§lRiftstalker Bloodfiend keystone",
       "gui.hyblock.harp_selection.button_close": "Close",
+      "gui.hyblock.debug_song_gui.label_harp_hymn_to_the_joy": "Harp - Debug Menu",
       "item.hyblock.song_5_complete": "§aHappy Birthday To You",
+      "gui.hyblock.debug_song_gui.button_send_light_blue": "send light blue",
       "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror keystone",
       "item.hyblock.song_2_incomplete": "§aFrère Jacques",
       "gui.hyblock.song_2_gui.label_harp_hymn_to_the_joy": "Harp - Frère Jacques",
       "item.hyblock.song_7_locked": "§cGeothermy?",
       "block.hyblock.voidgloomspawnerblock": "§4§lVoidgloom Seraph keystone",
+      "gui.hyblock.debug_song_gui.button_change_speed": "change speed",
       "item.hyblock.song_2_complete": "§aFrère Jacques",
-      "item.hyblock.song_10_locked": "§cGodly Imagination",
+      "gui.hyblock.debug_song_gui.button_send_yellow": "send yellow",
       "item.hyblock.song_13_locked": "§cPachelbel",
+      "item.hyblock.song_10_locked": "§cGodly Imagination",
       "item.hyblock.song_7_incomplete": "§aGeothermy?",
       "gui.hyblock.song_5_gui.label_harp_hymn_to_the_joy": "Harp - Happy Birthday To You",
       "item.hyblock.creeper_pants_leggings": "§9Creeper Pants",
@@ -4187,6 +4378,8 @@
       "block.hyblock.purple_click_melody": "§5: §7Click!",
       "block.hyblock.yellow_click_melody": "§e: §7Click!",
       "gui.hyblock.song_7_gui.label_harp_hymn_to_the_joy": "Harp - Geothermy?",
+      "gui.hyblock.debug_song_gui.tick_rate": "Falling speed (in ticks)",
+      "gui.hyblock.debug_song_gui.button_send_lime": "send lime",
       "item.hyblock.enchanted_gold": "§aEnchanted Gold",
       "item.hyblock.midas_staff_t_2": "§6Midas Staff (Tier II)",
       "item.hyblock.midas_staff_t_3": "§6Midas Staff (Tier III)",
@@ -4200,9 +4393,11 @@
       "gui.hyblock.song_1_gui.label_harp_hymn_to_the_joy": "Harp - Hymn To The Joy",
       "item.hyblock.book_song_incomplete": "Book_Song_Incomplete",
       "block.hyblock.yellow_falling_melody": "§e",
+      "gui.hyblock.debug_song_gui.button_send_pink": "send pink",
       "item.hyblock.admin_sword_3": "§4Sword of the Stars 9000",
       "block.hyblock.green_click_melody": "§2: §7Click!",
       "item.hyblock.admin_sword_1": "§4Sword of the Stars",
+      "gui.hyblock.debug_song_gui.button_send_blue": "send blue",
       "item.hyblock.song_1_complete": "§aHymn To The Joy",
       "item.hyblock.song_6_complete": "§aGreensleeves",
       "gui.hyblock.song_4_gui.label_harp_hymn_to_the_joy": "Harp - Brahm\u0027s Lullaby",
@@ -4222,6 +4417,7 @@
       "item.hyblock.melody_tips_torch": "§eUseful Tip!",
       "gui.hyblock.harp_selection.label_melodys_harp": "Melody\u0027s Harp",
       "death.attack.moltengold": "%1$s was melted with gold.",
+      "gui.hyblock.debug_song_gui.button_send_green": "send green",
       "block.hyblock.blue_falling_melody": "§9",
       "block.hyblock.purple_falling_melody": "§5",
       "gui.hyblock.mana_overlay.label_testtest": "test/test",
@@ -4494,7 +4690,12 @@
           },
           {
             "name": "song guis",
-            "children": []
+            "children": [
+              {
+                "name": "debug",
+                "children": []
+              }
+            ]
           },
           {
             "name": "song playing",

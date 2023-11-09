@@ -13,12 +13,12 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.hyblockmc.world.inventory.Song1GUIMenu;
+import net.mcreator.hyblockmc.world.inventory.DebugSongGUIMenu;
 import net.mcreator.hyblockmc.HyblockMod;
 
 import io.netty.buffer.Unpooled;
 
-public class Song1OpenProcedure {
+public class DebugHarpMenuOpenProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
@@ -28,12 +28,12 @@ public class Song1OpenProcedure {
 				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
-						return Component.literal("Song1GUI");
+						return Component.literal("DebugSongGUI");
 					}
 
 					@Override
 					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-						return new Song1GUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new DebugSongGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}
