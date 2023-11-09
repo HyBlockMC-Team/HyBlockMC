@@ -37,6 +37,6 @@ public class DebugHarpOpenGUIProcedure {
 				}, _bpos);
 			}
 		}
-		SongGuiFillColoursProcedure.execute(world, entity);
+		SongGuiFillColoursProcedure.execute(world, x, y, z, entity);
 	}
 }

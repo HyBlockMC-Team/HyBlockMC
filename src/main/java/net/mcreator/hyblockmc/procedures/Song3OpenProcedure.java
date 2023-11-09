@@ -41,7 +41,7 @@ public class Song3OpenProcedure {
 				}
 			}
 			HyblockMod.queueServerWork(2, () -> {
-				SongGuiFillColoursProcedure.execute(world, entity);
+				SongGuiFillColoursProcedure.execute(world, x, y, z, entity);
 			});
 		}
 	}

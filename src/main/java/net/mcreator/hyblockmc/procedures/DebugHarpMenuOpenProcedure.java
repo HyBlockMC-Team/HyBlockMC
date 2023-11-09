@@ -39,7 +39,7 @@ public class DebugHarpMenuOpenProcedure {
 			}
 		}
 		HyblockMod.queueServerWork(2, () -> {
-			SongGuiFillColoursProcedure.execute(world, entity);
+			SongGuiFillColoursProcedure.execute(world, x, y, z, entity);
 		});
 	}
 }
