@@ -4527,7 +4527,80 @@
       "value": "false"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "harp_intro",
+      "files": [
+        "click_intro_thing"
+      ],
+      "category": "record",
+      "subtitle": "Harp Intro"
+    },
+    {
+      "name": "harp_complete",
+      "files": [
+        "complete_sound"
+      ],
+      "category": "record",
+      "subtitle": "Harp Complete"
+    },
+    {
+      "name": "harp_blue_note",
+      "files": [
+        "blue_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Blue Note"
+    },
+    {
+      "name": "harp_green_note",
+      "files": [
+        "green_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Green Note"
+    },
+    {
+      "name": "harp_lightblue_note",
+      "files": [
+        "light_blue_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Light Blue Note"
+    },
+    {
+      "name": "harp_lime_note",
+      "files": [
+        "lime_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Lime Note"
+    },
+    {
+      "name": "harp_pink_note",
+      "files": [
+        "pink_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Pink Note"
+    },
+    {
+      "name": "harp_purple_note",
+      "files": [
+        "purple_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Purple Note"
+    },
+    {
+      "name": "harp_yellow_note",
+      "files": [
+        "yellow_note"
+      ],
+      "category": "record",
+      "subtitle": "Harp Yellow Note"
+    }
+  ],
   "language_map": {
     "en_us": {
       "gui.hyblock.harp_selection.label_select_song_to_play": "Select song to play:",
@@ -4551,9 +4624,12 @@
       "block.hyblock.enchanted_gold_block": "§9Enchanted Gold Block",
       "item.hyblock.song_13_complete": "§aPachelbel",
       "gui.hyblock.song_3_gui.label_harp_hymn_to_the_joy": "Harp - Amazing Grace",
+      "subtitles.harp_intro": "Harp Intro",
       "block.hyblock.riftstalkerspawnerblock": "§4§lRiftstalker Bloodfiend keystone",
       "gui.hyblock.harp_selection.button_close": "Close",
+      "subtitles.harp_blue_note": "Harp Blue Note",
       "gui.hyblock.debug_song_gui.label_harp_hymn_to_the_joy": "Harp - Debug Menu",
+      "subtitles.harp_complete": "Harp Complete",
       "item.hyblock.song_5_complete": "§aHappy Birthday To You",
       "gui.hyblock.debug_song_gui.button_send_light_blue": "send light blue",
       "block.hyblock.revenantspawnerblock": "§4§lRevenant Horror keystone",
@@ -4606,6 +4682,7 @@
       "item.hyblock.admin_sword_1": "§4Sword of the Stars",
       "gui.hyblock.debug_song_gui.button_send_blue": "send blue",
       "item.hyblock.song_1_complete": "§aHymn To The Joy",
+      "subtitles.harp_green_note": "Harp Green Note",
       "item.hyblock.song_6_complete": "§aGreensleeves",
       "gui.hyblock.song_4_gui.label_harp_hymn_to_the_joy": "Harp - Brahm\u0027s Lullaby",
       "block.hyblock.lightblue_click_melody": "§b: §7Click!",
@@ -4613,6 +4690,7 @@
       "block.hyblock.midas_staff_molden_gold": "Midas_Staff_Molden_Gold",
       "item.hyblock.limemelody": "§o",
       "item.hyblock.testdummy_spawn_egg": "Test dummy Spawn Egg",
+      "subtitles.harp_pink_note": "Harp Pink Note",
       "item.hyblock.midas_staff": "§6Midas Staff (Tier I)",
       "block.hyblock.lime_click_melody": "§a: §7Click!",
       "entity.hyblock.testdummy": "Test dummy",
@@ -4645,14 +4723,18 @@
       "item.hyblock.revenantkeystonetablet_t_4": "§4§lRevenant Horror Tablet",
       "item.hyblock.song_9_locked": "§cJoy To The World",
       "item.hyblock.adminsword_2": "§4Sword of the Stars 3000",
+      "subtitles.harp_lightblue_note": "Harp Light Blue Note",
       "item.hyblock.song_12_incomplete": "§aThrough The Campire",
       "item.hyblock.song_10_complete": "§aGodly Imagination",
       "item.hyblock.bluemelody": "§o",
       "gui.hyblock.song_12_gui.label_harp_hymn_to_the_joy": "Harp - Through The Campfire",
+      "subtitles.harp_purple_note": "Harp Purple Note",
       "gui.hyblock.harp_selection.button_play": "play",
       "item.hyblock.yellowmelody": "§o",
       "item.hyblock.song_3_complete": "§aAmazing Grace",
+      "subtitles.harp_lime_note": "Harp Lime Note",
       "item.hyblock.book_song_complete": "Book_Song_Complete",
+      "subtitles.harp_yellow_note": "Harp Yellow Note",
       "item.hyblock.lightbluemelody": "§o",
       "block.hyblock.pink_falling_melody": "§d",
       "block.hyblock.lime_falling_melody": "§a",
