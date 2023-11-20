@@ -154,16 +154,9 @@ public class SongGuiFillColoursProcedure {
 					});
 				}
 			}
-		});
-		HyblockMod.queueServerWork(20, () -> {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"/playsound minecraft:block.note_block.hat master @a ~ ~ ~ 1 0.8");
-			HyblockMod.queueServerWork(20, () -> {
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							"/playsound minecraft:block.note_block.hat master @a ~ ~ ~ 1 0.8");
-			});
+						"/playsound hyblock:harp_intro record @a ~ ~ ~ 100 1");
 		});
 	}
 }

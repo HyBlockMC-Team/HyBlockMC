@@ -4199,6 +4199,62 @@
         ]
       },
       "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "SongGuiFillClickClay",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_gui_fill_click_clay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SongGuiFillClickClayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "SongGUIClosed",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "song_gui_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/SongGUIClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis"
     }
   ],
   "variable_elements": [
@@ -4613,8 +4669,8 @@
       "item.hyblock.song_4_complete": "§aBrahm\u0027s Lullaby",
       "item.hyblock.song_12_complete": "§aThrough The Campire",
       "gui.hyblock.song_13_gui.label_harp_hymn_to_the_joy": "Harp - Pachelbel",
-      "item.hyblock.song_8_incomplete": "§aMinuet",
       "gui.hyblock.debug_song_gui.button_send_all": "send all",
+      "item.hyblock.song_8_incomplete": "§aMinuet",
       "item.hyblock.song_9_complete": "§aJoy To The World",
       "item.hyblock.greenmelody": "§o",
       "item.hyblock.purplemelody": "§o",
