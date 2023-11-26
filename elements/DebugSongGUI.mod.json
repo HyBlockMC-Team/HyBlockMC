@@ -81,6 +81,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "PinkClicked"
+          },
           "x": 150,
           "y": 98
         }
@@ -153,6 +156,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "YellowClicked"
+          },
           "x": 168,
           "y": 98
         }
@@ -225,6 +231,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "LimeClicked"
+          },
           "x": 186,
           "y": 98
         }
@@ -297,6 +306,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "GreenClicked"
+          },
           "x": 204,
           "y": 98
         }
@@ -369,6 +381,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "PurpleClicked"
+          },
           "x": 222,
           "y": 98
         }
@@ -441,6 +456,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "BlueClicked"
+          },
           "x": 240,
           "y": 98
         }
@@ -513,6 +531,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "LightblueClicked"
+          },
           "x": 258,
           "y": 98
         }
@@ -635,7 +656,7 @@
           "width": 120,
           "height": 20,
           "x": 303,
-          "y": 8
+          "y": 26
         }
       },
       {
@@ -649,7 +670,7 @@
           "width": 87,
           "height": 20,
           "x": 303,
-          "y": 35
+          "y": 53
         }
       },
       {
@@ -664,6 +685,21 @@
           "height": 20,
           "x": 6,
           "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_debug_harp_only",
+          "text": {
+            "fixedValue": "(Debug Harp Only)"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 303,
+          "y": 8
         }
       }
     ],

@@ -3127,6 +3127,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song1GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song1GUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song1GUIMenu.java"
         ]
       },
@@ -3178,7 +3179,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song2GUIScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song2GUIMenu.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song2GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song2GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3193,7 +3195,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song3GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song3GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song3GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song3GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3208,7 +3211,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song4GUIScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song4GUIMenu.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song4GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song4GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3223,6 +3227,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song5GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song5GUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song5GUIScreen.java"
         ]
       },
@@ -3238,7 +3243,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song6GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song6GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song6GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song6GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3252,6 +3258,7 @@
       "registry_name": "song_7_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/hyblockmc/network/Song7GUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song7GUIMenu.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song7GUIScreen.java"
         ]
@@ -3268,7 +3275,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song8GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song8GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song8GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song8GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3282,6 +3290,7 @@
       "registry_name": "song_9_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/hyblockmc/network/Song9GUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song9GUIMenu.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song9GUIScreen.java"
         ]
@@ -3298,7 +3307,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song10GUIScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song10GUIMenu.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song10GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song10GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3313,7 +3323,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song11GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song11GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song11GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/network/Song11GUISlotMessage.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3327,6 +3338,7 @@
       "registry_name": "song_12_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/hyblockmc/network/Song12GUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song12GUIScreen.java",
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song12GUIMenu.java"
         ]
@@ -3342,6 +3354,7 @@
       "registry_name": "song_13_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/hyblockmc/network/Song13GUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/world/inventory/Song13GUIMenu.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/Song13GUIScreen.java"
         ]
@@ -3872,6 +3885,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/network/DebugSongGUIButtonMessage.java",
+          "src/main/java/net/mcreator/hyblockmc/network/DebugSongGUISlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/client/gui/DebugSongGUIScreen.java",
           "src/main/java/net/mcreator/hyblockmc/world/inventory/DebugSongGUIMenu.java"
         ]
@@ -4237,6 +4251,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4255,6 +4273,258 @@
         ]
       },
       "path": "~/the harp lol/song guis"
+    },
+    {
+      "name": "PinkClicked",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/PinkClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
+    },
+    {
+      "name": "YellowClicked",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/YellowClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
+    },
+    {
+      "name": "LimeClicked",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/LimeClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
+    },
+    {
+      "name": "GreenClicked",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/GreenClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
+    },
+    {
+      "name": "PurpleClicked",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/PurpleClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
+    },
+    {
+      "name": "BlueClicked",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/BlueClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
+    },
+    {
+      "name": "LightblueClicked",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblue_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hyblockmc/procedures/LightblueClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the harp lol/song guis/colour clicks"
     }
   ],
   "variable_elements": [
@@ -4581,6 +4851,54 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "pink_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "yellow_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "lime_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "green_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "purple_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "blue_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "lightblue_click_cooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "current_song_falling_tickrate",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -4669,8 +4987,8 @@
       "item.hyblock.song_4_complete": "§aBrahm\u0027s Lullaby",
       "item.hyblock.song_12_complete": "§aThrough The Campire",
       "gui.hyblock.song_13_gui.label_harp_hymn_to_the_joy": "Harp - Pachelbel",
-      "gui.hyblock.debug_song_gui.button_send_all": "send all",
       "item.hyblock.song_8_incomplete": "§aMinuet",
+      "gui.hyblock.debug_song_gui.button_send_all": "send all",
       "item.hyblock.song_9_complete": "§aJoy To The World",
       "item.hyblock.greenmelody": "§o",
       "item.hyblock.purplemelody": "§o",
@@ -4791,6 +5109,7 @@
       "subtitles.harp_lime_note": "Harp Lime Note",
       "item.hyblock.book_song_complete": "Book_Song_Complete",
       "subtitles.harp_yellow_note": "Harp Yellow Note",
+      "gui.hyblock.debug_song_gui.label_debug_harp_only": "(Debug Harp Only)",
       "item.hyblock.lightbluemelody": "§o",
       "block.hyblock.pink_falling_melody": "§d",
       "block.hyblock.lime_falling_melody": "§a",
@@ -5038,6 +5357,10 @@
             "children": [
               {
                 "name": "debug",
+                "children": []
+              },
+              {
+                "name": "colour clicks",
                 "children": []
               }
             ]

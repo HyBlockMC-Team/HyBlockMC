@@ -84,6 +84,7 @@ public class DebugSongGUIScreen extends AbstractContainerScreen<DebugSongGUIMenu
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.hyblock.debug_song_gui.label_harp_hymn_to_the_joy"), 3, 4, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hyblock.debug_song_gui.label_debug_harp_only"), 177, -1, -1, false);
 	}
 
 	@Override
@@ -94,7 +95,7 @@ public class DebugSongGUIScreen extends AbstractContainerScreen<DebugSongGUIMenu
 	@Override
 	public void init() {
 		super.init();
-		tick_rate = new EditBox(this.font, this.leftPos + 177, this.topPos + -1, 120, 20, Component.translatable("gui.hyblock.debug_song_gui.tick_rate")) {
+		tick_rate = new EditBox(this.font, this.leftPos + 177, this.topPos + 17, 120, 20, Component.translatable("gui.hyblock.debug_song_gui.tick_rate")) {
 			{
 				setSuggestion(Component.translatable("gui.hyblock.debug_song_gui.tick_rate").getString());
 			}
@@ -181,7 +182,7 @@ public class DebugSongGUIScreen extends AbstractContainerScreen<DebugSongGUIMenu
 				HyblockMod.PACKET_HANDLER.sendToServer(new DebugSongGUIButtonMessage(7, x, y, z));
 				DebugSongGUIButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
-		}).bounds(this.leftPos + 177, this.topPos + 26, 87, 20).build();
+		}).bounds(this.leftPos + 177, this.topPos + 44, 87, 20).build();
 		guistate.put("button:button_change_speed", button_change_speed);
 		this.addRenderableWidget(button_change_speed);
 		button_send_all = Button.builder(Component.translatable("gui.hyblock.debug_song_gui.button_send_all"), e -> {
