@@ -1,21 +1,25 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "midas_staff_2",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "§6Midas Staff (Tier III)",
-    "specialInfo": [
-      "§6Ability: Molten Wave §e§lRIGHT CLICK",
-      "§7Cast a wave of molten gold in",
-      "§7the direction you are facing!",
-      "§7Deals heavy damage.",
-      "§8Cooldown: §a15s",
-      "§0.",
-      "§6§lLEGENDARY STAFF"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "§6Ability: Molten Wave §e§lRIGHT CLICK",
+        "§7Cast a wave of molten gold in",
+        "§7the direction you are facing!",
+        "§7Deals heavy damage.",
+        "§8Cooldown: §a15s",
+        "§0.",
+        "§6§lLEGENDARY STAFF"
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:HyBlockMC"
     },
@@ -26,7 +30,6 @@
     "damageVsEntity": 0.0,
     "usageCount": 0,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

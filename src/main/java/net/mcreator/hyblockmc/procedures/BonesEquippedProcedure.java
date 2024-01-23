@@ -5,8 +5,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.hyblockmc.init.HyblockModItems;
-
 public class BonesEquippedProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)

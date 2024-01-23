@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "voidgloom_boss_spawner_bottom",
@@ -34,12 +34,14 @@
       }
     ],
     "name": "§4§lVoidgloom Seraph keystone",
-    "specialInfo": [
-      "§8Used for spawing the §l§4Voidgloom Seraph",
-      "§r§8slayer boss using a summoning tablet",
-      "§0.",
-      "§4§l§k0§4§lKeystone§4§l§k0"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "§8Used for spawing the §l§4Voidgloom Seraph",
+        "§r§8slayer boss using a summoning tablet",
+        "§0.",
+        "§4§l§k0§4§lKeystone§4§l§k0"
+      ]
+    },
     "hardness": 10.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -125,7 +127,7 @@
     "onRandomUpdateEvent": {
       "name": "Spawnerambientparticles"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

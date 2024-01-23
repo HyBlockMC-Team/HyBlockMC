@@ -11,7 +11,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.hyblockmc.network.HyblockModVariables;
-import net.mcreator.hyblockmc.init.HyblockModItems;
 
 import javax.annotation.Nullable;
 

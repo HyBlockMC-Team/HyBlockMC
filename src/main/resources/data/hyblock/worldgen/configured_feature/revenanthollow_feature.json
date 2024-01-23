@@ -1,0 +1,12 @@
+{
+  "type": "hyblock:structure_feature",
+  "config": {
+    "structure": "hyblock:rev_hollow_gen_block",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:air"
+    ]
+  }
+}

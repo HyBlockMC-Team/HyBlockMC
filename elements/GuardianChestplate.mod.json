@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "armor",
   "definition": {
     "enableHelmet": false,
@@ -18,27 +18,35 @@
     "bodyName": "§9Guardian Chestplate",
     "leggingsName": "§9Creeper Pants",
     "bootsName": "Creeper Pants Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [
-      "§6Ability: Block Damage",
-      "§7If you are at full §c❤health §7.",
-      "§7the first damage you take will",
-      "§7be nullified.",
-      "§8Cooldown: §a60s",
-      "§0.",
-      "§9§lRARE CHESTPLATE"
-    ],
-    "leggingsSpecialInfo": [
-      "§6Ability: Detonate",
-      "§7Causes an explosion when",
-      "§7dropping below §a20% HP§7.",
-      "§7damaging and knocking back all",
-      "§7monsters around you.",
-      "§8Cooldown: §a60s",
-      "§0.",
-      "§9§lRARE LEGGINGS"
-    ],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§6Ability: Block Damage",
+        "§7If you are at full §c❤health §7.",
+        "§7the first damage you take will",
+        "§7be nullified.",
+        "§8Cooldown: §a60s",
+        "§0.",
+        "§9§lRARE CHESTPLATE"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§6Ability: Detonate",
+        "§7Causes an explosion when",
+        "§7dropping below §a20% HP§7.",
+        "§7damaging and knocking back all",
+        "§7monsters around you.",
+        "§8Cooldown: §a60s",
+        "§0.",
+        "§9§lRARE LEGGINGS"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

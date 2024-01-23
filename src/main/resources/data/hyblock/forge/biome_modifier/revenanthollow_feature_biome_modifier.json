@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "swamp",
-  "features": "hyblock:revenanthollow",
+  "features": "hyblock:revenanthollow_feature",
   "step": "surface_structures"
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "gold_block",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Midas_Staff_Molden_Gold",
-    "specialInfo": [
-      "§7Legends say this is the first thing Midas touched"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "§7Legends say this is the first thing Midas touched"
+      ]
+    },
     "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
@@ -122,7 +124,7 @@
     "onTickUpdate": {
       "name": "MidasStaffMoldenGoldUpdateTick"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

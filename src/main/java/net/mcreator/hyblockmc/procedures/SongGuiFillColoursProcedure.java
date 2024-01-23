@@ -7,7 +7,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.hyblockmc.network.HyblockModVariables;
-import net.mcreator.hyblockmc.init.HyblockModItems;
 import net.mcreator.hyblockmc.init.HyblockModBlocks;
 import net.mcreator.hyblockmc.HyblockMod;
 

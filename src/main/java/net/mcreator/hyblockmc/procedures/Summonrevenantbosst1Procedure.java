@@ -21,7 +21,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.hyblockmc.init.HyblockModItems;
 import net.mcreator.hyblockmc.init.HyblockModEntities;
 import net.mcreator.hyblockmc.init.HyblockModBlocks;
 

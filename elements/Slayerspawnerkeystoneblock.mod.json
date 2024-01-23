@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "boss_spawner_bottom",
@@ -34,11 +34,13 @@
       }
     ],
     "name": "§4§lSlayer keystone",
-    "specialInfo": [
-      "§8Used for spawing §4any §r§8slayer boss",
-      "§0.",
-      "§4§l§k0§4§lKeystone§4§l§k0"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "§8Used for spawing §4any §r§8slayer boss",
+        "§0.",
+        "§4§l§k0§4§lKeystone§4§l§k0"
+      ]
+    },
     "hardness": 10.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -124,7 +126,7 @@
     "onRandomUpdateEvent": {
       "name": "Spawnerambientparticles"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

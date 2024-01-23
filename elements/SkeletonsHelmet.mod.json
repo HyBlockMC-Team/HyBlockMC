@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -18,28 +18,36 @@
     "bodyName": "§9Guardian Chestplate",
     "leggingsName": "§9Creeper Pants",
     "bootsName": "Creeper Pants Boots",
-    "helmetSpecialInfo": [
-      "§6Ability: Bone Shield",
-      "§7A Bone Shield will surround you",
-      "§7nullifying damage you take but",
-      "§7consuming a bone in the process.",
-      "§7Bones regenerate every §a30",
-      "§7seconds.",
-      "§0.",
-      "§9§lRARE HELMET"
-    ],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [
-      "§6Ability: Detonate",
-      "§7Causes an explosion when",
-      "§7dropping below §a20% HP§7.",
-      "§7damaging and knocking back all",
-      "§7monsters around you.",
-      "§8Cooldown: §a60s",
-      "§0.",
-      "§9§lRARE LEGGINGS"
-    ],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§6Ability: Bone Shield",
+        "§7A Bone Shield will surround you",
+        "§7nullifying damage you take but",
+        "§7consuming a bone in the process.",
+        "§7Bones regenerate every §a30",
+        "§7seconds.",
+        "§0.",
+        "§9§lRARE HELMET"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§6Ability: Detonate",
+        "§7Causes an explosion when",
+        "§7dropping below §a20% HP§7.",
+        "§7damaging and knocking back all",
+        "§7monsters around you.",
+        "§8Cooldown: §a60s",
+        "§0.",
+        "§9§lRARE LEGGINGS"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

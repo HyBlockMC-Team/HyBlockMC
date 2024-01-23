@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "armor",
   "definition": {
     "enableHelmet": false,
@@ -18,17 +18,25 @@
     "bodyName": "Spiderboots Chestplate",
     "leggingsName": "Spiderboots Leggings",
     "bootsName": "§9Spider's Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [
-      "§6Ability: Double Jump",
-      "§7Allows you to double jump by",
-      "§7sneaking mid air!",
-      "§8Mana Cost: §b20",
-      "§0.",
-      "§9§lRARE BOOTS"
-    ],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§6Ability: Double Jump",
+        "§7Allows you to double jump by",
+        "§7sneaking mid air!",
+        "§8Mana Cost: §b20",
+        "§0.",
+        "§9§lRARE BOOTS"
+      ]
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -27,21 +27,19 @@ public class Song8OpenProcedure {
 			_player.closeContainer();
 		HyblockMod.queueServerWork(2, () -> {
 			if ((entity.getCapability(HyblockModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HyblockModVariables.PlayerVariables())).song_7_high_score >= 90) {
-				{
-					if (entity instanceof ServerPlayer _ent) {
-						BlockPos _bpos = BlockPos.containing(x, y, z);
-						NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
-							@Override
-							public Component getDisplayName() {
-								return Component.literal("Song8GUI");
-							}
+				if (entity instanceof ServerPlayer _ent) {
+					BlockPos _bpos = BlockPos.containing(x, y, z);
+					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
+						@Override
+						public Component getDisplayName() {
+							return Component.literal("Song8GUI");
+						}
 
-							@Override
-							public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-								return new Song8GUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-							}
-						}, _bpos);
-					}
+						@Override
+						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+							return new Song8GUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						}
+					}, _bpos);
 				}
 				SongGuiFillColoursProcedure.execute(world, entity);
 			}

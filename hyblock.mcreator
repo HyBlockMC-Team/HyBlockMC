@@ -102,9 +102,9 @@
       "registry_name": "testdummy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/client/renderer/TestdummyRenderer.java",
-          "src/main/java/net/mcreator/hyblockmc/entity/TestdummyEntity.java",
           "src/main/resources/data/hyblock/forge/biome_modifier/testdummy_biome_modifier.json",
+          "src/main/java/net/mcreator/hyblockmc/entity/TestdummyEntity.java",
+          "src/main/java/net/mcreator/hyblockmc/client/renderer/TestdummyRenderer.java",
           "src/main/resources/assets/hyblock/models/item/testdummy_spawn_egg.json"
         ]
       },
@@ -119,8 +119,8 @@
       "registry_name": "spiderboots",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/spiderboots_boots.json",
-          "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/SpiderbootsItem.java",
+          "src/main/resources/assets/hyblock/models/item/spiderboots_boots.json"
         ]
       },
       "path": "~/items/armor/monster hunter armor/spider boots"
@@ -129,7 +129,7 @@
       "name": "SpiderBootsAbility",
       "type": "procedure",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "spider_boots_ability",
       "metadata": {
@@ -158,8 +158,8 @@
       "registry_name": "hy_block_m_cicon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/HyBlockMCiconItem.java",
-          "src/main/resources/assets/hyblock/models/item/hy_block_m_cicon.json"
+          "src/main/resources/assets/hyblock/models/item/hy_block_m_cicon.json",
+          "src/main/java/net/mcreator/hyblockmc/item/HyBlockMCiconItem.java"
         ]
       },
       "path": "~/systems/icon related"
@@ -718,8 +718,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hyblock/blockstates/revenantspawnerblock.json",
-          "src/main/resources/assets/hyblock/models/item/revenantspawnerblock.json",
           "src/main/java/net/mcreator/hyblockmc/block/RevenantspawnerblockBlock.java",
+          "src/main/resources/assets/hyblock/models/item/revenantspawnerblock.json",
           "src/main/resources/assets/hyblock/models/block/revenantspawnerblock.json"
         ]
       },
@@ -734,8 +734,8 @@
       "registry_name": "ambientspawnerpartincles",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/client/particle/AmbientspawnerpartinclesParticle.java",
-          "src/main/resources/assets/hyblock/particles/ambientspawnerpartincles.json"
+          "src/main/resources/assets/hyblock/particles/ambientspawnerpartincles.json",
+          "src/main/java/net/mcreator/hyblockmc/client/particle/AmbientspawnerpartinclesParticle.java"
         ]
       },
       "path": "~/blocks/spawner blocks"
@@ -781,10 +781,10 @@
       "registry_name": "tarantulaspawnerblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/tarantulaspawnerblock.json",
           "src/main/resources/assets/hyblock/blockstates/tarantulaspawnerblock.json",
-          "src/main/resources/assets/hyblock/models/block/tarantulaspawnerblock.json",
-          "src/main/java/net/mcreator/hyblockmc/block/TarantulaspawnerblockBlock.java"
+          "src/main/java/net/mcreator/hyblockmc/block/TarantulaspawnerblockBlock.java",
+          "src/main/resources/assets/hyblock/models/item/tarantulaspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/tarantulaspawnerblock.json"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners/tarantula spawner"
@@ -798,10 +798,10 @@
       "registry_name": "svenspawnerblock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/block/SvenspawnerblockBlock.java",
           "src/main/resources/assets/hyblock/models/item/svenspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/svenspawnerblock.json",
           "src/main/resources/assets/hyblock/blockstates/svenspawnerblock.json",
-          "src/main/resources/assets/hyblock/models/block/svenspawnerblock.json"
+          "src/main/java/net/mcreator/hyblockmc/block/SvenspawnerblockBlock.java"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners/sven spawner"
@@ -815,10 +815,10 @@
       "registry_name": "voidgloomspawnerblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/voidgloomspawnerblock.json",
           "src/main/resources/assets/hyblock/blockstates/voidgloomspawnerblock.json",
-          "src/main/java/net/mcreator/hyblockmc/block/VoidgloomspawnerblockBlock.java",
-          "src/main/resources/assets/hyblock/models/block/voidgloomspawnerblock.json"
+          "src/main/resources/assets/hyblock/models/item/voidgloomspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/block/voidgloomspawnerblock.json",
+          "src/main/java/net/mcreator/hyblockmc/block/VoidgloomspawnerblockBlock.java"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners/voidgloom spawner"
@@ -850,9 +850,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hyblock/models/block/riftstalkerspawnerblock.json",
-          "src/main/resources/assets/hyblock/blockstates/riftstalkerspawnerblock.json",
+          "src/main/resources/assets/hyblock/models/item/riftstalkerspawnerblock.json",
           "src/main/java/net/mcreator/hyblockmc/block/RiftstalkerspawnerblockBlock.java",
-          "src/main/resources/assets/hyblock/models/item/riftstalkerspawnerblock.json"
+          "src/main/resources/assets/hyblock/blockstates/riftstalkerspawnerblock.json"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners/riftstalker spawner"
@@ -866,10 +866,10 @@
       "registry_name": "slayerspawnerkeystoneblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/block/slayerspawnerkeystoneblock.json",
+          "src/main/java/net/mcreator/hyblockmc/block/SlayerspawnerkeystoneblockBlock.java",
           "src/main/resources/assets/hyblock/models/item/slayerspawnerkeystoneblock.json",
           "src/main/resources/assets/hyblock/blockstates/slayerspawnerkeystoneblock.json",
-          "src/main/java/net/mcreator/hyblockmc/block/SlayerspawnerkeystoneblockBlock.java"
+          "src/main/resources/assets/hyblock/models/block/slayerspawnerkeystoneblock.json"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners"
@@ -883,8 +883,8 @@
       "registry_name": "revenantkeystonetablet_t_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/RevenantkeystonetabletT2Item.java",
-          "src/main/resources/assets/hyblock/models/item/revenantkeystonetablet_t_2.json"
+          "src/main/resources/assets/hyblock/models/item/revenantkeystonetablet_t_2.json",
+          "src/main/java/net/mcreator/hyblockmc/item/RevenantkeystonetabletT2Item.java"
         ]
       },
       "path": "~/blocks/spawner blocks/slayer boss spawners/revenant spawner block/revenant tablets"
@@ -1167,8 +1167,8 @@
       "registry_name": "revenant",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/RevenantItem.java",
-          "src/main/resources/assets/hyblock/models/item/revenant_helmet.json"
+          "src/main/resources/assets/hyblock/models/item/revenant_helmet.json",
+          "src/main/java/net/mcreator/hyblockmc/item/RevenantItem.java"
         ]
       },
       "path": "~/entities/bosses/revenant horror"
@@ -1192,7 +1192,7 @@
       "name": "CreeperPantsAbility",
       "type": "procedure",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "creeper_pants_ability",
       "metadata": {
@@ -1315,7 +1315,7 @@
       "name": "GuardianChestplateAbility",
       "type": "procedure",
       "sortid": 85,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "guardian_chestplate_ability",
       "metadata": {
@@ -1401,7 +1401,7 @@
       "name": "BonesEquipped",
       "type": "procedure",
       "sortid": 88,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bones_equipped",
       "metadata": {
@@ -1422,7 +1422,7 @@
       "name": "SkeletonsHelmetClock",
       "type": "procedure",
       "sortid": 89,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "skeletons_helmet_clock",
       "metadata": {
@@ -1442,7 +1442,7 @@
       "name": "SkeletonsHelmetAbility",
       "type": "procedure",
       "sortid": 90,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "skeletons_helmet_ability",
       "metadata": {
@@ -1459,23 +1459,6 @@
       "path": "~/items/armor/monster hunter armor/skeletons helmet"
     },
     {
-      "name": "Revenanthollow",
-      "type": "structure",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "revenanthollow",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hyblock/forge/biome_modifier/revenanthollow_biome_modifier.json",
-          "src/main/resources/data/hyblock/worldgen/placed_feature/revenanthollow.json",
-          "src/main/java/net/mcreator/hyblockmc/world/features/RevenanthollowFeature.java",
-          "src/main/resources/data/hyblock/worldgen/configured_feature/revenanthollow.json"
-        ]
-      },
-      "path": "~/world content/structures/revenant hollow"
-    },
-    {
       "name": "RevHollowGen",
       "type": "block",
       "sortid": 92,
@@ -1484,10 +1467,10 @@
       "registry_name": "rev_hollow_gen",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/rev_hollow_gen.json",
-          "src/main/resources/assets/hyblock/blockstates/rev_hollow_gen.json",
           "src/main/java/net/mcreator/hyblockmc/block/RevHollowGenBlock.java",
-          "src/main/resources/assets/hyblock/models/block/rev_hollow_gen.json"
+          "src/main/resources/assets/hyblock/models/block/rev_hollow_gen.json",
+          "src/main/resources/assets/hyblock/models/item/rev_hollow_gen.json",
+          "src/main/resources/assets/hyblock/blockstates/rev_hollow_gen.json"
         ]
       },
       "path": "~/world content/structures/revenant hollow"
@@ -1565,8 +1548,8 @@
       "registry_name": "adminsword_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Adminsword2Item.java",
-          "src/main/resources/assets/hyblock/models/item/adminsword_2.json"
+          "src/main/resources/assets/hyblock/models/item/adminsword_2.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Adminsword2Item.java"
         ]
       },
       "path": "~/test content/admin stuff"
@@ -1595,8 +1578,8 @@
       "registry_name": "admin_sword_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/admin_sword_1.json",
-          "src/main/java/net/mcreator/hyblockmc/item/AdminSword1Item.java"
+          "src/main/java/net/mcreator/hyblockmc/item/AdminSword1Item.java",
+          "src/main/resources/assets/hyblock/models/item/admin_sword_1.json"
         ]
       },
       "path": "~/test content/admin stuff"
@@ -1605,7 +1588,7 @@
       "name": "AdminSwordSharpness",
       "type": "procedure",
       "sortid": 95,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "admin_sword_sharpness",
       "metadata": {
@@ -1625,7 +1608,7 @@
       "name": "AdminSwordSharpness2",
       "type": "procedure",
       "sortid": 96,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "admin_sword_sharpness_2",
       "metadata": {
@@ -1645,7 +1628,7 @@
       "name": "AdminSwordSharpness3",
       "type": "procedure",
       "sortid": 97,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "admin_sword_sharpness_3",
       "metadata": {
@@ -1670,8 +1653,8 @@
       "registry_name": "midas_staff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/midas_staff.json",
-          "src/main/java/net/mcreator/hyblockmc/item/MidasStaffItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/MidasStaffItem.java",
+          "src/main/resources/assets/hyblock/models/item/midas_staff.json"
         ]
       },
       "path": "~/items/weapons/midas staff"
@@ -1680,7 +1663,7 @@
       "name": "MidasStaffAbility",
       "type": "procedure",
       "sortid": 98,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "midas_staff_ability",
       "metadata": {
@@ -1722,9 +1705,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/block/MidasStaffMoldenGoldBlock.java",
-          "src/main/resources/assets/hyblock/models/item/midas_staff_molden_gold.json",
+          "src/main/resources/assets/hyblock/models/block/midas_staff_molden_gold.json",
           "src/main/resources/assets/hyblock/blockstates/midas_staff_molden_gold.json",
-          "src/main/resources/assets/hyblock/models/block/midas_staff_molden_gold.json"
+          "src/main/resources/assets/hyblock/models/item/midas_staff_molden_gold.json"
         ]
       },
       "path": "~/items/weapons/midas staff"
@@ -1821,8 +1804,8 @@
       "registry_name": "midas_staff_t_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/MidasStaffT3Item.java",
-          "src/main/resources/assets/hyblock/models/item/midas_staff_t_3.json"
+          "src/main/resources/assets/hyblock/models/item/midas_staff_t_3.json",
+          "src/main/java/net/mcreator/hyblockmc/item/MidasStaffT3Item.java"
         ]
       },
       "path": "~/items/weapons/midas staff"
@@ -1851,8 +1834,8 @@
       "registry_name": "midas_staff_t_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/midas_staff_t_5.json",
-          "src/main/java/net/mcreator/hyblockmc/item/MidasStaffT5Item.java"
+          "src/main/java/net/mcreator/hyblockmc/item/MidasStaffT5Item.java",
+          "src/main/resources/assets/hyblock/models/item/midas_staff_t_5.json"
         ]
       },
       "path": "~/items/weapons/midas staff"
@@ -1866,8 +1849,8 @@
       "registry_name": "enchanted_gold",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/EnchantedGoldItem.java",
-          "src/main/resources/assets/hyblock/models/item/enchanted_gold.json"
+          "src/main/resources/assets/hyblock/models/item/enchanted_gold.json",
+          "src/main/java/net/mcreator/hyblockmc/item/EnchantedGoldItem.java"
         ]
       },
       "path": "~/items/materials/gold"
@@ -1881,10 +1864,10 @@
       "registry_name": "enchanted_gold_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hyblock/models/block/enchanted_gold_block.json",
           "src/main/resources/assets/hyblock/blockstates/enchanted_gold_block.json",
-          "src/main/java/net/mcreator/hyblockmc/block/EnchantedGoldBlockBlock.java",
           "src/main/resources/assets/hyblock/models/item/enchanted_gold_block.json",
-          "src/main/resources/assets/hyblock/models/block/enchanted_gold_block.json"
+          "src/main/java/net/mcreator/hyblockmc/block/EnchantedGoldBlockBlock.java"
         ]
       },
       "path": "~/items/materials/gold"
@@ -2018,10 +2001,10 @@
       "registry_name": "melody_harp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/blockstates/melody_harp.json",
+          "src/main/resources/assets/hyblock/models/item/melody_harp.json",
           "src/main/resources/assets/hyblock/models/block/melody_harp.json",
-          "src/main/java/net/mcreator/hyblockmc/block/MelodyHarpBlock.java",
-          "src/main/resources/assets/hyblock/models/item/melody_harp.json"
+          "src/main/resources/assets/hyblock/blockstates/melody_harp.json",
+          "src/main/java/net/mcreator/hyblockmc/block/MelodyHarpBlock.java"
         ]
       },
       "path": "~/the harp lol"
@@ -2035,10 +2018,10 @@
       "registry_name": "harp_selection",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/HarpSelectionMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/HarpSelectionScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/network/HarpSelectionSlotMessage.java",
           "src/main/java/net/mcreator/hyblockmc/network/HarpSelectionButtonMessage.java",
-          "src/main/java/net/mcreator/hyblockmc/network/HarpSelectionSlotMessage.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/HarpSelectionMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/HarpSelectionScreen.java"
         ]
       },
       "path": "~/the harp lol"
@@ -2047,7 +2030,7 @@
       "name": "MelodyHarpGuiClick",
       "type": "procedure",
       "sortid": 113,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "melody_harp_gui_click",
       "metadata": {
@@ -2118,8 +2101,8 @@
       "registry_name": "book_song_locked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/book_song_locked.json",
-          "src/main/java/net/mcreator/hyblockmc/item/BookSongLockedItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/BookSongLockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/book_song_locked.json"
         ]
       },
       "path": "~/the harp lol/gui items"
@@ -2182,8 +2165,8 @@
       "registry_name": "pinkmelody",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/PinkmelodyItem.java",
-          "src/main/resources/assets/hyblock/models/item/pinkmelody.json"
+          "src/main/resources/assets/hyblock/models/item/pinkmelody.json",
+          "src/main/java/net/mcreator/hyblockmc/item/PinkmelodyItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2197,8 +2180,8 @@
       "registry_name": "yellowmelody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/yellowmelody.json",
-          "src/main/java/net/mcreator/hyblockmc/item/YellowmelodyItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/YellowmelodyItem.java",
+          "src/main/resources/assets/hyblock/models/item/yellowmelody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2212,8 +2195,8 @@
       "registry_name": "limemelody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/limemelody.json",
-          "src/main/java/net/mcreator/hyblockmc/item/LimemelodyItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/LimemelodyItem.java",
+          "src/main/resources/assets/hyblock/models/item/limemelody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2242,8 +2225,8 @@
       "registry_name": "purplemelody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/purplemelody.json",
-          "src/main/java/net/mcreator/hyblockmc/item/PurplemelodyItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/PurplemelodyItem.java",
+          "src/main/resources/assets/hyblock/models/item/purplemelody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2257,8 +2240,8 @@
       "registry_name": "bluemelody",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/BluemelodyItem.java",
-          "src/main/resources/assets/hyblock/models/item/bluemelody.json"
+          "src/main/resources/assets/hyblock/models/item/bluemelody.json",
+          "src/main/java/net/mcreator/hyblockmc/item/BluemelodyItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2287,10 +2270,10 @@
       "registry_name": "pink_click_melody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/blockstates/pink_click_melody.json",
           "src/main/resources/assets/hyblock/models/item/pink_click_melody.json",
-          "src/main/java/net/mcreator/hyblockmc/block/PinkClickMelodyBlock.java",
-          "src/main/resources/assets/hyblock/models/block/pink_click_melody.json"
+          "src/main/resources/assets/hyblock/blockstates/pink_click_melody.json",
+          "src/main/resources/assets/hyblock/models/block/pink_click_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/PinkClickMelodyBlock.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2304,10 +2287,10 @@
       "registry_name": "yellow_click_melody",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/block/YellowClickMelodyBlock.java",
-          "src/main/resources/assets/hyblock/models/item/yellow_click_melody.json",
           "src/main/resources/assets/hyblock/models/block/yellow_click_melody.json",
-          "src/main/resources/assets/hyblock/blockstates/yellow_click_melody.json"
+          "src/main/java/net/mcreator/hyblockmc/block/YellowClickMelodyBlock.java",
+          "src/main/resources/assets/hyblock/blockstates/yellow_click_melody.json",
+          "src/main/resources/assets/hyblock/models/item/yellow_click_melody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2322,9 +2305,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hyblockmc/block/LimeClickMelodyBlock.java",
+          "src/main/resources/assets/hyblock/models/item/lime_click_melody.json",
           "src/main/resources/assets/hyblock/blockstates/lime_click_melody.json",
-          "src/main/resources/assets/hyblock/models/block/lime_click_melody.json",
-          "src/main/resources/assets/hyblock/models/item/lime_click_melody.json"
+          "src/main/resources/assets/hyblock/models/block/lime_click_melody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2338,10 +2321,10 @@
       "registry_name": "green_click_melody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/block/green_click_melody.json",
-          "src/main/resources/assets/hyblock/blockstates/green_click_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/GreenClickMelodyBlock.java",
           "src/main/resources/assets/hyblock/models/item/green_click_melody.json",
-          "src/main/java/net/mcreator/hyblockmc/block/GreenClickMelodyBlock.java"
+          "src/main/resources/assets/hyblock/models/block/green_click_melody.json",
+          "src/main/resources/assets/hyblock/blockstates/green_click_melody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2356,9 +2339,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hyblock/blockstates/purple_click_melody.json",
+          "src/main/resources/assets/hyblock/models/block/purple_click_melody.json",
           "src/main/resources/assets/hyblock/models/item/purple_click_melody.json",
-          "src/main/java/net/mcreator/hyblockmc/block/PurpleClickMelodyBlock.java",
-          "src/main/resources/assets/hyblock/models/block/purple_click_melody.json"
+          "src/main/java/net/mcreator/hyblockmc/block/PurpleClickMelodyBlock.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2372,10 +2355,10 @@
       "registry_name": "blue_click_melody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/block/blue_click_melody.json",
-          "src/main/resources/assets/hyblock/blockstates/blue_click_melody.json",
           "src/main/java/net/mcreator/hyblockmc/block/BlueClickMelodyBlock.java",
-          "src/main/resources/assets/hyblock/models/item/blue_click_melody.json"
+          "src/main/resources/assets/hyblock/models/item/blue_click_melody.json",
+          "src/main/resources/assets/hyblock/models/block/blue_click_melody.json",
+          "src/main/resources/assets/hyblock/blockstates/blue_click_melody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2391,8 +2374,8 @@
         "files": [
           "src/main/java/net/mcreator/hyblockmc/block/LightblueClickMelodyBlock.java",
           "src/main/resources/assets/hyblock/blockstates/lightblue_click_melody.json",
-          "src/main/resources/assets/hyblock/models/block/lightblue_click_melody.json",
-          "src/main/resources/assets/hyblock/models/item/lightblue_click_melody.json"
+          "src/main/resources/assets/hyblock/models/item/lightblue_click_melody.json",
+          "src/main/resources/assets/hyblock/models/block/lightblue_click_melody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2406,10 +2389,10 @@
       "registry_name": "pink_falling_melody",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/block/PinkFallingMelodyBlock.java",
-          "src/main/resources/assets/hyblock/models/block/pink_falling_melody.json",
           "src/main/resources/assets/hyblock/models/item/pink_falling_melody.json",
-          "src/main/resources/assets/hyblock/blockstates/pink_falling_melody.json"
+          "src/main/resources/assets/hyblock/models/block/pink_falling_melody.json",
+          "src/main/resources/assets/hyblock/blockstates/pink_falling_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/PinkFallingMelodyBlock.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2423,9 +2406,9 @@
       "registry_name": "yellow_falling_melody",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hyblock/models/item/yellow_falling_melody.json",
           "src/main/resources/assets/hyblock/blockstates/yellow_falling_melody.json",
           "src/main/java/net/mcreator/hyblockmc/block/YellowFallingMelodyBlock.java",
-          "src/main/resources/assets/hyblock/models/item/yellow_falling_melody.json",
           "src/main/resources/assets/hyblock/models/block/yellow_falling_melody.json"
         ]
       },
@@ -2440,9 +2423,9 @@
       "registry_name": "lime_falling_melody",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/block/LimeFallingMelodyBlock.java",
           "src/main/resources/assets/hyblock/models/item/lime_falling_melody.json",
           "src/main/resources/assets/hyblock/models/block/lime_falling_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/LimeFallingMelodyBlock.java",
           "src/main/resources/assets/hyblock/blockstates/lime_falling_melody.json"
         ]
       },
@@ -2459,8 +2442,8 @@
         "files": [
           "src/main/resources/assets/hyblock/models/block/green_falling_melody.json",
           "src/main/resources/assets/hyblock/models/item/green_falling_melody.json",
-          "src/main/java/net/mcreator/hyblockmc/block/GreenFallingMelodyBlock.java",
-          "src/main/resources/assets/hyblock/blockstates/green_falling_melody.json"
+          "src/main/resources/assets/hyblock/blockstates/green_falling_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/GreenFallingMelodyBlock.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2475,9 +2458,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hyblock/blockstates/purple_falling_melody.json",
-          "src/main/resources/assets/hyblock/models/item/purple_falling_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/PurpleFallingMelodyBlock.java",
           "src/main/resources/assets/hyblock/models/block/purple_falling_melody.json",
-          "src/main/java/net/mcreator/hyblockmc/block/PurpleFallingMelodyBlock.java"
+          "src/main/resources/assets/hyblock/models/item/purple_falling_melody.json"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2491,10 +2474,10 @@
       "registry_name": "blue_falling_melody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/block/blue_falling_melody.json",
-          "src/main/java/net/mcreator/hyblockmc/block/BlueFallingMelodyBlock.java",
+          "src/main/resources/assets/hyblock/blockstates/blue_falling_melody.json",
           "src/main/resources/assets/hyblock/models/item/blue_falling_melody.json",
-          "src/main/resources/assets/hyblock/blockstates/blue_falling_melody.json"
+          "src/main/resources/assets/hyblock/models/block/blue_falling_melody.json",
+          "src/main/java/net/mcreator/hyblockmc/block/BlueFallingMelodyBlock.java"
         ]
       },
       "path": "~/the harp lol/gui items/colours"
@@ -2508,9 +2491,9 @@
       "registry_name": "lightblue_falling_melody",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/block/lightblue_falling_melody.json",
           "src/main/resources/assets/hyblock/models/item/lightblue_falling_melody.json",
           "src/main/resources/assets/hyblock/blockstates/lightblue_falling_melody.json",
+          "src/main/resources/assets/hyblock/models/block/lightblue_falling_melody.json",
           "src/main/java/net/mcreator/hyblockmc/block/LightblueFallingMelodyBlock.java"
         ]
       },
@@ -2525,8 +2508,8 @@
       "registry_name": "song_1_incomplete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_1_incomplete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song1IncompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song1IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_1_incomplete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2540,8 +2523,8 @@
       "registry_name": "song_2_incomplete",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song2IncompleteItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_2_incomplete.json"
+          "src/main/resources/assets/hyblock/models/item/song_2_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song2IncompleteItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2555,8 +2538,8 @@
       "registry_name": "song_3_incomplete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_3_incomplete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song3IncompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song3IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_3_incomplete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2570,8 +2553,8 @@
       "registry_name": "song_4_incomplete",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song4IncompleteItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_4_incomplete.json"
+          "src/main/resources/assets/hyblock/models/item/song_4_incomplete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song4IncompleteItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2600,8 +2583,8 @@
       "registry_name": "song_6_incomplete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_6_incomplete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song6IncompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song6IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_6_incomplete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2615,8 +2598,8 @@
       "registry_name": "song_7_incomplete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_7_incomplete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song7IncompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song7IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_7_incomplete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2630,8 +2613,8 @@
       "registry_name": "song_8_incomplete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_8_incomplete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song8IncompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song8IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_8_incomplete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2675,8 +2658,8 @@
       "registry_name": "song_11_incomplete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_11_incomplete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song11IncompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song11IncompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_11_incomplete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2735,8 +2718,8 @@
       "registry_name": "song_2_complete",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song2CompleteItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_2_complete.json"
+          "src/main/resources/assets/hyblock/models/item/song_2_complete.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song2CompleteItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2795,8 +2778,8 @@
       "registry_name": "song_6_complete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_6_complete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song6CompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song6CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_6_complete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2825,8 +2808,8 @@
       "registry_name": "song_8_complete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_8_complete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song8CompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song8CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_8_complete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2855,8 +2838,8 @@
       "registry_name": "song_10_complete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_10_complete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song10CompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song10CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_10_complete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2885,8 +2868,8 @@
       "registry_name": "song_12_complete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_12_complete.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song12CompleteItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song12CompleteItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_12_complete.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2915,8 +2898,8 @@
       "registry_name": "song_1_locked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_1_locked.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song1LockedItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song1LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_1_locked.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2945,8 +2928,8 @@
       "registry_name": "song_3_locked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_3_locked.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song3LockedItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song3LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_3_locked.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -2975,8 +2958,8 @@
       "registry_name": "song_5_locked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song5LockedItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_5_locked.json"
+          "src/main/resources/assets/hyblock/models/item/song_5_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song5LockedItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -3005,8 +2988,8 @@
       "registry_name": "song_7_locked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song7LockedItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_7_locked.json"
+          "src/main/resources/assets/hyblock/models/item/song_7_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song7LockedItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -3035,8 +3018,8 @@
       "registry_name": "song_9_locked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song9LockedItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_9_locked.json"
+          "src/main/resources/assets/hyblock/models/item/song_9_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song9LockedItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -3065,8 +3048,8 @@
       "registry_name": "song_11_locked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hyblock/models/item/song_11_locked.json",
-          "src/main/java/net/mcreator/hyblockmc/item/Song11LockedItem.java"
+          "src/main/java/net/mcreator/hyblockmc/item/Song11LockedItem.java",
+          "src/main/resources/assets/hyblock/models/item/song_11_locked.json"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -3080,8 +3063,8 @@
       "registry_name": "song_12_locked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/item/Song12LockedItem.java",
-          "src/main/resources/assets/hyblock/models/item/song_12_locked.json"
+          "src/main/resources/assets/hyblock/models/item/song_12_locked.json",
+          "src/main/java/net/mcreator/hyblockmc/item/Song12LockedItem.java"
         ]
       },
       "path": "~/the harp lol/gui items/songs/books"
@@ -3110,8 +3093,8 @@
       "registry_name": "song_1_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song1GUIScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song1GUIMenu.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song1GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song1GUIScreen.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3120,7 +3103,7 @@
       "name": "SongGuiFillColours",
       "type": "procedure",
       "sortid": 195,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "song_gui_fill_colours",
       "metadata": {
@@ -3164,8 +3147,8 @@
       "registry_name": "song_3_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song3GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song3GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song3GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song3GUIMenu.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3179,8 +3162,8 @@
       "registry_name": "song_4_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song4GUIScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song4GUIMenu.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song4GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song4GUIScreen.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3224,8 +3207,8 @@
       "registry_name": "song_7_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song7GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song7GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song7GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song7GUIMenu.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3239,8 +3222,8 @@
       "registry_name": "song_8_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song8GUIMenu.java",
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song8GUIScreen.java"
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song8GUIScreen.java",
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song8GUIMenu.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3269,8 +3252,8 @@
       "registry_name": "song_10_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hyblockmc/client/gui/Song10GUIScreen.java",
-          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song10GUIMenu.java"
+          "src/main/java/net/mcreator/hyblockmc/world/inventory/Song10GUIMenu.java",
+          "src/main/java/net/mcreator/hyblockmc/client/gui/Song10GUIScreen.java"
         ]
       },
       "path": "~/the harp lol/song guis"
@@ -3819,6 +3802,22 @@
         ]
       },
       "path": "~/the harp lol/gui items/colours"
+    },
+    {
+      "name": "RevenanthollowFeature",
+      "type": "feature",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revenanthollow_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hyblock/worldgen/placed_feature/revenanthollow_feature.json",
+          "src/main/resources/data/hyblock/forge/biome_modifier/revenanthollow_feature_biome_modifier.json",
+          "src/main/resources/data/hyblock/worldgen/configured_feature/revenanthollow_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
     }
   ],
   "variable_elements": [
@@ -4526,5 +4525,5 @@
     "modElementsPackage": "net.mcreator.hyblockmc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202300452316
 }

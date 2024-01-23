@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "test_harp",
@@ -34,11 +34,13 @@
       }
     ],
     "name": "§5Melody's Harp",
-    "specialInfo": [
-      "§7Complete Melody's songs for different rewards!",
-      "§0.",
-      "§5§lEPIC"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "§7Complete Melody's songs for different rewards!",
+        "§0.",
+        "§5§lEPIC"
+      ]
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -124,7 +126,7 @@
     "onRightClicked": {
       "name": "MelodyHarpGuiClick"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

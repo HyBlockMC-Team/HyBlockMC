@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -26,19 +26,22 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§8Used for spawing the §5Tier 5 Revenant Horror",
-      "§r§8slayer boss at a keystone",
-      "§0.",
-      "§4§l§k0§4§lSummoning Tablet§4§l§k0"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "§8Used for spawing the §5Tier 5 Revenant Horror",
+        "§r§8slayer boss at a keystone",
+        "§0.",
+        "§4§l§k0§4§lSummoning Tablet§4§l§k0"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
       "name": "Summonrevenantbosst5"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

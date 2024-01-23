@@ -1,23 +1,27 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "gold_sword",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "§4Sword of the Stars",
-    "specialInfo": [
-      "§7Damage: §c+99",
-      "§0.",
-      "§d\"Only those with the power to",
-      "§dcreate this sword can wield this",
-      "§dblade.\"",
-      "§0.",
-      "§0.",
-      "§4§lADMIN SWORD",
-      "§0."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "§7Damage: §c+99",
+        "§0.",
+        "§d\"Only those with the power to",
+        "§dcreate this sword can wield this",
+        "§dblade.\"",
+        "§0.",
+        "§0.",
+        "§4§lADMIN SWORD",
+        "§0."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:HyBlockMC"
     },
@@ -28,7 +32,6 @@
     "damageVsEntity": 99.0,
     "usageCount": 0,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

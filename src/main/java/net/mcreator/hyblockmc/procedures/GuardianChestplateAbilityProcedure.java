@@ -20,7 +20,6 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.hyblockmc.network.HyblockModVariables;
-import net.mcreator.hyblockmc.init.HyblockModItems;
 import net.mcreator.hyblockmc.HyblockMod;
 
 import javax.annotation.Nullable;

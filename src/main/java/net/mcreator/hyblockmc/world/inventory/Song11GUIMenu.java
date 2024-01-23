@@ -724,11 +724,175 @@ public class Song11GUIMenu extends AbstractContainerMenu implements Supplier<Map
 				for (int j = 0; j < internal.getSlots(); ++j) {
 					if (j == 11)
 						continue;
+					if (j == 12)
+						continue;
+					if (j == 13)
+						continue;
+					if (j == 14)
+						continue;
+					if (j == 15)
+						continue;
+					if (j == 16)
+						continue;
+					if (j == 21)
+						continue;
+					if (j == 22)
+						continue;
+					if (j == 23)
+						continue;
+					if (j == 24)
+						continue;
+					if (j == 25)
+						continue;
+					if (j == 26)
+						continue;
+					if (j == 31)
+						continue;
+					if (j == 32)
+						continue;
+					if (j == 33)
+						continue;
+					if (j == 34)
+						continue;
+					if (j == 35)
+						continue;
+					if (j == 36)
+						continue;
+					if (j == 41)
+						continue;
+					if (j == 42)
+						continue;
+					if (j == 43)
+						continue;
+					if (j == 44)
+						continue;
+					if (j == 45)
+						continue;
+					if (j == 46)
+						continue;
+					if (j == 51)
+						continue;
+					if (j == 52)
+						continue;
+					if (j == 53)
+						continue;
+					if (j == 54)
+						continue;
+					if (j == 55)
+						continue;
+					if (j == 56)
+						continue;
+					if (j == 61)
+						continue;
+					if (j == 62)
+						continue;
+					if (j == 63)
+						continue;
+					if (j == 64)
+						continue;
+					if (j == 65)
+						continue;
+					if (j == 66)
+						continue;
+					if (j == 71)
+						continue;
+					if (j == 72)
+						continue;
+					if (j == 73)
+						continue;
+					if (j == 74)
+						continue;
+					if (j == 75)
+						continue;
+					if (j == 76)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
 					if (i == 11)
+						continue;
+					if (i == 12)
+						continue;
+					if (i == 13)
+						continue;
+					if (i == 14)
+						continue;
+					if (i == 15)
+						continue;
+					if (i == 16)
+						continue;
+					if (i == 21)
+						continue;
+					if (i == 22)
+						continue;
+					if (i == 23)
+						continue;
+					if (i == 24)
+						continue;
+					if (i == 25)
+						continue;
+					if (i == 26)
+						continue;
+					if (i == 31)
+						continue;
+					if (i == 32)
+						continue;
+					if (i == 33)
+						continue;
+					if (i == 34)
+						continue;
+					if (i == 35)
+						continue;
+					if (i == 36)
+						continue;
+					if (i == 41)
+						continue;
+					if (i == 42)
+						continue;
+					if (i == 43)
+						continue;
+					if (i == 44)
+						continue;
+					if (i == 45)
+						continue;
+					if (i == 46)
+						continue;
+					if (i == 51)
+						continue;
+					if (i == 52)
+						continue;
+					if (i == 53)
+						continue;
+					if (i == 54)
+						continue;
+					if (i == 55)
+						continue;
+					if (i == 56)
+						continue;
+					if (i == 61)
+						continue;
+					if (i == 62)
+						continue;
+					if (i == 63)
+						continue;
+					if (i == 64)
+						continue;
+					if (i == 65)
+						continue;
+					if (i == 66)
+						continue;
+					if (i == 71)
+						continue;
+					if (i == 72)
+						continue;
+					if (i == 73)
+						continue;
+					if (i == 74)
+						continue;
+					if (i == 75)
+						continue;
+					if (i == 76)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

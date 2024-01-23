@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "hyblock:enchanted_gold_block"
     },
-    "1": {
-      "item": "hyblock:enchanted_gold_block"
-    },
-    "2": {
-      "item": "hyblock:enchanted_gold_block"
-    },
-    "3": {
-      "item": "hyblock:enchanted_gold_block"
-    },
-    "4": {
+    "b": {
       "item": "hyblock:midas_staff_t_4"
-    },
-    "5": {
-      "item": "hyblock:enchanted_gold_block"
-    },
-    "6": {
-      "item": "hyblock:enchanted_gold_block"
-    },
-    "7": {
-      "item": "hyblock:enchanted_gold_block"
-    },
-    "8": {
-      "item": "hyblock:enchanted_gold_block"
     }
   },
   "result": {
