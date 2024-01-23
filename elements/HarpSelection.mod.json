@@ -248,6 +248,12 @@
         }
       }
     ],
+    "onTick": {
+      "name": "MelodyHarpGuiClick"
+    },
+    "onClosed": {
+      "name": "SongGUIClosed"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

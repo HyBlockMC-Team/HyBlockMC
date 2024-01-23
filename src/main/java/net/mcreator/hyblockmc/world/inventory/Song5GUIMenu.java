@@ -19,7 +19,10 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.hyblockmc.procedures.SongGUIClosedProcedure;
+import net.mcreator.hyblockmc.network.Song5GUISlotMessage;
 import net.mcreator.hyblockmc.init.HyblockModMenus;
+import net.mcreator.hyblockmc.HyblockMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -133,6 +136,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 			private final int slot = 15;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(15, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
@@ -204,6 +213,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 43, 90) {
 			private final int slot = 25;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(25, 1, 0);
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -279,6 +294,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 			private final int slot = 35;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(35, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
@@ -350,6 +371,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		this.customSlots.put(45, this.addSlot(new SlotItemHandler(internal, 45, 79, 90) {
 			private final int slot = 45;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(45, 1, 0);
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -425,6 +452,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 			private final int slot = 55;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(55, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
@@ -498,6 +531,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 			private final int slot = 65;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(65, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
@@ -569,6 +608,12 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		this.customSlots.put(75, this.addSlot(new SlotItemHandler(internal, 75, 133, 90) {
 			private final int slot = 75;
+
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(75, 1, 0);
+			}
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -719,6 +764,7 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+		SongGUIClosedProcedure.execute(world, x, y, z, entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
@@ -897,6 +943,13 @@ public class Song5GUIMenu extends AbstractContainerMenu implements Supplier<Map<
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			HyblockMod.PACKET_HANDLER.sendToServer(new Song5GUISlotMessage(slotid, x, y, z, ctype, meta));
+			Song5GUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

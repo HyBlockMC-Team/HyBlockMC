@@ -25,6 +25,7 @@ import net.mcreator.hyblockmc.world.inventory.Song12GUIMenu;
 import net.mcreator.hyblockmc.world.inventory.Song11GUIMenu;
 import net.mcreator.hyblockmc.world.inventory.Song10GUIMenu;
 import net.mcreator.hyblockmc.world.inventory.HarpSelectionMenu;
+import net.mcreator.hyblockmc.world.inventory.DebugSongGUIMenu;
 import net.mcreator.hyblockmc.HyblockMod;
 
 public class HyblockModMenus {
@@ -43,4 +44,5 @@ public class HyblockModMenus {
 	public static final RegistryObject<MenuType<Song11GUIMenu>> SONG_11_GUI = REGISTRY.register("song_11_gui", () -> IForgeMenuType.create(Song11GUIMenu::new));
 	public static final RegistryObject<MenuType<Song12GUIMenu>> SONG_12_GUI = REGISTRY.register("song_12_gui", () -> IForgeMenuType.create(Song12GUIMenu::new));
 	public static final RegistryObject<MenuType<Song13GUIMenu>> SONG_13_GUI = REGISTRY.register("song_13_gui", () -> IForgeMenuType.create(Song13GUIMenu::new));
+	public static final RegistryObject<MenuType<DebugSongGUIMenu>> DEBUG_SONG_GUI = REGISTRY.register("debug_song_gui", () -> IForgeMenuType.create(DebugSongGUIMenu::new));
 }

@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hyblockmc.world.features.StructureFeature;
 import net.mcreator.hyblockmc.init.HyblockModTabs;
+import net.mcreator.hyblockmc.init.HyblockModSounds;
 import net.mcreator.hyblockmc.init.HyblockModParticleTypes;
 import net.mcreator.hyblockmc.init.HyblockModMenus;
 import net.mcreator.hyblockmc.init.HyblockModItems;
@@ -54,7 +55,7 @@ public class HyblockMod {
 	public HyblockMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		HyblockModSounds.REGISTRY.register(bus);
 		HyblockModBlocks.REGISTRY.register(bus);
 
 		HyblockModItems.REGISTRY.register(bus);

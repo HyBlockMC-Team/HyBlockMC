@@ -1,0 +1,83 @@
+{
+  "harp_purple_note": {
+    "subtitle": "subtitles.harp_purple_note",
+    "sounds": [
+      {
+        "name": "hyblock:purple_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_lightblue_note": {
+    "subtitle": "subtitles.harp_lightblue_note",
+    "sounds": [
+      {
+        "name": "hyblock:light_blue_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_blue_note": {
+    "subtitle": "subtitles.harp_blue_note",
+    "sounds": [
+      {
+        "name": "hyblock:blue_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_green_note": {
+    "subtitle": "subtitles.harp_green_note",
+    "sounds": [
+      {
+        "name": "hyblock:green_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_lime_note": {
+    "subtitle": "subtitles.harp_lime_note",
+    "sounds": [
+      {
+        "name": "hyblock:lime_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_pink_note": {
+    "subtitle": "subtitles.harp_pink_note",
+    "sounds": [
+      {
+        "name": "hyblock:pink_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_complete": {
+    "subtitle": "subtitles.harp_complete",
+    "sounds": [
+      {
+        "name": "hyblock:complete_sound",
+        "stream": true
+      }
+    ]
+  },
+  "harp_yellow_note": {
+    "subtitle": "subtitles.harp_yellow_note",
+    "sounds": [
+      {
+        "name": "hyblock:yellow_note",
+        "stream": true
+      }
+    ]
+  },
+  "harp_intro": {
+    "subtitle": "subtitles.harp_intro",
+    "sounds": [
+      {
+        "name": "hyblock:click_intro_thing",
+        "stream": true
+      }
+    ]
+  }
+}

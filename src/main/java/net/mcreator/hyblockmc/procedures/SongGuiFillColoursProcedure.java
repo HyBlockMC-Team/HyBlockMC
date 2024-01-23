@@ -1,17 +1,8 @@
 package net.mcreator.hyblockmc.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.hyblockmc.network.HyblockModVariables;
-import net.mcreator.hyblockmc.init.HyblockModBlocks;
-import net.mcreator.hyblockmc.HyblockMod;
-
-import java.util.function.Supplier;
-import java.util.Map;
+import javax.annotation.Nullable;
 
 public class SongGuiFillColoursProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

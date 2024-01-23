@@ -25,6 +25,7 @@ import net.mcreator.hyblockmc.client.gui.Song12GUIScreen;
 import net.mcreator.hyblockmc.client.gui.Song11GUIScreen;
 import net.mcreator.hyblockmc.client.gui.Song10GUIScreen;
 import net.mcreator.hyblockmc.client.gui.HarpSelectionScreen;
+import net.mcreator.hyblockmc.client.gui.DebugSongGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class HyblockModScreens {
@@ -45,6 +46,7 @@ public class HyblockModScreens {
 			MenuScreens.register(HyblockModMenus.SONG_11_GUI.get(), Song11GUIScreen::new);
 			MenuScreens.register(HyblockModMenus.SONG_12_GUI.get(), Song12GUIScreen::new);
 			MenuScreens.register(HyblockModMenus.SONG_13_GUI.get(), Song13GUIScreen::new);
+			MenuScreens.register(HyblockModMenus.DEBUG_SONG_GUI.get(), DebugSongGUIScreen::new);
 		});
 	}
 }

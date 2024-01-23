@@ -123,6 +123,16 @@ public class HyblockModVariables {
 			clone.song_13_high_score = original.song_13_high_score;
 			clone.song_13_last_score = original.song_13_last_score;
 			clone.melody_colour_fill_thing = original.melody_colour_fill_thing;
+			clone.harp_falling_speed = original.harp_falling_speed;
+			clone.any_song_gui_open = original.any_song_gui_open;
+			clone.green_click_cooldown = original.green_click_cooldown;
+			clone.blue_click_cooldown = original.blue_click_cooldown;
+			clone.yellow_click_cooldown = original.yellow_click_cooldown;
+			clone.current_song_falling_tickrate = original.current_song_falling_tickrate;
+			clone.lightblue_click_cooldown = original.lightblue_click_cooldown;
+			clone.lime_click_cooldown = original.lime_click_cooldown;
+			clone.pink_click_cooldown = original.pink_click_cooldown;
+			clone.purple_click_cooldown = original.purple_click_cooldown;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -343,6 +353,16 @@ public class HyblockModVariables {
 		public double song_13_high_score = 0;
 		public double song_13_last_score = 0;
 		public double melody_colour_fill_thing = 0;
+		public double harp_falling_speed = 0.0;
+		public boolean any_song_gui_open = false;
+		public boolean green_click_cooldown = false;
+		public boolean blue_click_cooldown = false;
+		public boolean yellow_click_cooldown = false;
+		public double current_song_falling_tickrate = 0;
+		public boolean lightblue_click_cooldown = false;
+		public boolean lime_click_cooldown = false;
+		public boolean pink_click_cooldown = false;
+		public boolean purple_click_cooldown = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -402,6 +422,16 @@ public class HyblockModVariables {
 			nbt.putDouble("song_13_high_score", song_13_high_score);
 			nbt.putDouble("song_13_last_score", song_13_last_score);
 			nbt.putDouble("melody_colour_fill_thing", melody_colour_fill_thing);
+			nbt.putDouble("harp_falling_speed", harp_falling_speed);
+			nbt.putBoolean("any_song_gui_open", any_song_gui_open);
+			nbt.putBoolean("green_click_cooldown", green_click_cooldown);
+			nbt.putBoolean("blue_click_cooldown", blue_click_cooldown);
+			nbt.putBoolean("yellow_click_cooldown", yellow_click_cooldown);
+			nbt.putDouble("current_song_falling_tickrate", current_song_falling_tickrate);
+			nbt.putBoolean("lightblue_click_cooldown", lightblue_click_cooldown);
+			nbt.putBoolean("lime_click_cooldown", lime_click_cooldown);
+			nbt.putBoolean("pink_click_cooldown", pink_click_cooldown);
+			nbt.putBoolean("purple_click_cooldown", purple_click_cooldown);
 			return nbt;
 		}
 
@@ -458,6 +488,16 @@ public class HyblockModVariables {
 			song_13_high_score = nbt.getDouble("song_13_high_score");
 			song_13_last_score = nbt.getDouble("song_13_last_score");
 			melody_colour_fill_thing = nbt.getDouble("melody_colour_fill_thing");
+			harp_falling_speed = nbt.getDouble("harp_falling_speed");
+			any_song_gui_open = nbt.getBoolean("any_song_gui_open");
+			green_click_cooldown = nbt.getBoolean("green_click_cooldown");
+			blue_click_cooldown = nbt.getBoolean("blue_click_cooldown");
+			yellow_click_cooldown = nbt.getBoolean("yellow_click_cooldown");
+			current_song_falling_tickrate = nbt.getDouble("current_song_falling_tickrate");
+			lightblue_click_cooldown = nbt.getBoolean("lightblue_click_cooldown");
+			lime_click_cooldown = nbt.getBoolean("lime_click_cooldown");
+			pink_click_cooldown = nbt.getBoolean("pink_click_cooldown");
+			purple_click_cooldown = nbt.getBoolean("purple_click_cooldown");
 		}
 	}
 
@@ -533,6 +573,16 @@ public class HyblockModVariables {
 					variables.song_13_high_score = message.data.song_13_high_score;
 					variables.song_13_last_score = message.data.song_13_last_score;
 					variables.melody_colour_fill_thing = message.data.melody_colour_fill_thing;
+					variables.harp_falling_speed = message.data.harp_falling_speed;
+					variables.any_song_gui_open = message.data.any_song_gui_open;
+					variables.green_click_cooldown = message.data.green_click_cooldown;
+					variables.blue_click_cooldown = message.data.blue_click_cooldown;
+					variables.yellow_click_cooldown = message.data.yellow_click_cooldown;
+					variables.current_song_falling_tickrate = message.data.current_song_falling_tickrate;
+					variables.lightblue_click_cooldown = message.data.lightblue_click_cooldown;
+					variables.lime_click_cooldown = message.data.lime_click_cooldown;
+					variables.pink_click_cooldown = message.data.pink_click_cooldown;
+					variables.purple_click_cooldown = message.data.purple_click_cooldown;
 				}
 			});
 			context.setPacketHandled(true);
