@@ -1,8 +1,22 @@
 package net.mcreator.hyblockmc.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.network.NetworkHooks;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.hyblockmc.world.inventory.DebugSongGUIMenu;
+import net.mcreator.hyblockmc.HyblockMod;
+
+import io.netty.buffer.Unpooled;
 
 public class DebugHarpMenuOpenProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -23,6 +37,7 @@ public class DebugHarpMenuOpenProcedure {
 			}, _bpos);
 		}
 		HyblockMod.queueServerWork(2, () -> {
+			SongGuiFillColoursProcedure.execute(world, entity);
 		});
 	}
 }

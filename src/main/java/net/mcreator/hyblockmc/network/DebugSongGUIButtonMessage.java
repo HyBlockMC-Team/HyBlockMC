@@ -1,9 +1,33 @@
 
 package net.mcreator.hyblockmc.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.hyblockmc.world.inventory.DebugSongGUIMenu;
+import net.mcreator.hyblockmc.procedures.DebugHarpYellowProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpPurpleProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpPinkProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpLimeProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpLightBlueProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpGreenProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpChangeTickProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpBlueProcedure;
+import net.mcreator.hyblockmc.procedures.DebugHarpAllProcedure;
+import net.mcreator.hyblockmc.HyblockMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DebugSongGUIButtonMessage {
-
 	private final int buttonID, x, y, z;
 
 	public DebugSongGUIButtonMessage(FriendlyByteBuf buffer) {
@@ -35,7 +59,6 @@ public class DebugSongGUIButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -44,14 +67,12 @@ public class DebugSongGUIButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
 		HashMap guistate = DebugSongGUIMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (buttonID == 0) {
 
-			DebugHarpPinkProcedure.execute();
+			DebugHarpPinkProcedure.execute(world, entity);
 		}
 		if (buttonID == 1) {
 
@@ -59,11 +80,11 @@ public class DebugSongGUIButtonMessage {
 		}
 		if (buttonID == 2) {
 
-			DebugHarpLimeProcedure.execute();
+			DebugHarpLimeProcedure.execute(world, entity);
 		}
 		if (buttonID == 3) {
 
-			DebugHarpGreenProcedure.execute();
+			DebugHarpGreenProcedure.execute(world, entity);
 		}
 		if (buttonID == 4) {
 
@@ -71,19 +92,19 @@ public class DebugSongGUIButtonMessage {
 		}
 		if (buttonID == 5) {
 
-			DebugHarpBlueProcedure.execute();
+			DebugHarpBlueProcedure.execute(world, entity);
 		}
 		if (buttonID == 6) {
 
-			DebugHarpLightBlueProcedure.execute();
+			DebugHarpLightBlueProcedure.execute(world, entity);
 		}
 		if (buttonID == 7) {
 
-			DebugHarpChangeTickProcedure.execute();
+			DebugHarpChangeTickProcedure.execute(entity, guistate);
 		}
 		if (buttonID == 8) {
 
-			DebugHarpAllProcedure.execute();
+			DebugHarpAllProcedure.execute(world, entity);
 		}
 	}
 
@@ -91,5 +112,4 @@ public class DebugSongGUIButtonMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		HyblockMod.addNetworkMessage(DebugSongGUIButtonMessage.class, DebugSongGUIButtonMessage::buffer, DebugSongGUIButtonMessage::new, DebugSongGUIButtonMessage::handler);
 	}
-
 }

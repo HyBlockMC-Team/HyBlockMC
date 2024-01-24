@@ -47,5 +47,6 @@ public class HyblockModTabs {
 				tabData.accept(HyblockModItems.ENCHANTED_GOLD.get());
 				tabData.accept(HyblockModBlocks.ENCHANTED_GOLD_BLOCK.get().asItem());
 				tabData.accept(HyblockModBlocks.MELODY_HARP.get().asItem());
+				tabData.accept(HyblockModItems.ORNATEZOMBIESWORD.get());
 			}).withSearchBar().build());
 }

@@ -6,6 +6,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.hyblockmc.init.HyblockModItems;
+
 public class AdminSwordSharpness3Procedure {
 	public static void execute(Entity entity) {
 		if (entity == null)

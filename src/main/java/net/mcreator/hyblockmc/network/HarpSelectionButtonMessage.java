@@ -64,7 +64,7 @@ public class HarpSelectionButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			MelodySelectionCloseButtonProcedure.execute(world, x, y, z, entity);
+			MelodySelectionCloseButtonProcedure.execute(entity);
 		}
 	}
 

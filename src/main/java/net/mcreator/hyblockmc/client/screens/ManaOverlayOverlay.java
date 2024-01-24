@@ -21,8 +21,6 @@ public class ManaOverlayOverlay {
 	public static void eventHandler(RenderGuiEvent.Pre event) {
 		int w = event.getWindow().getGuiScaledWidth();
 		int h = event.getWindow().getGuiScaledHeight();
-		int posX = w / 2;
-		int posY = h / 2;
 		Level world = null;
 		double x = 0;
 		double y = 0;
@@ -37,7 +35,7 @@ public class ManaOverlayOverlay {
 		if (true) {
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					ManaOverlayVariableProcedure.execute(entity), (w/2) + 14, h - 60, -11141121, false);
+					ManaOverlayVariableProcedure.execute(entity), w / 2 + -9, h / 2 + 77, -11141121, false);
 		}
 	}
 }

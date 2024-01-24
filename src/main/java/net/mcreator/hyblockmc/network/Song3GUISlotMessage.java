@@ -1,9 +1,31 @@
 
 package net.mcreator.hyblockmc.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.hyblockmc.world.inventory.Song3GUIMenu;
+import net.mcreator.hyblockmc.procedures.YellowClickedProcedure;
+import net.mcreator.hyblockmc.procedures.PurpleClickedProcedure;
+import net.mcreator.hyblockmc.procedures.PinkClickedProcedure;
+import net.mcreator.hyblockmc.procedures.LimeClickedProcedure;
+import net.mcreator.hyblockmc.procedures.LightblueClickedProcedure;
+import net.mcreator.hyblockmc.procedures.GreenClickedProcedure;
+import net.mcreator.hyblockmc.procedures.BlueClickedProcedure;
+import net.mcreator.hyblockmc.HyblockMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Song3GUISlotMessage {
-
 	private final int slotID, x, y, z, changeType, meta;
 
 	public Song3GUISlotMessage(int slotID, int x, int y, int z, int changeType, int meta) {
@@ -43,7 +65,6 @@ public class Song3GUISlotMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleSlotAction(entity, slotID, changeType, meta, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -52,11 +73,9 @@ public class Song3GUISlotMessage {
 	public static void handleSlotAction(Player entity, int slot, int changeType, int meta, int x, int y, int z) {
 		Level world = entity.level();
 		HashMap guistate = Song3GUIMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (slot == 15 && changeType == 1) {
 
 			PinkClickedProcedure.execute(world, x, y, z, entity);
@@ -91,5 +110,4 @@ public class Song3GUISlotMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		HyblockMod.addNetworkMessage(Song3GUISlotMessage.class, Song3GUISlotMessage::buffer, Song3GUISlotMessage::new, Song3GUISlotMessage::handler);
 	}
-
 }

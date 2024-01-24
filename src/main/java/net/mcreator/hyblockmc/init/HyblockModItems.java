@@ -63,6 +63,7 @@ import net.mcreator.hyblockmc.item.RevenantkeystonetabletT1Item;
 import net.mcreator.hyblockmc.item.RevenantItem;
 import net.mcreator.hyblockmc.item.PurplemelodyItem;
 import net.mcreator.hyblockmc.item.PinkmelodyItem;
+import net.mcreator.hyblockmc.item.OrnatezombieswordItem;
 import net.mcreator.hyblockmc.item.MidasStaffT5Item;
 import net.mcreator.hyblockmc.item.MidasStaffT4Item;
 import net.mcreator.hyblockmc.item.MidasStaffT3Item;
@@ -183,6 +184,7 @@ public class HyblockModItems {
 	public static final RegistryObject<Item> SONG_11_LOCKED = REGISTRY.register("song_11_locked", () -> new Song11LockedItem());
 	public static final RegistryObject<Item> SONG_12_LOCKED = REGISTRY.register("song_12_locked", () -> new Song12LockedItem());
 	public static final RegistryObject<Item> SONG_13_LOCKED = REGISTRY.register("song_13_locked", () -> new Song13LockedItem());
+	public static final RegistryObject<Item> ORNATEZOMBIESWORD = REGISTRY.register("ornatezombiesword", () -> new OrnatezombieswordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

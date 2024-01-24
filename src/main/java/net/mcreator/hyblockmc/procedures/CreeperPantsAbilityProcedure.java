@@ -16,6 +16,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.hyblockmc.network.HyblockModVariables;
+import net.mcreator.hyblockmc.init.HyblockModItems;
 import net.mcreator.hyblockmc.HyblockMod;
 
 import javax.annotation.Nullable;

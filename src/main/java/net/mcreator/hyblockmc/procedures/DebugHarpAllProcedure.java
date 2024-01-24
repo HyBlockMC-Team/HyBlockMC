@@ -1,8 +1,7 @@
 package net.mcreator.hyblockmc.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
 
 public class DebugHarpAllProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -12,6 +11,8 @@ public class DebugHarpAllProcedure {
 		DebugHarpLimeProcedure.execute(world, entity);
 		DebugHarpGreenProcedure.execute(world, entity);
 		DebugHarpPurpleProcedure.execute(world, entity);
+		DebugHarpBlueProcedure.execute(world, entity);
+		DebugHarpLightBlueProcedure.execute(world, entity);
 		DebugHarpPinkProcedure.execute(world, entity);
 	}
 }
